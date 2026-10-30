@@ -1152,7 +1152,7 @@ msgstr ""
 
 msgctxt "#31388"
 msgid ""
-"The new Titan skin for Kodi Nexus."
+"The new Titan skin for Kodi Piers."
 "[CR]This skin has many different layouts to choose from, let us start with the "
 "Titan BINGIE MOD main layout. This layout is designed to simulate Netflix user experience "
 "for TV.[CR]In "
