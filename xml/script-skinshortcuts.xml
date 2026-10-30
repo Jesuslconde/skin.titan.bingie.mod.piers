@@ -41,7 +41,7 @@
 			</control>
 			<!-- black bg panel - if not mainmenu window -->
 			<control type="image">
-				<visible>!String.IsEqual(Window.Property(groupname),mainmenu)</visible>
+				<visible>!String.IsEqual(Window.Property(menuname),mainmenu)</visible>
 				<posx>60</posx>
 				<posy>0</posy>
 				<width>1800</width>
@@ -143,7 +143,7 @@
 						<width>460</width>
 						<label>[B]$LOCALIZE[31851,,:][/B]</label>
 						<textcolor>$INFO[Skin.String(GeneralTextColor)]</textcolor>
-						<visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
+						<visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
 						<visible>!String.IsEqual(Container(211).ListItem.Property(labelid),137)</visible>
 						<font>Reg22</font>
 					</control>
@@ -162,7 +162,7 @@
                         <label>[B]$LOCALIZE[31499] 1:[/B]</label>
                         <label2 fallback="231">$INFO[Container(211).Listitem.Property(widgetName)]</label2>
                         <enable>false</enable>
-                        <visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
+                        <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
                         <visible>!String.IsEqual(Skin.String(HomeLayout),3)</visible>
 						<visible>!String.IsEqual(Container(211).ListItem.Property(labelid),137)</visible>
 					</control>
@@ -181,7 +181,7 @@
                         <label>[B]$LOCALIZE[31499] 2:[/B]</label>
                         <label2 fallback="231">$INFO[Container(211).Listitem.Property(widgetName.1)]</label2>
                         <enable>false</enable>
-                        <visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
+                        <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
                         <visible>!String.IsEqual(Skin.String(HomeLayout),3)</visible>
 						<visible>!String.IsEqual(Container(211).ListItem.Property(labelid),31534) + !String.IsEqual(Container(211).ListItem.Property(labelid),137)</visible>
 					</control>
@@ -200,7 +200,7 @@
                         <label>[B]$LOCALIZE[31499] 3:[/B]</label>
                         <label2 fallback="231">$INFO[Container(211).Listitem.Property(widgetName.2)]</label2>
                         <enable>false</enable>
-                        <visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
+                        <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
                         <visible>!String.IsEqual(Skin.String(HomeLayout),3)</visible>
 						<visible>!String.IsEqual(Container(211).ListItem.Property(labelid),31534) + !String.IsEqual(Container(211).ListItem.Property(labelid),137)</visible>
 					</control>
@@ -218,7 +218,7 @@
                         <label>[B]$LOCALIZE[31499] 4:[/B]</label>
                         <label2 fallback="231">$INFO[Container(211).Listitem.Property(widgetName.3)]</label2>
                         <enable>false</enable>
-                        <visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
+                        <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
                         <visible>!String.IsEqual(Skin.String(HomeLayout),3)</visible>
 						<visible>!String.IsEqual(Container(211).ListItem.Property(labelid),31534) + !String.IsEqual(Container(211).ListItem.Property(labelid),137)</visible>
 					</control>
@@ -236,7 +236,7 @@
                         <label>[B]$LOCALIZE[31499] 5:[/B]</label>
                         <label2 fallback="231">$INFO[Container(211).Listitem.Property(widgetName.4)]</label2>
                         <enable>false</enable>
-                        <visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
+                        <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
                         <visible>!String.IsEqual(Skin.String(HomeLayout),3)</visible>
                         <visible>!String.IsEmpty(Container(211).Listitem.Property(widgetName.4))</visible>
 						<visible>!String.IsEqual(Container(211).ListItem.Property(labelid),31534) + !String.IsEqual(Container(211).ListItem.Property(labelid),137)</visible>
@@ -255,7 +255,7 @@
                         <label>[B]$LOCALIZE[31499] 6:[/B]</label>
                         <label2 fallback="231">$INFO[Container(211).Listitem.Property(widgetName.5)]</label2>
                         <enable>false</enable>
-                        <visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
+                        <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
                         <visible>!String.IsEqual(Skin.String(HomeLayout),3)</visible>
                         <visible>!String.IsEmpty(Container(211).Listitem.Property(widgetName.5))</visible>
 						<visible>!String.IsEqual(Container(211).ListItem.Property(labelid),31534) + !String.IsEqual(Container(211).ListItem.Property(labelid),137)</visible>
@@ -274,7 +274,7 @@
                         <label>[B]$LOCALIZE[31499] 7:[/B]</label>
                         <label2 fallback="231">$INFO[Container(211).Listitem.Property(widgetName.6)]</label2>
                         <enable>false</enable>
-                        <visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
+                        <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
                         <visible>!String.IsEqual(Skin.String(HomeLayout),3)</visible>
                         <visible>!String.IsEmpty(Container(211).Listitem.Property(widgetName.6))</visible>
 						<visible>!String.IsEqual(Container(211).ListItem.Property(labelid),31534) + !String.IsEqual(Container(211).ListItem.Property(labelid),137)</visible>
@@ -293,7 +293,7 @@
                         <label>[B]$LOCALIZE[31499] 8:[/B]</label>
                         <label2 fallback="231">$INFO[Container(211).Listitem.Property(widgetName.7)]</label2>
                         <enable>false</enable>
-                        <visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
+                        <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
                         <visible>!String.IsEqual(Skin.String(HomeLayout),3)</visible>
                         <visible>!String.IsEmpty(Container(211).Listitem.Property(widgetName.7))</visible>
 						<visible>!String.IsEqual(Container(211).ListItem.Property(labelid),31534) + !String.IsEqual(Container(211).ListItem.Property(labelid),137)</visible>
@@ -329,17 +329,6 @@
 						<orientation>horizontal</orientation>
                         <textcolor>$INFO[Skin.String(GeneralTextColor)]</textcolor>
 					</control>
-				</control>
-				
-				<!--fake list -->
-				<control type="list" id="111"> 
-					<visible>false</visible>
-					<orientation>vertical</orientation>
-					<selectedcolor>FF00b8ff</selectedcolor>
-					<itemlayout width="1000" height="65">
-					</itemlayout>
-					<focusedlayout width="1000" height="65">			
-					</focusedlayout>
 				</control>
 				
 				<control type="group">
@@ -394,7 +383,7 @@
                     <onclick>SetProperty(widgetcontrols,1)</onclick>
                     <onclick>SetFocus(9000,1)</onclick>
 					<label>31564</label>
-                    <visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
+                    <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
                     <visible>!String.IsEqual(Skin.String(HomeLayout),3)</visible>
 					<visible>!String.IsEqual(Container(211).ListItem.Property(labelid),137)</visible>
 				</control>
@@ -449,16 +438,9 @@
 					<width>500</width>
 					<align>center</align>
 					<label>$ADDON[script.skinshortcuts 32072]</label>
-					<visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
+					<visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
 					<visible>!Skin.HasSetting(DisableAllSubmenus)</visible>
 				</control>
-				
-				<!--shortcut type label-->
-				<control type="label" id="101">
-					<width>500</width>
-					<align>center</align>
-					<visible>false</visible>
-				</control>				
 				
 				<!--change action-->
 				<control type="button" id="307"> 
@@ -473,7 +455,7 @@
 					<align>center</align>
 					<label>31687</label>
                     <onclick>RunScript(script.skin.helper.service,action=setskinshortcutsproperty,header=$LOCALIZE[31687],property=infoline,setting=infoline)</onclick>
-                    <visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
+                    <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
 					<visible>!String.IsEqual(Skin.String(HomeLayout),bingie)</visible>
 				</control>
 
@@ -490,14 +472,8 @@
 					<visible>false</visible>
 				</control>
                 <control type="button" id="311"> 
-					<label/>
-					<visible>false</visible>
-				</control>
-				
-				<control type="button" id="308"> <!--reset-->
-					<width>500</width>
-					<align>center</align>
-					<visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
+					<label>$ADDON[script.skinshortcuts 32028]</label>
+					<visible>!String.IsEmpty(Window.Property(skinshortcuts-hasdeleted))</visible>
 				</control>
 				
 				<!--hidden button for properties-->
@@ -520,7 +496,7 @@
 					<label>31773</label>
 					<align>center</align>
                     <onclick>RunScript(script.skin.helper.service,action=setskinshortcutsproperty,header=$LOCALIZE[31773],property=customsubmenuheader,setting=customsubmenuheader)</onclick>
-                    <visible>String.IsEqual(Window.Property(groupname),mainmenu)</visible>
+                    <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
 					<visible>Skin.String(SubmenuLayout, subpage)</visible>
                 </control>
                 

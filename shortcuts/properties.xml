@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BINGIE MOD - Skin Shortcuts v3 properties -->
+<properties>
+
+    <property name="widgetStyle" type="options" requires="widget">
+        <options>
+            <option value="default" label="Default" />
+            <option value="poster" label="Poster" />
+            <option value="landscape" label="Landscape" />
+            <option value="square" label="Square" />
+            <option value="list" label="List" />
+        </options>
+    </property>
+
+    <property name="widgetTags" type="options">
+        <options>
+            <option value="enable" label="Enable" />
+            <option value="disable" label="Disable" />
+            <option value="auto" label="Auto" />
+        </options>
+    </property>
+
+    <property name="widgetInfoPanel" type="options">
+        <options>
+            <option value="top" label="Top" />
+            <option value="disabled" label="Disabled" />
+        </options>
+    </property>
+
+    <property name="widgetFixedFocus" type="options">
+        <options>
+            <option value="enabled" label="Enabled" />
+            <option value="disabled" label="Disabled" />
+        </options>
+    </property>
+
+    <property name="multiwidget" type="options">
+        <options>
+            <option value="single" label="Single" />
+            <option value="single2" label="Single 2" />
+        </options>
+    </property>
+
+    <property name="widgetSortBy" type="options">
+        <options>
+            <option value="title" label="Title" />
+            <option value="year" label="Year" />
+            <option value="rating" label="Rating" />
+            <option value="dateadded" label="Date Added" />
+        </options>
+    </property>
+
+    <property name="widgetSortOrder" type="options">
+        <options>
+            <option value="ascending" label="Ascending" />
+            <option value="descending" label="Descending" />
+        </options>
+    </property>
+
+    <property name="widgetLimit" type="options">
+        <options>
+            <option value="10" label="10" />
+            <option value="25" label="25" />
+            <option value="50" label="50" />
+            <option value="100" label="100" />
+        </options>
+    </property>
+
+    <property name="widget" type="widget" />
+    <property name="background" type="background" />
+
+    <buttons suffix="true">
+        <button id="309" property="widget" title="Widget" />
+        <button id="310" property="background" title="Background" />
+        <button id="350" property="widgetStyle" title="Widget Style" requires="widget" />
+        <button id="351" property="widgetTags" title="Widget Tags" requires="widget" />
+        <button id="352" property="widgetInfoPanel" title="Info Panel" requires="widget" />
+        <button id="353" property="widgetFixedFocus" title="Fixed Focus" requires="widget" />
+        <button id="354" property="multiwidget" title="Multi Widget" />
+        <button id="355" property="widgetSortBy" title="Sort By" requires="widget" />
+        <button id="356" property="widgetSortOrder" title="Sort Order" requires="widget" />
+        <button id="357" property="widgetLimit" title="Limit" requires="widget" />
+    </buttons>
+
+</properties>

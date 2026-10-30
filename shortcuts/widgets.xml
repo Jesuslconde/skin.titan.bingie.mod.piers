@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BINGIE MOD - Skin Shortcuts v3 widgets -->
+<widgets>
+
+    <!-- ============================== DEFAULT WIDGETS ============================== -->
+
+    <widget name="continuewatching" label="$LOCALIZE[31535]" type="video">
+        <path>plugin://script.skin.helper.widgets/?action=inprogressshowsandmovies&amp;mediatype=media&amp;limit=25&amp;reload=$INFO[Window(Home).Property(widgetreload)]</path>
+    </widget>
+
+    <widget name="recentshowsandmovies" label="$LOCALIZE[31127]" type="video">
+        <path>plugin://script.skin.helper.widgets/?action=recentshowsandmovies&amp;mediatype=media&amp;limit=25&amp;reload=$INFO[Window(Home).Property(widgetreload)]</path>
+    </widget>
+
+    <widget name="bingeworthyshows" label="$LOCALIZE[31079]" type="tvshows">
+        <path>special://skin/playlists/bingeworthyshows.xsp</path>
+    </widget>
+
+    <widget name="watchagainshowsandmovies" label="$LOCALIZE[31080]" type="video">
+        <path>plugin://script.skin.helper.widgets/?action=watchagainshowsandmovies&amp;mediatype=media&amp;limit=25&amp;reload=$INFO[Window(Home).Property(widgetreload)]</path>
+    </widget>
+
+    <widget name="criticallyacclaimedmovies" label="$LOCALIZE[31532]" type="movies">
+        <path>special://skin/playlists/criticallyacclaimedmovies.xsp</path>
+    </widget>
+
+    <widget name="similarshowsandmovies" label="$ADDON[script.skin.helper.widgets 32022]" type="video">
+        <path>plugin://script.skin.helper.widgets/?action=similarshowsandmovies&amp;mediatype=media&amp;limit=25&amp;reload=$INFO[Window(Home).Property(widgetreload)]</path>
+    </widget>
+
+    <widget name="forgenre" label="$LOCALIZE[515]" type="video">
+        <path>plugin://script.skin.helper.widgets/?action=forgenre&amp;mediatype=media&amp;limit=25&amp;reload=$INFO[Window(Home).Property(widgetreload)]</path>
+    </widget>
+
+    <widget name="recentmusicvideos" label="$LOCALIZE[20390]" type="musicvideos">
+        <path>videodb://recentlyaddedmusicvideos/</path>
+    </widget>
+
+    <!-- Skin-include based widgets -->
+    <widget name="categories" label="$LOCALIZE[31025]" type="video">
+        <path>$INCLUDE[CategoriesWidget]</path>
+    </widget>
+
+    <widget name="mylist" label="$LOCALIZE[31534]" type="video">
+        <path>$INCLUDE[MyListWidget]</path>
+    </widget>
+
+    <widget name="weather" label="$LOCALIZE[8]" type="static">
+        <path>$INCLUDE[WeatherWidget]</path>
+    </widget>
+
+    <!-- GTO widget -->
+    <widget name="gto" label="$INFO[System.AddonTitle(plugin.service.gto)]" type="pvr" visible="System.HasAddon(plugin.service.gto)">
+        <path>plugin://plugin.service.gto?action=getcontent&amp;ts=$INFO[Window(Home).Property(GTO.timestamp)]</path>
+    </widget>
+
+    <!-- ============================== WIDGET PICKER GROUPINGS ============================== -->
+
+    <groupings>
+        <group name="movies" label="$LOCALIZE[32030]">
+            <content source="nodes" target="video" />
+            <group name="playlists" label="$LOCALIZE[32040]">
+                <content source="playlists" target="video" />
+            </group>
+            <group name="video-addons" label="$LOCALIZE[32010]">
+                <content source="addons" target="video" />
+            </group>
+            <group name="video-sources" label="$LOCALIZE[32075]">
+                <content source="sources" target="video" />
+            </group>
+        </group>
+
+        <group name="music" label="$LOCALIZE[32031]">
+            <content source="nodes" target="music" />
+            <group name="playlists" label="$LOCALIZE[32040]">
+                <content source="playlists" target="music" />
+            </group>
+            <group name="music-addons" label="$LOCALIZE[32011]">
+                <content source="addons" target="music" />
+            </group>
+            <group name="music-sources" label="$LOCALIZE[32075]">
+                <content source="sources" target="music" />
+            </group>
+        </group>
+
+        <group name="pictures" label="$LOCALIZE[32020]">
+            <content source="sources" target="pictures" />
+        </group>
+
+        <group name="addons" label="$LOCALIZE[32007]">
+            <group name="video-addons" label="$LOCALIZE[32010]">
+                <content source="addons" target="video" />
+            </group>
+            <group name="audio-addons" label="$LOCALIZE[32011]">
+                <content source="addons" target="music" />
+            </group>
+            <group name="picture-addons" label="$LOCALIZE[32012]">
+                <content source="addons" target="pictures" />
+            </group>
+            <group name="program-addons" label="$LOCALIZE[32009]">
+                <content source="addons" target="programs" />
+            </group>
+        </group>
+    </groupings>
+
+</widgets>
