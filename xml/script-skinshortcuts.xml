@@ -159,7 +159,7 @@
                         <disabledcolor>$INFO[Skin.String(GeneralTextColor)]</disabledcolor>
                         <textcolor>$INFO[Skin.String(GeneralTextColor)]</textcolor>
                         <texturenofocus/>
-                        <label>[B]$LOCALIZE[31499] 1:[/B]</label>
+                        <label>[B]$ADDON[skin.titan.bingie.mod 31499] 1:[/B]</label>
                         <label2 fallback="231">$INFO[Container(211).Listitem.Property(widgetName)]</label2>
                         <enable>false</enable>
                         <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
@@ -178,7 +178,7 @@
                         <disabledcolor>$INFO[Skin.String(GeneralTextColor)]</disabledcolor>
                         <textcolor>$INFO[Skin.String(GeneralTextColor)]</textcolor>
                         <texturenofocus/>
-                        <label>[B]$LOCALIZE[31499] 2:[/B]</label>
+                        <label>[B]$ADDON[skin.titan.bingie.mod 31499] 2:[/B]</label>
                         <label2 fallback="231">$INFO[Container(211).Listitem.Property(widgetName.1)]</label2>
                         <enable>false</enable>
                         <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
@@ -197,7 +197,7 @@
                         <disabledcolor>$INFO[Skin.String(GeneralTextColor)]</disabledcolor>
                         <textcolor>$INFO[Skin.String(GeneralTextColor)]</textcolor>
                         <texturenofocus/>
-                        <label>[B]$LOCALIZE[31499] 3:[/B]</label>
+                        <label>[B]$ADDON[skin.titan.bingie.mod 31499] 3:[/B]</label>
                         <label2 fallback="231">$INFO[Container(211).Listitem.Property(widgetName.2)]</label2>
                         <enable>false</enable>
                         <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
@@ -215,7 +215,7 @@
                         <disabledcolor>$INFO[Skin.String(GeneralTextColor)]</disabledcolor>
                         <textcolor>$INFO[Skin.String(GeneralTextColor)]</textcolor>
                         <texturenofocus/>
-                        <label>[B]$LOCALIZE[31499] 4:[/B]</label>
+                        <label>[B]$ADDON[skin.titan.bingie.mod 31499] 4:[/B]</label>
                         <label2 fallback="231">$INFO[Container(211).Listitem.Property(widgetName.3)]</label2>
                         <enable>false</enable>
                         <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
@@ -233,7 +233,7 @@
                         <disabledcolor>$INFO[Skin.String(GeneralTextColor)]</disabledcolor>
                         <textcolor>$INFO[Skin.String(GeneralTextColor)]</textcolor>
                         <texturenofocus/>
-                        <label>[B]$LOCALIZE[31499] 5:[/B]</label>
+                        <label>[B]$ADDON[skin.titan.bingie.mod 31499] 5:[/B]</label>
                         <label2 fallback="231">$INFO[Container(211).Listitem.Property(widgetName.4)]</label2>
                         <enable>false</enable>
                         <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
@@ -252,7 +252,7 @@
                         <disabledcolor>$INFO[Skin.String(GeneralTextColor)]</disabledcolor>
                         <textcolor>$INFO[Skin.String(GeneralTextColor)]</textcolor>
                         <texturenofocus/>
-                        <label>[B]$LOCALIZE[31499] 6:[/B]</label>
+                        <label>[B]$ADDON[skin.titan.bingie.mod 31499] 6:[/B]</label>
                         <label2 fallback="231">$INFO[Container(211).Listitem.Property(widgetName.5)]</label2>
                         <enable>false</enable>
                         <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
@@ -271,7 +271,7 @@
                         <disabledcolor>$INFO[Skin.String(GeneralTextColor)]</disabledcolor>
                         <textcolor>$INFO[Skin.String(GeneralTextColor)]</textcolor>
                         <texturenofocus/>
-                        <label>[B]$LOCALIZE[31499] 7:[/B]</label>
+                        <label>[B]$ADDON[skin.titan.bingie.mod 31499] 7:[/B]</label>
                         <label2 fallback="231">$INFO[Container(211).Listitem.Property(widgetName.6)]</label2>
                         <enable>false</enable>
                         <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
@@ -290,7 +290,7 @@
                         <disabledcolor>$INFO[Skin.String(GeneralTextColor)]</disabledcolor>
                         <textcolor>$INFO[Skin.String(GeneralTextColor)]</textcolor>
                         <texturenofocus/>
-                        <label>[B]$LOCALIZE[31499] 8:[/B]</label>
+                        <label>[B]$ADDON[skin.titan.bingie.mod 31499] 8:[/B]</label>
                         <label2 fallback="231">$INFO[Container(211).Listitem.Property(widgetName.7)]</label2>
                         <enable>false</enable>
                         <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
@@ -311,7 +311,7 @@
 						<left>5</left>
 						<width>500</width>
 						<height>25</height>
-						<label>[B]$LOCALIZE[31501]:[/B]</label>
+						<label>[B]$ADDON[skin.titan.bingie.mod 31501]:[/B]</label>
                         <font>Reg24</font>
 						<scrollspeed>160</scrollspeed>
 						<textcolor>$INFO[Skin.String(GeneralTextColor)]</textcolor>
@@ -382,7 +382,7 @@
 					<align>center</align>
                     <onclick>SetProperty(widgetcontrols,1)</onclick>
                     <onclick>SetFocus(9000,1)</onclick>
-					<label>31564</label>
+					<label>$ADDON[skin.titan.bingie.mod 31564]</label>
                     <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
                     <visible>!String.IsEqual(Skin.String(HomeLayout),3)</visible>
 					<visible>!String.IsEqual(Container(211).ListItem.Property(labelid),137)</visible>
@@ -421,8 +421,8 @@
 				<control type="button" id="4311">
 					<width>500</width>
 					<align>center</align>
-                    <label>31369</label>
-                    <onclick>RunScript(script.skin.helper.service,action=selectimage,skinshortcutsproperty=thumb,header=$LOCALIZE[31369],allowmulti=true,resourceaddon=resource.images.skinicons,skinhelperbackgrounds=true,skinstring=CustomBackgroundSetting,currentvalue=$INFO[Container(211).ListItem.Property(ThumbName)])</onclick>
+                    <label>$ADDON[skin.titan.bingie.mod 31369]</label>
+                    <onclick>RunScript(script.skin.helper.service,action=selectimage,skinshortcutsproperty=thumb,header=$ADDON[skin.titan.bingie.mod 31369],allowmulti=true,resourceaddon=resource.images.skinicons,skinhelperbackgrounds=true,skinstring=CustomBackgroundSetting,currentvalue=$INFO[Container(211).ListItem.Property(ThumbName)])</onclick>
 				</control>
 				
 				<!--Change Shortcut-->
@@ -430,7 +430,7 @@
 					<width>500</width>
 					<align>center</align>
 					<visible>true</visible>
-					<label>31175</label>
+					<label>$ADDON[skin.titan.bingie.mod 31175]</label>
 				</control>
 				
 				<!--Sub Menu-->
@@ -453,8 +453,8 @@
                 <control type="button" id="31687"> 
 					<width>500</width>
 					<align>center</align>
-					<label>31687</label>
-                    <onclick>RunScript(script.skin.helper.service,action=setskinshortcutsproperty,header=$LOCALIZE[31687],property=infoline,setting=infoline)</onclick>
+					<label>$ADDON[skin.titan.bingie.mod 31687]</label>
+                    <onclick>RunScript(script.skin.helper.service,action=setskinshortcutsproperty,header=$ADDON[skin.titan.bingie.mod 31687],property=infoline,setting=infoline)</onclick>
                     <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
 					<visible>!String.IsEqual(Skin.String(HomeLayout),bingie)</visible>
 				</control>
@@ -493,9 +493,9 @@
                 <!--submenu heading-->
                 <control type="button" id="31773"> 
 					<width>500</width>
-					<label>31773</label>
+					<label>$ADDON[skin.titan.bingie.mod 31773]</label>
 					<align>center</align>
-                    <onclick>RunScript(script.skin.helper.service,action=setskinshortcutsproperty,header=$LOCALIZE[31773],property=customsubmenuheader,setting=customsubmenuheader)</onclick>
+                    <onclick>RunScript(script.skin.helper.service,action=setskinshortcutsproperty,header=$ADDON[skin.titan.bingie.mod 31773],property=customsubmenuheader,setting=customsubmenuheader)</onclick>
                     <visible>String.IsEqual(Window.Property(menuname),mainmenu)</visible>
 					<visible>Skin.String(SubmenuLayout, subpage)</visible>
                 </control>
@@ -511,7 +511,7 @@
                 <!--close button-->
 				<control type="button" id="2404"> 
 					<width>500</width>
-					<label>$LOCALIZE[31308]</label>
+					<label>$ADDON[skin.titan.bingie.mod 31308]</label>
 					<align>center</align>
 					<onclick>back</onclick>
 				</control>
@@ -615,7 +615,7 @@
 					<align>center</align>
                     <onclick>ClearProperty(widgetcontrols)</onclick>
                     <onclick>SetFocus(900)</onclick>
-					<label>31654</label>
+					<label>$ADDON[skin.titan.bingie.mod 31654]</label>
 				</control>
                 								
 			</control>
@@ -656,7 +656,7 @@
 					<align>center</align>
                     <onclick>ClearProperty(widgetcontrols)</onclick>
                     <onclick>SetFocus(900)</onclick>
-					<label>31654</label>
+					<label>$ADDON[skin.titan.bingie.mod 31654]</label>
 				</control>
                 								
 			</control>

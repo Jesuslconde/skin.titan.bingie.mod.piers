@@ -12,7 +12,7 @@
             <onleft>52</onleft>
             <onright>52</onright>
             <pagecontrol>60</pagecontrol>
-            <viewtype label="31445">bigwrap</viewtype>
+            <viewtype label="$ADDON[skin.titan.bingie.mod 31445]">bigwrap</viewtype>
         <include content="View_Forced">
             <param name="viewtype" value="$LOCALIZE[31445]" />
         </include>

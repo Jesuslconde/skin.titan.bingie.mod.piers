@@ -37,7 +37,7 @@
 				<onright condition="Skin.HasSetting(View_501_HorizontalNavigation)">501</onright>
                 <onright condition="!Skin.HasSetting(View_501_HorizontalNavigation)">60</onright>
 				<pagecontrol>60</pagecontrol>
-				<viewtype label="31430">thumbnail</viewtype>
+				<viewtype label="$ADDON[skin.titan.bingie.mod 31430]">thumbnail</viewtype>
 				<include content="View_Forced">
 					<param name="viewtype" value="$LOCALIZE[31430]" />
 				</include>

@@ -125,7 +125,7 @@
 										<height>38</height>
 										<align>center</align>
 										<aligny>center</aligny>
-										<label fallback="Rating">$INFO[Window.Property(Votes),, $LOCALIZE[320203]]</label>
+										<label fallback="Rating">$INFO[Window.Property(Votes),, $ADDON[skin.titan.bingie.mod 31719]]</label>
 										<textcolor>$INFO[Skin.String(BingieDeatailsTextColor)]</textcolor>
 										<font>Reg24</font>
 										<textoffsetx>10</textoffsetx>
@@ -161,7 +161,7 @@
 										<height>38</height>
 										<align>center</align>
 										<aligny>center</aligny>
-										<label fallback="Premiered">$LOCALIZE[320204]</label>
+										<label fallback="Premiered">$ADDON[skin.titan.bingie.mod 31721]</label>
 										<textcolor>$INFO[Skin.String(BingieDeatailsTextColor)]</textcolor>
 										<font>Reg24</font>
 									</control>
@@ -195,7 +195,7 @@
 										<height>38</height>
 										<align>center</align>
 										<aligny>center</aligny>
-										<label fallback="Last Air Date">$LOCALIZE[320205]</label>
+										<label fallback="Last Air Date">$ADDON[skin.titan.bingie.mod 31726]</label>
 										<textcolor>$INFO[Skin.String(BingieDeatailsTextColor)]</textcolor>
 										<font>Reg24</font>
 									</control>
@@ -231,7 +231,7 @@
 										<height>38</height>
 										<align>center</align>
 										<aligny>center</aligny>
-										<label fallback="Rating">$LOCALIZE[320206]</label>
+										<label fallback="Rating">$ADDON[skin.titan.bingie.mod 31734]</label>
 										<textcolor>$INFO[Skin.String(BingieDeatailsTextColor)]</textcolor>
 										<font>Reg24</font>										
 									</control>
@@ -265,7 +265,7 @@
 										<height>38</height>
 										<align>center</align>
 										<aligny>center</aligny>
-										<label>$LOCALIZE[320207]</label>
+										<label>$ADDON[skin.titan.bingie.mod 31740]</label>
 										<font>Reg24</font>
 										<textcolor>$INFO[Skin.String(BingieDeatailsTextColor)]</textcolor>
 									</control>
@@ -300,7 +300,7 @@
 										<height>38</height>
 										<align>center</align>
 										<aligny>center</aligny>
-										<label fallback="Minutes">$LOCALIZE[320208]</label>
+										<label fallback="Minutes">$ADDON[skin.titan.bingie.mod 31741]</label>
 										<textcolor>$INFO[Skin.String(BingieDeatailsTextColor)]</textcolor>
 										<font>Reg24</font>
 									</control>
@@ -336,7 +336,7 @@
 										<height>38</height>
 										<align>center</align>
 										<aligny>center</aligny>
-										<label>$LOCALIZE[31379]</label>
+										<label>$ADDON[skin.titan.bingie.mod 31379]</label>
 										<font>Reg24</font>
 										<textcolor>$INFO[Skin.String(BingieDeatailsTextColor)]</textcolor>
 									</control>
@@ -372,7 +372,7 @@
 										<height>38</height>
 										<align>center</align>
 										<aligny>center</aligny>
-										<label>$LOCALIZE[31380]</label>
+										<label>$ADDON[skin.titan.bingie.mod 31380]</label>
 										<font>Reg24</font>
 										<textcolor>$INFO[Skin.String(BingieDeatailsTextColor)]</textcolor>
 									</control>
@@ -409,7 +409,7 @@
 										<height>38</height>
 										<align>center</align>
 										<aligny>center</aligny>
-										<label>$LOCALIZE[320209]</label>
+										<label>$ADDON[skin.titan.bingie.mod 31742]</label>
 										<font>Reg24</font>
 										<textcolor>$INFO[Skin.String(BingieDeatailsTextColor)]</textcolor>
 									</control>
@@ -517,7 +517,7 @@
                             <aligny>center</aligny>
                             <font>Bold31</font>
                             <textcolor>$INFO[Skin.String(BingieHeaderTextColor)]</textcolor>
-                            <label>$LOCALIZE[31089]</label>
+                            <label>$ADDON[skin.titan.bingie.mod 31089]</label>
                         </control>
 						<control type="group">	
 							<posy>-166</posy>				
@@ -550,7 +550,7 @@
                             <aligny>center</aligny>
                             <font>Bold31</font>
                             <textcolor>$INFO[Skin.String(BingieHeaderTextColor)]</textcolor>
-                            <label>$INFO[Window.Property(Director),$LOCALIZE[320071] ,]</label>
+                            <label>$INFO[Window.Property(Director),$ADDON[skin.titan.bingie.mod 31283] ,]</label>
                         </control>
 						<control type="group">	
 							<posy>-166</posy>				
@@ -583,7 +583,7 @@
                             <aligny>center</aligny>
                             <font>Bold31</font>
                             <textcolor>$INFO[Skin.String(BingieHeaderTextColor)]</textcolor>
-                            <label>$INFO[Window.Property(Writer),$LOCALIZE[320072] ,]</label>
+                            <label>$INFO[Window.Property(Writer),$ADDON[skin.titan.bingie.mod 31284] ,]</label>
                         </control>
 						<control type="group">	
 							<posy>-166</posy>				
@@ -617,7 +617,7 @@
                             <aligny>center</aligny>
                             <font>Bold31</font>
                             <textcolor>$INFO[Skin.String(BingieHeaderTextColor)]</textcolor>
-                            <label>$INFO[Window.Property(Creator),$LOCALIZE[320080] ,]</label>
+                            <label>$INFO[Window.Property(Creator),$ADDON[skin.titan.bingie.mod 31310] ,]</label>
                         </control>
 						<control type="group">	
 							<posy>-166</posy>				
@@ -650,7 +650,7 @@
                             <aligny>center</aligny>
                             <font>Bold31</font>
                             <textcolor>$INFO[Skin.String(BingieHeaderTextColor)]</textcolor>
-                            <label>$LOCALIZE[320207]</label>
+                            <label>$ADDON[skin.titan.bingie.mod 31740]</label>
                         </control>
 						<control type="group">	
 							<posy>-166</posy>				
@@ -683,7 +683,7 @@
                             <aligny>center</aligny>
                             <font>Bold31</font>
                             <textcolor>$INFO[Skin.String(BingieHeaderTextColor)]</textcolor>
-                            <label>$LOCALIZE[31065]</label>
+                            <label>$ADDON[skin.titan.bingie.mod 31065]</label>
                         </control>
 						<control type="group">	
 							<posy>-166</posy>				
@@ -829,7 +829,7 @@
                             <aligny>center</aligny>
                             <font>Bold31</font>
                             <textcolor>$INFO[Skin.String(BingieHeaderTextColor)]</textcolor>
-                            <label>$INFO[Window.Property(Year),$LOCALIZE[320076] ,]</label>
+                            <label>$INFO[Window.Property(Year),$ADDON[skin.titan.bingie.mod 31298] ,]</label>
                         </control>
 						<control type="group">	
 							<posy>-166</posy>				
@@ -862,7 +862,7 @@
                             <aligny>center</aligny>
                             <font>Bold31</font>
                             <textcolor>$INFO[Skin.String(BingieHeaderTextColor)]</textcolor>
-                            <label>$LOCALIZE[31120]</label>
+                            <label>$ADDON[skin.titan.bingie.mod 31120]</label>
                         </control>
 						<control type="group">	
 							<posy>-166</posy>				
@@ -897,7 +897,7 @@
                             <aligny>center</aligny>
                             <font>Bold31</font>
                             <textcolor>$INFO[Skin.String(BingieHeaderTextColor)]</textcolor>
-                            <label>$LOCALIZE[320069]</label>
+                            <label>$ADDON[skin.titan.bingie.mod 31281]</label>
                         </control>
 						<control type="group">	
 							<posy>-166</posy>				
@@ -930,7 +930,7 @@
                             <aligny>center</aligny>
                             <font>Bold31</font>
                             <textcolor>$INFO[Skin.String(BingieHeaderTextColor)]</textcolor>
-                            <label>$LOCALIZE[320078]</label>
+                            <label>$ADDON[skin.titan.bingie.mod 31303]</label>
                         </control>
 						<control type="group">	
 							<posy>-166</posy>				
@@ -963,7 +963,7 @@
                             <aligny>center</aligny>
                             <font>Bold31</font>
                             <textcolor>$INFO[Skin.String(BingieHeaderTextColor)]</textcolor>
-                            <label>$LOCALIZE[320210]</label>
+                            <label>$ADDON[skin.titan.bingie.mod 31748]</label>
                         </control>
 						<control type="group">	
 							<posy>-166</posy>				

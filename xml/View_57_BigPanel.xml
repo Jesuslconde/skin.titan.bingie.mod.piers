@@ -23,7 +23,7 @@
 	  
 	  
 	  <control type="panel" id="57">
-        <viewtype label="31426">icons</viewtype>
+        <viewtype label="$ADDON[skin.titan.bingie.mod 31426]">icons</viewtype>
           <include content="View_Forced">
               <param name="viewtype" value="$LOCALIZE[31426]" />
           </include>

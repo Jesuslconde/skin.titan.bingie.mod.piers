@@ -268,7 +268,7 @@
           <height>80</height>
           <align>center</align>
           <include>DialogButtonOther</include>
-          <label>31797</label>
+          <label>$ADDON[skin.titan.bingie.mod 31797]</label>
           <onclick>Close</onclick>
           <onclick>ActivateWindow(videos,plugin://plugin.video.youtube/search/?q=$INFO[ListItem.Artist],return)</onclick>
 		</control>

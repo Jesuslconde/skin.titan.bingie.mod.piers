@@ -57,7 +57,7 @@
             
             <!--List 9000-->
             <control type="panel" id="9000">
-                <viewtype label="31437">icons</viewtype>
+                <viewtype label="$ADDON[skin.titan.bingie.mod 31437]">icons</viewtype>
                 <right>80</right>
                 <top>20</top>
                 <height>780</height>
@@ -84,7 +84,7 @@
                     <item id="11">
                         <description>Skin Settings</description>
                         <label>20077</label>
-                        <label2>31407</label2>
+                        <label2>$ADDON[skin.titan.bingie.mod 31407]</label2>
                         <onclick>activatewindow(skinsettings)</onclick>
                         <icon>special://skin/extras/media/backgrounds/settings_bingie_mod.jpg</icon>
                         <thumb>special://skin/extras/media/backgrounds/skinsettings.png</thumb>
@@ -92,7 +92,7 @@
                     <item id="1">
                         <description>Interface</description>
                         <label>14206</label>
-                        <label2>31400</label2>
+                        <label2>$ADDON[skin.titan.bingie.mod 31400]</label2>
                         <onclick>activatewindow(InterfaceSettings)</onclick>
                        <icon>special://skin/extras/media/backgrounds/settings_interface.jpg</icon>
                         <thumb>special://skin/extras/media/backgrounds/interface.png</thumb>
@@ -100,15 +100,15 @@
                     <item id="2">
                         <description>Media Settings</description>
                         <label>14212</label>
-                        <label2>31401</label2>
+                        <label2>$ADDON[skin.titan.bingie.mod 31401]</label2>
                         <onclick>activatewindow(MediaSettings)</onclick>
                         <icon>special://skin/extras/media/backgrounds/settings_media_settings.jpg</icon>
                         <thumb>special://skin/extras/media/backgrounds/mediasettings.png</thumb>
                     </item>
                     <item id="3">
                         <description>Live TV</description>
-                        <label>31088</label>
-                        <label2>31410</label2>
+                        <label>$ADDON[skin.titan.bingie.mod 31088]</label>
+                        <label2>$ADDON[skin.titan.bingie.mod 31410]</label2>
                         <onclick>ActivateWindow(PVRSettings)</onclick>
                         <icon>special://skin/extras/media/backgrounds/settings_live_tv.jpg</icon>
                         <thumb>special://skin/extras/media/backgrounds/livetv.png</thumb>
@@ -116,7 +116,7 @@
                     <item id="4">
                         <description>Player</description>
                         <label>14201</label>
-                        <label2>31402</label2>
+                        <label2>$ADDON[skin.titan.bingie.mod 31402]</label2>
                         <onclick>ActivateWindow(PlayerSettings)</onclick>
                         <icon>special://skin/extras/media/backgrounds/settings_player_settings.jpg</icon>
                         <thumb>special://skin/extras/media/backgrounds/playersettings.png</thumb>
@@ -124,7 +124,7 @@
                     <item id="5">
                         <description>Addons</description>
                         <label>24001</label>
-                        <label2>31408</label2>
+                        <label2>$ADDON[skin.titan.bingie.mod 31408]</label2>
                         <onclick>activatewindow(AddonBrowser)</onclick>
                         <icon>special://skin/extras/media/backgrounds/settings_addons.jpg</icon>
                         <thumb>special://skin/extras/media/backgrounds/addons.png</thumb>
@@ -132,7 +132,7 @@
                     <item id="8">
                         <description>Network/Services</description>
                         <label>14036</label>
-                        <label2>31405</label2>
+                        <label2>$ADDON[skin.titan.bingie.mod 31405]</label2>
                         <onclick>activatewindow(ServiceSettings)</onclick>
                         <icon>special://skin/extras/media/backgrounds/settings_services.jpg</icon>
                         <thumb>special://skin/extras/media/backgrounds/services.png</thumb>
@@ -140,7 +140,7 @@
                     <item id="9">
                         <description>System</description>
                         <label>13000</label>
-                        <label2>31406</label2>
+                        <label2>$ADDON[skin.titan.bingie.mod 31406]</label2>
                         <onclick>activatewindow(SystemSettings)</onclick>
                         <icon>special://skin/extras/media/backgrounds/settings_system.jpg</icon>
                         <thumb>special://skin/extras/media/backgrounds/system.png</thumb>
@@ -148,7 +148,7 @@
                     <item id="10">
                         <description>System Info</description>
                         <label>130</label>
-                        <label2>31409</label2>
+                        <label2>$ADDON[skin.titan.bingie.mod 31409]</label2>
                         <onclick>activatewindow(7)</onclick>
                         <icon>special://skin/extras/media/backgrounds/settings_system_info.jpg</icon>
                         <thumb>special://skin/extras/media/backgrounds/systeminfo.png</thumb>
@@ -156,7 +156,7 @@
                     <item id="12">
                         <description>Profiles</description>
                         <label>13200</label>
-                        <label2>31421</label2>
+                        <label2>$ADDON[skin.titan.bingie.mod 31421]</label2>
                         <onclick>activatewindow(Profiles)</onclick>
                         <icon>special://skin/extras/media/backgrounds/settings_profiles.jpg</icon>
                         <thumb>special://skin/extras/media/backgrounds/actor.png</thumb>
@@ -164,7 +164,7 @@
                     <item id="13">
                         <description>Games</description>
                         <label>$LOCALIZE[15016]</label>
-                        <label2>$LOCALIZE[31403]</label2>
+                        <label2>$ADDON[skin.titan.bingie.mod 31403]</label2>
                         <onclick>ActivateWindow(GameSettings)</onclick>
                         <icon>special://skin/extras/media/backgrounds/settings_games.jpg</icon>
                         <thumb>special://skin/extras/media/backgrounds/games.png</thumb>
@@ -172,7 +172,7 @@
                     <item id="14">
                         <description>File Manager</description>
                         <label>7</label>
-                        <label2>31404</label2>
+                        <label2>$ADDON[skin.titan.bingie.mod 31404]</label2>
                         <onclick>ActivateWindow(filemanager)</onclick>
                         <icon>special://skin/extras/media/backgrounds/system.jpg</icon>
                         <thumb>special://skin/extras/media/backgrounds/filemanager.png</thumb>

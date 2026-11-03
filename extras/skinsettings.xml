@@ -18,9 +18,9 @@
 	<!-- Ladscape Large -->
 	<setting id="widgetstyle" value="landscapelarge" label="$LOCALIZE[31937]" icon="special://skin/extras/viewthumbs/widget_landscapelarge.jpg" description=""/>
     <!-- Highlight Layout-->
-	<setting id="widgetstyle1" value="highlight" label="$LOCALIZE[320045]" condition="Skin.HasSetting(EnableHighlightWidget)" icon="special://skin/extras/viewthumbs/widget_highlight.jpg" description=""/>
+	<setting id="widgetstyle1" value="highlight" label="$LOCALIZE[31230]" condition="Skin.HasSetting(EnableHighlightWidget)" icon="special://skin/extras/viewthumbs/widget_highlight.jpg" description=""/>
 	<!-- None -->
-	<setting id="widgetstyle1" value="None" label="$LOCALIZE[320046]" condition="!String.IsEmpty(Window.Property(widgetcontrols)) + !Skin.HasSetting(EnableHighlightWidget)" icon="DefaultAddonNone.png" description="$INFO[Skin.String(widgetstyle)]"/>
+	<setting id="widgetstyle1" value="None" label="$LOCALIZE[31234]" condition="!String.IsEmpty(Window.Property(widgetcontrols)) + !Skin.HasSetting(EnableHighlightWidget)" icon="DefaultAddonNone.png" description="$INFO[Skin.String(widgetstyle)]"/>
 	
     <!-- Widget Sortby -->
     <setting id="widgetsortby" value="" label="$LOCALIZE[16018]"/>
@@ -288,21 +288,21 @@
     <setting id="widgets_rotate_delay" value="300" label="5 $LOCALIZE[12391]" condition="" icon="" description=""/>
 	
 	<!-- number of roles in cast info -->
-    <setting id="cast_number" value="20" label="20 $LOCALIZE[320219]" condition="" icon="" description="" default="true"/>
-    <setting id="cast_number" value="30" label="30 $LOCALIZE[320219]" condition="" icon="" description=""/>
-    <setting id="cast_number" value="40" label="40 $LOCALIZE[320219]" condition="" icon="" description=""/>
-    <setting id="cast_number" value="50" label="50 $LOCALIZE[320219]" condition="" icon="" description=""/>
+    <setting id="cast_number" value="20" label="20 $LOCALIZE[31761]" condition="" icon="" description="" default="true"/>
+    <setting id="cast_number" value="30" label="30 $LOCALIZE[31761]" condition="" icon="" description=""/>
+    <setting id="cast_number" value="40" label="40 $LOCALIZE[31761]" condition="" icon="" description=""/>
+    <setting id="cast_number" value="50" label="50 $LOCALIZE[31761]" condition="" icon="" description=""/>
 	
 	<!-- netflix splash screen -->
-    <setting id="splash_screen" value="netflix_default" label="$LOCALIZE[320236]" condition="" icon="" description=""/>
-    <setting id="splash_screen" value="netflix_alternative" label="$LOCALIZE[320189]" condition="" icon="" description="" default="true"/>
-    <setting id="splash_screen" value="netflix_extended" label="$LOCALIZE[320190]" condition="" icon="" description=""/>
+    <setting id="splash_screen" value="netflix_default" label="$LOCALIZE[31875]" condition="" icon="" description=""/>
+    <setting id="splash_screen" value="netflix_alternative" label="$LOCALIZE[31684]" condition="" icon="" description="" default="true"/>
+    <setting id="splash_screen" value="netflix_extended" label="$LOCALIZE[31685]" condition="" icon="" description=""/>
     <setting id="splash_screen" value="none" label="$LOCALIZE[31041]" condition="" icon="" description=""/>
 	
 	<!-- season greetings -->
     <setting id="season_greetings" value="none" label="$LOCALIZE[231]" condition="" icon="" description="" default="true"/>
-	<setting id="season_greetings" value="snow_animation" label="$LOCALIZE[320179]" condition="" icon="" description=""/>
-    <setting id="season_greetings" value="halloween_animation" label="$LOCALIZE[320180]" condition="" icon="" description=""/>
+	<setting id="season_greetings" value="snow_animation" label="$LOCALIZE[31655]" condition="" icon="" description=""/>
+    <setting id="season_greetings" value="halloween_animation" label="$LOCALIZE[31656]" condition="" icon="" description=""/>
 	
 	
 	<!-- scrollbar visibility -->
@@ -329,76 +329,76 @@
     <setting id="infoline" value="total" label="$LOCALIZE[31034]" condition="!Window.IsActive(script-skinshortcuts.xml)" icon="" description=""/>
 	
 	<!-- categories types -->
-    <setting id="categories_types" value="LibraryList" label="$LOCALIZE[320091]" condition="" icon="" description=""  default="true"/>
-	<setting id="categories_types" value="TMDbHelperList" label="$LOCALIZE[320092]" condition="" icon="" description=""/>
+    <setting id="categories_types" value="LibraryList" label="$LOCALIZE[31328]" condition="" icon="" description=""  default="true"/>
+	<setting id="categories_types" value="TMDbHelperList" label="$LOCALIZE[31337]" condition="" icon="" description=""/>
 	
 	<!-- List filter -->
-    <setting id="list_filter" value="library_filter" label="$LOCALIZE[320096]" condition="" icon="" description=""/>
-	<setting id="list_filter" value="digital_filter" label="$LOCALIZE[320097]" condition="" icon="" description=""/>
+    <setting id="list_filter" value="library_filter" label="$LOCALIZE[31352]" condition="" icon="" description=""/>
+	<setting id="list_filter" value="digital_filter" label="$LOCALIZE[31353]" condition="" icon="" description=""/>
 	<setting id="list_filter" value="none" label="$LOCALIZE[231]" condition="" icon="" description="" default="true"/>
 	
 	<!-- ratings to show on home - multiselect -->
     <setting id="home_ratings" value="||MULTISELECT||" label="" condition="" icon="" description="">
         <option id="home_ratings_IMDB" label="$LOCALIZE[31906]" condition="" default="true"/>
-        <option id="home_ratings_Top250" label="$LOCALIZE[320042]" condition="" default="true"/>
+        <option id="home_ratings_Top250" label="$LOCALIZE[31225]" condition="" default="true"/>
         <option id="home_ratings_RT" label="$LOCALIZE[31775]" condition="" default="true"/>
-        <option id="home_ratings_RTAudience" label="$LOCALIZE[320044]" condition="" default="true"/>
+        <option id="home_ratings_RTAudience" label="$LOCALIZE[31229]" condition="" default="true"/>
         <option id="home_ratings_TMdb" label="$LOCALIZE[31907]" condition="" default="true"/>
-        <option id="home_ratings_TVdb" label="$LOCALIZE[320041]" condition="" default="true"/>
-		<option id="home_ratings_Trakt" label="$LOCALIZE[320039]" condition="" default="true"/>
-        <option id="home_ratings_Metacritic" label="$LOCALIZE[320038]" condition="" default="true"/>
-        <option id="home_ratings_Oscar" label="$LOCALIZE[320040]" condition="" default="true"/>
-		<option id="home_ratings_GoldenGlobe" label="$LOCALIZE[320087]" condition="" default="true"/>
-		<option id="home_ratings_Emmy" label="$LOCALIZE[320088]" condition="" default="true"/>
+        <option id="home_ratings_TVdb" label="$LOCALIZE[31224]" condition="" default="true"/>
+		<option id="home_ratings_Trakt" label="$LOCALIZE[31217]" condition="" default="true"/>
+        <option id="home_ratings_Metacritic" label="$LOCALIZE[31216]" condition="" default="true"/>
+        <option id="home_ratings_Oscar" label="$LOCALIZE[31218]" condition="" default="true"/>
+		<option id="home_ratings_GoldenGlobe" label="$LOCALIZE[31317]" condition="" default="true"/>
+		<option id="home_ratings_Emmy" label="$LOCALIZE[31319]" condition="" default="true"/>
     </setting>
 	
 	<!-- ratings to show on home - multiselect -->
     <setting id="more_info_buttons" value="||MULTISELECT||" label="" condition="" icon="" description="">
         <option id="more_info_buttons_cast" label="$LOCALIZE[206]" condition="" default="true"/>
         <option id="more_info_buttons_crew" label="$LOCALIZE[31089]" condition="" default="true"/>
-        <option id="more_info_buttons_director" label="$LOCALIZE[320070]" condition="" default="true"/>
-        <option id="more_info_buttons_writer" label="$LOCALIZE[320089]" condition="" default="true"/>
-        <option id="more_info_buttons_creator" label="$LOCALIZE[320079]" condition="" default="true"/>
-        <option id="more_info_buttons_studio" label="$LOCALIZE[320074]" condition="" default="true"/>
-		<option id="more_info_buttons_network" label="$LOCALIZE[320075]" condition="" default="true"/>
-        <option id="more_info_buttons_genre" label="$LOCALIZE[320068]" condition="" default="true"/>
-        <option id="more_info_buttons_year" label="$LOCALIZE[320077]" condition="" default="true"/>
-		<option id="more_info_buttons_recommended" label="$LOCALIZE[320069]" condition="" default="true"/>
+        <option id="more_info_buttons_director" label="$LOCALIZE[31282]" condition="" default="true"/>
+        <option id="more_info_buttons_writer" label="$LOCALIZE[31324]" condition="" default="true"/>
+        <option id="more_info_buttons_creator" label="$LOCALIZE[31306]" condition="" default="true"/>
+        <option id="more_info_buttons_studio" label="$LOCALIZE[31294]" condition="" default="true"/>
+		<option id="more_info_buttons_network" label="$LOCALIZE[31297]" condition="" default="true"/>
+        <option id="more_info_buttons_genre" label="$LOCALIZE[31280]" condition="" default="true"/>
+        <option id="more_info_buttons_year" label="$LOCALIZE[31299]" condition="" default="true"/>
+		<option id="more_info_buttons_recommended" label="$LOCALIZE[31281]" condition="" default="true"/>
     </setting>
 	
 	<!-- ratings to show in views - multiselect -->
     <setting id="views_ratings" value="||MULTISELECT||" label="" condition="" icon="" description="">
         <option id="views_ratings_IMDB" label="$LOCALIZE[31906]" condition="" default="true"/>
-        <option id="views_ratings_Top250" label="$LOCALIZE[320042]" condition="" default="true"/>
+        <option id="views_ratings_Top250" label="$LOCALIZE[31225]" condition="" default="true"/>
         <option id="views_ratings_RT" label="$LOCALIZE[31775]" condition="" default="true"/>
-        <option id="views_ratings_RTAudience" label="$LOCALIZE[320044]" condition="" default="true"/>
+        <option id="views_ratings_RTAudience" label="$LOCALIZE[31229]" condition="" default="true"/>
         <option id="views_ratings_TMdb" label="$LOCALIZE[31907]" condition="" default="true"/>
-        <option id="views_ratings_TVdb" label="$LOCALIZE[320041]" condition="" default="true"/>
-		<option id="views_ratings_Trakt" label="$LOCALIZE[320039]" condition="" default="true"/>
-        <option id="views_ratings_Metacritic" label="$LOCALIZE[320038]" condition="" default="true"/>
-        <option id="views_ratings_Oscar" label="$LOCALIZE[320040]" condition="" default="true"/>
-		<option id="views_ratings_GoldenGlobe" label="$LOCALIZE[320087]" condition="" default="true"/>
-		<option id="views_ratings_Emmy" label="$LOCALIZE[320088]" condition="" default="true"/>
+        <option id="views_ratings_TVdb" label="$LOCALIZE[31224]" condition="" default="true"/>
+		<option id="views_ratings_Trakt" label="$LOCALIZE[31217]" condition="" default="true"/>
+        <option id="views_ratings_Metacritic" label="$LOCALIZE[31216]" condition="" default="true"/>
+        <option id="views_ratings_Oscar" label="$LOCALIZE[31218]" condition="" default="true"/>
+		<option id="views_ratings_GoldenGlobe" label="$LOCALIZE[31317]" condition="" default="true"/>
+		<option id="views_ratings_Emmy" label="$LOCALIZE[31319]" condition="" default="true"/>
     </setting>
 
     <!-- options to show in videoinfo - multiselect -->
     <setting id="videoinfo_buttons" value="||MULTISELECT||" label="" condition="" icon="" description="">
 	    <option id="videoinfo_button_myrating" label="$LOCALIZE[31854]" condition="Skin.HasSetting(UseBingieInfoDialog)" default="true"/>
         <option id="videoinfo_button_play" label="$LOCALIZE[208]" condition="" default="true"/>
-		<option id="videoinfo_button_play_next" label="$LOCALIZE[320063]" condition="" default="true"/>
+		<option id="videoinfo_button_play_next" label="$LOCALIZE[31275]" condition="" default="true"/>
 		<option id="videoinfo_button_more_episodes" label="$LOCALIZE[31853]" condition="" default="true"/>
         <option id="videoinfo_button_trailer" label="$LOCALIZE[31868]" condition="" default="true"/>
-		<option id="videoinfo_button_trailersandmore" label="$LOCALIZE[320192]" condition="Skin.HasSetting(UseBingieInfoDialog)" default="true"/>
-        <option id="videoinfo_button_mylist" label="$LOCALIZE[320221]" condition="!Skin.HasSetting(UseBingieInfoDialog)" default="true"/>
+		<option id="videoinfo_button_trailersandmore" label="$LOCALIZE[31689]" condition="Skin.HasSetting(UseBingieInfoDialog)" default="true"/>
+        <option id="videoinfo_button_mylist" label="$LOCALIZE[31763]" condition="!Skin.HasSetting(UseBingieInfoDialog)" default="true"/>
 		<option id="videoinfo_button_mylist" label="$LOCALIZE[31534]" condition="Skin.HasSetting(UseBingieInfoDialog)" default="true"/>
-		<option id="videoinfo_button_trakt" label="$LOCALIZE[320217]" condition="!Skin.HasSetting(UseBingieInfoDialog)" default="true"/>
-		<option id="videoinfo_button_trakt" label="$LOCALIZE[320216]" condition="Skin.HasSetting(UseBingieInfoDialog)" default="true"/>
+		<option id="videoinfo_button_trakt" label="$LOCALIZE[31759]" condition="!Skin.HasSetting(UseBingieInfoDialog)" default="true"/>
+		<option id="videoinfo_button_trakt" label="$LOCALIZE[31758]" condition="Skin.HasSetting(UseBingieInfoDialog)" default="true"/>
         <option id="videoinfo_button_plot" label="$LOCALIZE[207] &amp; $LOCALIZE[31608]" condition="Skin.HasSetting(UseBingieInfoDialog)" default="true"/>
-        <option id="videoinfo_button_cast" label="$LOCALIZE[320067]" condition="Skin.HasSetting(UseBingieInfoDialog) + !Skin.HasSetting(TMDBExtendedInfo)" default="true"/>
+        <option id="videoinfo_button_cast" label="$LOCALIZE[31279]" condition="Skin.HasSetting(UseBingieInfoDialog) + !Skin.HasSetting(TMDBExtendedInfo)" default="true"/>
         <option id="videoinfo_button_similar" label="$LOCALIZE[31622]" condition="" default="true"/>
 		<option id="videoinfo_button_extendedinfo" label="$LOCALIZE[31838]" condition="!Skin.HasSetting(UseBingieInfoDialog)" default="true"/>
 		<option id="videoinfo_button_extendedinfo" label="$LOCALIZE[31269]" condition="Skin.HasSetting(UseBingieInfoDialog) + Skin.HasSetting(TMDBExtendedInfo)" default="true"/>
-        <option id="videoinfo_button_artwork" label="$LOCALIZE[320002]"  condition="!Skin.HasSetting(KioskMode.Enabled)" default="true"/>
+        <option id="videoinfo_button_artwork" label="$LOCALIZE[31063]"  condition="!Skin.HasSetting(KioskMode.Enabled)" default="true"/>
         <option id="videoinfo_button_refresh" label="$LOCALIZE[184]" condition="!Skin.HasSetting(KioskMode.Enabled)" default="true"/>
     </setting>
 
@@ -406,79 +406,79 @@
     <setting id="videoinfo_details" value="||MULTISELECT||" label="" condition="" icon="" description="">
         <option id="videoinfo_details_cast" label="$LOCALIZE[206]" condition="" default="true"/>
         <option id="videoinfo_details_director" label="$LOCALIZE[20348]" condition="" default="true"/>
-        <option id="videoinfo_details_creator" label="$LOCALIZE[320064]" condition="" default="true"/>
+        <option id="videoinfo_details_creator" label="$LOCALIZE[31276]" condition="" default="true"/>
         <option id="videoinfo_details_genre" label="$LOCALIZE[135]" condition="" default="true"/>
         <option id="videoinfo_details_awards" label="$LOCALIZE[31976]" condition="" default="true"/>
     </setting>
 	
 	<!-- library search - multiselect -->
     <setting id="search_types" value="||MULTISELECT||" label="" condition="" icon="" description="">
-        <option id="EnableBingieSearchLibrary" label="$LOCALIZE[320055]" condition="" default="true"/>
+        <option id="EnableBingieSearchLibrary" label="$LOCALIZE[31247]" condition="" default="true"/>
 		<option id="EnableBingieSearchEpisodes" label="$LOCALIZE[31416]" condition=""/>
         <option id="EnableBingieSearchMusic" label="$LOCALIZE[31418]" condition=""/>
         <option id="EnableBingieSearchMusicVideos" label="$LOCALIZE[31417]" condition=""/>
 		<option id="EnableBingieSearchAddons" label="$LOCALIZE[31026]" condition=""/>
 		<option id="EnableBingieSearchYoutube" label="$LOCALIZE[31419]" condition=""/>
-        <option id="EnableBingieSearchTMDBHelper" label="$LOCALIZE[320052]" condition=""/>
+        <option id="EnableBingieSearchTMDBHelper" label="$LOCALIZE[31243]" condition=""/>
     </setting>
 	
 	<!-- tmdb helper search - multiselect -->
     <setting id="tmdbhelper_search" value="||MULTISELECT||" label="" condition="" icon="" description="">
-        <option id="tmdbhelper_search_movies" label="$LOCALIZE[320057]" condition="" default="true"/>
-		<option id="tmdbhelper_search_collections" label="$LOCALIZE[320201]" condition="" default="true"/>
-        <option id="tmdbhelper_search_tvshows" label="$LOCALIZE[320058]" condition="" default="true"/>
-        <option id="tmdbhelper_search_people" label="$LOCALIZE[320059]" condition="" default="true"/>
+        <option id="tmdbhelper_search_movies" label="$LOCALIZE[31249]" condition="" default="true"/>
+		<option id="tmdbhelper_search_collections" label="$LOCALIZE[31712]" condition="" default="true"/>
+        <option id="tmdbhelper_search_tvshows" label="$LOCALIZE[31250]" condition="" default="true"/>
+        <option id="tmdbhelper_search_people" label="$LOCALIZE[31258]" condition="" default="true"/>
     </setting>
 	
 	<!-- details to show in extendedinfo - multiselect -->
     <setting id="extendedinfo_details" value="||MULTISELECT||" label="" condition="" icon="" description="">
         <option id="extendedinfo_details_cast" label="$LOCALIZE[206]" condition="" default="true"/>
         <option id="extendedinfo_details_crew" label="$LOCALIZE[31089]" condition="" default="true"/>
-		<option id="extendedinfo_details_director" label="$LOCALIZE[320070]" condition="" default="true"/>
-		<option id="extendedinfo_details_writer" label="$LOCALIZE[320089]" condition="" default="true"/>
-		<option id="extendedinfo_details_creator" label="$LOCALIZE[320079]" condition="" default="true"/>
+		<option id="extendedinfo_details_director" label="$LOCALIZE[31282]" condition="" default="true"/>
+		<option id="extendedinfo_details_writer" label="$LOCALIZE[31324]" condition="" default="true"/>
+		<option id="extendedinfo_details_creator" label="$LOCALIZE[31306]" condition="" default="true"/>
         <option id="extendedinfo_details_seasons" label="$LOCALIZE[33054]" condition="" default="true"/>
 		<option id="extendedinfo_details_upnext" label="$LOCALIZE[31065]" condition="" default="true"/>
-		<option id="extendedinfo_details_collection" label="$LOCALIZE[320065]" condition="" default="true"/>
+		<option id="extendedinfo_details_collection" label="$LOCALIZE[31277]" condition="" default="true"/>
 		<option id="extendedinfo_details_studios" label="$LOCALIZE[20388]" condition="" default="true"/>
 		<option id="extendedinfo_details_genres" label="$LOCALIZE[135]" condition="" default="true"/>
-		<option id="extendedinfo_details_year" label="$LOCALIZE[320077]" condition="" default="true"/>
+		<option id="extendedinfo_details_year" label="$LOCALIZE[31299]" condition="" default="true"/>
         <option id="extendedinfo_details_reviews" label="$LOCALIZE[31120]" condition="" default="true"/>
-		<option id="extendedinfo_details_recommended" label="$LOCALIZE[320069]" condition="" default="true"/>
-        <option id="extendedinfo_details_posters" label="$LOCALIZE[320078]" condition="" default="true"/>
-        <option id="extendedinfo_details_fanart" label="$LOCALIZE[320210]" condition="" default="true"/>
+		<option id="extendedinfo_details_recommended" label="$LOCALIZE[31281]" condition="" default="true"/>
+        <option id="extendedinfo_details_posters" label="$LOCALIZE[31303]" condition="" default="true"/>
+        <option id="extendedinfo_details_fanart" label="$LOCALIZE[31748]" condition="" default="true"/>
     </setting>
 	
 	<!-- categories -->
     <setting id="categories_list" value="||MULTISELECT||" label="" condition="" icon="" description="">
-        <option id="categories_list_action" label="$LOCALIZE[320101]" condition="" default="true"/>
-        <option id="categories_list_dramas" label="$LOCALIZE[320102]" condition="" default="true"/>
-        <option id="categories_list_comedies" label="$LOCALIZE[320103]" condition="" default="true"/>
-        <option id="categories_list_family" label="$LOCALIZE[320104]" condition="" default="true"/>
-        <option id="categories_list_horror" label="$LOCALIZE[320105]" condition="" default="true"/>
-        <option id="categories_list_documentaries" label="$LOCALIZE[320106]" condition="" default="true"/>
-        <option id="categories_list_anime" label="$LOCALIZE[320107]" condition="" default="true"/>
-		<option id="categories_list_crime" label="$LOCALIZE[320108]" condition="" default="true"/>
-        <option id="categories_list_fantasy" label="$LOCALIZE[320109]" condition="" default="true"/>
-        <option id="categories_list_history" label="$LOCALIZE[320110]" condition="" default="true"/>
-        <option id="categories_list_animations" label="$LOCALIZE[320111]" condition="" default="true"/>
-		<option id="categories_list_musicals" label="$LOCALIZE[320112]" condition="" default="true"/>
-		<option id="categories_list_romance" label="$LOCALIZE[320113]" condition="" default="true"/>
-		<option id="categories_list_sci-fi" label="$LOCALIZE[320114]" condition="" default="true"/>
-        <option id="categories_list_mysteries" label="$LOCALIZE[320115]" condition="" default="true"/>
-        <option id="categories_list_thriller" label="$LOCALIZE[320116]" condition="" default="true"/>
-        <option id="categories_list_westerns" label="$LOCALIZE[320117]" condition="" default="true"/>
-        <option id="categories_list_tvaction" label="$LOCALIZE[320118]" condition="" default="true"/>
-        <option id="categories_list_tvdramas" label="$LOCALIZE[320119]" condition="" default="true"/>
-        <option id="categories_list_tvcomedies" label="$LOCALIZE[320120]" condition="" default="true"/>
-		<option id="categories_list_tvfamily" label="$LOCALIZE[320121]" condition="" default="true"/>
-        <option id="categories_list_tvdocumentaries" label="$LOCALIZE[320122]" condition="" default="true"/>
-        <option id="categories_list_tvcrime" label="$LOCALIZE[320123]" condition="" default="true"/>
-        <option id="categories_list_tvfantasy" label="$LOCALIZE[320124]" condition="" default="true"/>
-		<option id="categories_list_tvwar" label="$LOCALIZE[320125]" condition="" default="true"/>
-		<option id="categories_list_tvanimations" label="$LOCALIZE[320126]" condition="" default="true"/>
-		<option id="categories_list_tvmysteries" label="$LOCALIZE[320127]" condition="" default="true"/>
-        <option id="categories_list_tvwesterns" label="$LOCALIZE[320128]" condition="" default="true"/>
+        <option id="categories_list_action" label="$LOCALIZE[31377]" condition="" default="true"/>
+        <option id="categories_list_dramas" label="$LOCALIZE[31381]" condition="" default="true"/>
+        <option id="categories_list_comedies" label="$LOCALIZE[31382]" condition="" default="true"/>
+        <option id="categories_list_family" label="$LOCALIZE[31386]" condition="" default="true"/>
+        <option id="categories_list_horror" label="$LOCALIZE[31398]" condition="" default="true"/>
+        <option id="categories_list_documentaries" label="$LOCALIZE[31159]" condition="" default="true"/>
+        <option id="categories_list_anime" label="$LOCALIZE[31046]" condition="" default="true"/>
+		<option id="categories_list_crime" label="$LOCALIZE[31446]" condition="" default="true"/>
+        <option id="categories_list_fantasy" label="$LOCALIZE[31448]" condition="" default="true"/>
+        <option id="categories_list_history" label="$LOCALIZE[31454]" condition="" default="true"/>
+        <option id="categories_list_animations" label="$LOCALIZE[31456]" condition="" default="true"/>
+		<option id="categories_list_musicals" label="$LOCALIZE[31049]" condition="" default="true"/>
+		<option id="categories_list_romance" label="$LOCALIZE[31465]" condition="" default="true"/>
+		<option id="categories_list_sci-fi" label="$LOCALIZE[31466]" condition="" default="true"/>
+        <option id="categories_list_mysteries" label="$LOCALIZE[31467]" condition="" default="true"/>
+        <option id="categories_list_thriller" label="$LOCALIZE[31468]" condition="" default="true"/>
+        <option id="categories_list_westerns" label="$LOCALIZE[31469]" condition="" default="true"/>
+        <option id="categories_list_tvaction" label="$LOCALIZE[31474]" condition="" default="true"/>
+        <option id="categories_list_tvdramas" label="$LOCALIZE[31488]" condition="" default="true"/>
+        <option id="categories_list_tvcomedies" label="$LOCALIZE[31489]" condition="" default="true"/>
+		<option id="categories_list_tvfamily" label="$LOCALIZE[31490]" condition="" default="true"/>
+        <option id="categories_list_tvdocumentaries" label="$LOCALIZE[31491]" condition="" default="true"/>
+        <option id="categories_list_tvcrime" label="$LOCALIZE[31492]" condition="" default="true"/>
+        <option id="categories_list_tvfantasy" label="$LOCALIZE[31494]" condition="" default="true"/>
+		<option id="categories_list_tvwar" label="$LOCALIZE[31502]" condition="" default="true"/>
+		<option id="categories_list_tvanimations" label="$LOCALIZE[31503]" condition="" default="true"/>
+		<option id="categories_list_tvmysteries" label="$LOCALIZE[31508]" condition="" default="true"/>
+        <option id="categories_list_tvwesterns" label="$LOCALIZE[31509]" condition="" default="true"/>
     </setting>
 
     <!-- Show/Hide OSD Buttons -->
@@ -494,9 +494,9 @@
 	
 	<!-- Home Footer Visibility -->
     <setting id="home_footer_visibility" value="||MULTISELECT||" label="" condition="" icon="" description="">
-        <option id="EnableFooterBarOnSpotlight" label="$LOCALIZE[320228]" condition=""/>
-        <option id="EnableFooterBarOnWidgets" label="$LOCALIZE[320227]" condition=""/>
-        <option id="HideMediaFlagsTrailer" label="$LOCALIZE[320174]" condition=""/>
+        <option id="EnableFooterBarOnSpotlight" label="$LOCALIZE[31811]" condition=""/>
+        <option id="EnableFooterBarOnWidgets" label="$LOCALIZE[31810]" condition=""/>
+        <option id="HideMediaFlagsTrailer" label="$LOCALIZE[31633]" condition=""/>
     </setting>
 	
 	<!-- Fanart Visibility -->

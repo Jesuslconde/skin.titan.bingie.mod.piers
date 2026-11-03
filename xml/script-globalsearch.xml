@@ -105,7 +105,7 @@
 						<height>65</height>
 						<aligny>center</aligny>
 						<font>Plots</font>
-						<label>320053</label>
+						<label>$ADDON[skin.titan.bingie.mod 31244]</label>
 						<textcolor>$INFO[Skin.String(BingieButtonFocusTextColor)]</textcolor>
 					</control>
 					<control type="label">
@@ -115,7 +115,7 @@
 						<height>65</height>
 						<aligny>center</aligny>
 						<font>Plots</font>
-						<label>320053</label>
+						<label>$ADDON[skin.titan.bingie.mod 31244]</label>
 						<textcolor>$INFO[Skin.String(BingieButtonTextColor)]</textcolor>
 					</control>
 					</control>
@@ -242,7 +242,7 @@
 				<visible>!Control.IsVisible(999)</visible>
 				<top>37</top>
 				<left>827</left>
-				<label>$INFO[Window.Property(GlobalSearch.SearchString),$LOCALIZE[320095] &quot;,&quot;]</label>
+				<label>$INFO[Window.Property(GlobalSearch.SearchString),$ADDON[skin.titan.bingie.mod 31343] &quot;,&quot;]</label>
 				<width>1040</width>
 				<height>40</height>
 				<font>Bold38</font>

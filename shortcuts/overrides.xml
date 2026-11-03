@@ -11,7 +11,7 @@
 			<shortcut label="32022" grouping="32029" icon="shortcuts/antenna.png" condition="PVR.HasTVChannels">ActivateWindow(TVChannels)</shortcut>
 			<shortcut label="137" grouping="32029" icon="shortcuts/search.png">ActivateWindow(1109,return)</shortcut>
 			<shortcut label="10000" grouping="32029" icon="shortcuts/home.png" condition="String.IsEqual(Skin.String(HomeLayout),bingie)">ActivateWindow(home,return)</shortcut>
-			<shortcut label="320027" grouping="32029" icon="shortcuts/something.png" condition="String.IsEqual(Skin.String(HomeLayout),bingie)">ActivateWindow(1118,return)</shortcut>
+			<shortcut label="31180" grouping="32029" icon="shortcuts/something.png" condition="String.IsEqual(Skin.String(HomeLayout),bingie)">ActivateWindow(1118,return)</shortcut>
 			<shortcut label="31866" grouping="32029" icon="shortcuts/new.png" condition="String.IsEqual(Skin.String(HomeLayout),bingie)">ActivateWindow(1112,return)</shortcut>
 			<shortcut label="31864" grouping="32029" icon="shortcuts/tv.png" condition="String.IsEqual(Skin.String(HomeLayout),bingie)">ActivateWindow(1110,return)</shortcut>
 			<shortcut label="31865" grouping="32029" icon="shortcuts/clapperboard.png" condition="String.IsEqual(Skin.String(HomeLayout),bingie)">ActivateWindow(1111,return)</shortcut>

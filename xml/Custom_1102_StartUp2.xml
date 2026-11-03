@@ -49,7 +49,7 @@
 					<textcolor>ffffffff</textcolor>
 					<aligny>top</aligny>
 					<pagecontrol>3000</pagecontrol>
-					<label>31395</label>
+					<label>$ADDON[skin.titan.bingie.mod 31395]</label>
 				</control>
 				<!-- Button -->
 				<control type="grouplist" id="100">
@@ -75,7 +75,7 @@
 						<texturenofocus border="10" colordiffuse="a6ffffff">bingie/border/slimframefo.png</texturenofocus>
 						<alttexturefocus border="10" colordiffuse="ffffffff">bingie/border/slimframefo.png</alttexturefocus>
 						<alttexturenofocus border="10" colordiffuse="a6ffffff">bingie/border/slimframefo.png</alttexturenofocus>
-						<label>$LOCALIZE[31396]</label>
+						<label>$ADDON[skin.titan.bingie.mod 31396]</label>
 						<onclick>Skin.SetBool(BingieSecondStartupDone)</onclick>
 						<onclick>SetProperty(finishBingieStartup2,1,Home)</onclick>
 						<onclick>AlarmClock(clear_property,ClearProperty(finishBingieStartup2,Home),00:02,silent)</onclick>
@@ -98,7 +98,7 @@
 						<texturenofocus border="10" colordiffuse="a6ffffff">bingie/border/slimframefo.png</texturenofocus>
 						<alttexturefocus border="10" colordiffuse="ffffffff">bingie/border/slimframefo.png</alttexturefocus>
 						<alttexturenofocus border="10" colordiffuse="a6ffffff">bingie/border/slimframefo.png</alttexturenofocus>
-						<label>$LOCALIZE[31397]</label>
+						<label>$ADDON[skin.titan.bingie.mod 31397]</label>
 						<onclick>Skin.SetBool(BingieSecondStartupDone)</onclick>
 						<onclick>SetProperty(finishBingieStartup2,1,Home)</onclick>
 						<onclick>AlarmClock(clear_property,ClearProperty(finishBingieStartup2,Home),00:02,silent)</onclick>

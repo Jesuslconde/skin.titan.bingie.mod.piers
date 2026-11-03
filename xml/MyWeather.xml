@@ -66,7 +66,7 @@
 				
 				<control type="button" id="1224">
                     <description>Weather Icons</description>
-                    <label>31623</label>
+                    <label>$ADDON[skin.titan.bingie.mod 31623]</label>
                     <onclick>RunScript(script.skin.helper.service,action=setresourceaddon,skinstring=WeatherIconPack,addontype=resource.images.weathericons)</onclick>
                     <include>SideBladeMenuButton</include>
                 </control>
@@ -74,14 +74,14 @@
                 <control type="button" id="1225">
                     <!--Icons-->
                     <description>Weather FanArt</description>
-                    <label>31624</label>
+                    <label>$ADDON[skin.titan.bingie.mod 31624]</label>
                     <onclick>RunScript(script.skin.helper.service,action=setresourceaddon,skinstring=WeatherFanArtPack,addontype=resource.images.weatherfanart)</onclick>
                     <include>SideBladeMenuButton</include>
                 </control>
 				
 				<control type="radiobutton" id="5163">
                     <description>use extended weather screen</description>
-                    <label>31452</label>
+                    <label>$ADDON[skin.titan.bingie.mod 31452]</label>
                     <include>SideBladeMenuButton</include>
                     <onclick>Skin.ToggleSetting(useExtendedWeatherScreen)</onclick>
                     <selected>Skin.HasSetting(useExtendedWeatherScreen)</selected>
@@ -90,13 +90,13 @@
                          <control type="radiobutton" id="3052">
                     <!--Hide panel -->
                     <include>SideBladeMenuButton</include>
-                    <label>31155</label>
+                    <label>$ADDON[skin.titan.bingie.mod 31155]</label>
                     <onclick>Skin.ToggleSetting(MyWeatherHidepanel)</onclick>
                     <selected>Skin.HasSetting(MyWeatherHidepanel)</selected>
                 </control>
 				<control type="radiobutton" id="88552200">
 				<include>SideBladeMenuButton</include>
-                <label>31268</label>
+                <label>$ADDON[skin.titan.bingie.mod 31268]</label>
                 <onclick>Skin.ToggleSetting(MyWeatherDisableFanArt)</onclick>
                 <selected>Skin.HasSetting(MyWeatherDisableFanArt)</selected>
 				</control>

@@ -363,7 +363,7 @@
 					<width>auto</width>
 					<align>center</align>
 					<aligny>center</aligny>
-					<label>$LOCALIZE[320212]</label>
+					<label>$ADDON[skin.titan.bingie.mod 31754]</label>
 					<font>reg40</font>
 					<textcolor>$INFO[Skin.String(BingiePrimaryTextColor)]</textcolor>
 					<scroll>true</scroll>

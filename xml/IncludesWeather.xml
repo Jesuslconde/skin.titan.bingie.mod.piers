@@ -543,26 +543,26 @@
 				</focusedlayout>
 				<content>
 					<item id="1">
-						<label>31285</label>
+						<label>$ADDON[skin.titan.bingie.mod 31285]</label>
 						<icon/>
 					</item>
 					<item id="2">
-						<label>31289</label>
+						<label>$ADDON[skin.titan.bingie.mod 31289]</label>
 						<icon/>
 						<visible>!String.IsEmpty(Window.Property(Daily.IsFetched))</visible>
 					</item>
 					<item id="3">
-						<label>31286</label>
+						<label>$ADDON[skin.titan.bingie.mod 31286]</label>
 						<icon/>
 						<visible>!String.IsEmpty(Window.Property(36Hour.IsFetched))</visible>
 					</item>
 					<item id="4">
-						<label>31288</label>
+						<label>$ADDON[skin.titan.bingie.mod 31288]</label>
 						<icon/>
 						<visible>!String.IsEmpty(Window.Property(Weekend.IsFetched))</visible>
 					</item>
 					<item id="5">
-						<label>31287</label>
+						<label>$ADDON[skin.titan.bingie.mod 31287]</label>
 						<icon/>
 						<visible>!String.IsEmpty(Window.Property(Hourly.IsFetched))</visible>
 					</item>
@@ -592,7 +592,7 @@
 						<visible>!String.IsEmpty(Window.Property(Map.5.Area)) + !String.IsEmpty(Window.Property(Map.IsFetched))</visible>
 					</item>
 					<item id="11">
-						<label>31636</label>
+						<label>$ADDON[skin.titan.bingie.mod 31636]</label>
 						<icon/>
 						<visible>!String.IsEmpty(Window.Property(Alerts.IsFetched))</visible>
 					</item>
@@ -654,7 +654,7 @@
 						<font>Reg24</font>
 						<textoffsetx>15</textoffsetx>
 						<textcolor>$INFO[Skin.String(ViewDetailsTextColor)]</textcolor>
-						<label>$INFO[Window.Property(Updated),[B]$LOCALIZE[31293]: [/B]]</label>
+						<label>$INFO[Window.Property(Updated),[B]$ADDON[skin.titan.bingie.mod 31293]: [/B]]</label>
 					</control>
 					<control type="label">
 						<description>current temp Value</description>
@@ -893,7 +893,7 @@
 						</focusedlayout>
 						<content>
 							<item>
-								<label>$LOCALIZE[31291]</label>
+								<label>$ADDON[skin.titan.bingie.mod 31291]</label>
 								<icon/>
 								<visible>!Weather.IsFetched</visible>
 							</item>
@@ -1117,7 +1117,7 @@
 						</focusedlayout>
 						<content>
 							<item>
-								<label>$LOCALIZE[31291]</label>
+								<label>$ADDON[skin.titan.bingie.mod 31291]</label>
 								<icon/>
 								<visible>String.IsEmpty(Window.Property(Daily.IsFetched))</visible>
 							</item>
@@ -1332,7 +1332,7 @@
 						</focusedlayout>
 						<content>
 							<item>
-								<label>$LOCALIZE[31291]</label>
+								<label>$ADDON[skin.titan.bingie.mod 31291]</label>
 								<icon/>
 								<visible>String.IsEmpty(Window.Property(36Hour.IsFetched))</visible>
 							</item>
@@ -1472,7 +1472,7 @@
 								<align>center</align>
 								<textcolor>$INFO[Skin.String(ViewDetailsTextColor)]</textcolor>
 								
-								<label>$INFO[ListItem.Property(ChancePrecipitation),$LOCALIZE[31290]: ]</label>
+								<label>$INFO[ListItem.Property(ChancePrecipitation),$ADDON[skin.titan.bingie.mod 31290]: ]</label>
 								<textoffsetx>15</textoffsetx>
 							</control>
 						</itemlayout>
@@ -1555,13 +1555,13 @@
 								<align>center</align>
 								<textcolor>$INFO[Skin.String(ViewDetailsTextColor)]</textcolor>
 								
-								<label>$INFO[ListItem.Property(ChancePrecipitation),$LOCALIZE[31290]: ]</label>
+								<label>$INFO[ListItem.Property(ChancePrecipitation),$ADDON[skin.titan.bingie.mod 31290]: ]</label>
 								<textoffsetx>15</textoffsetx>
 							</control>
 						</focusedlayout>
 						<content>
 							<item>
-								<label>$LOCALIZE[31291]</label>
+								<label>$ADDON[skin.titan.bingie.mod 31291]</label>
 								<icon/>
 								<visible>String.IsEmpty(Window.Property(Weekend.IsFetched))</visible>
 							</item>
@@ -1769,7 +1769,7 @@
 						</focusedlayout>
 						<content>
 							<item>
-								<label>$LOCALIZE[31291]</label>
+								<label>$ADDON[skin.titan.bingie.mod 31291]</label>
 								<icon/>
 								<visible>String.IsEmpty(Window.Property(Daily.IsFetched))</visible>
 							</item>
@@ -2395,7 +2395,7 @@
 					<shadowcolor>ff4c2626</shadowcolor>
 					<align>center</align>
 					<aligny>top</aligny>
-					<label>31636</label>
+					<label>$ADDON[skin.titan.bingie.mod 31636]</label>
 				</control>
 					<control type="image">
 						<description>separator image</description>
@@ -2426,7 +2426,7 @@
 						<shadowcolor>black</shadowcolor>
 						<align>center</align>
 						<aligny>center</aligny>
-						<label>31637</label>
+						<label>$ADDON[skin.titan.bingie.mod 31637]</label>
 						<visible>String.IsEmpty(Window.Property(Alerts))</visible>
 					</control>
 					<control type="image">

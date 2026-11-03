@@ -43,7 +43,7 @@
 						<align>center</align>
 						<onright>3013</onright>
 						<textoffsetx>10</textoffsetx>
-						<label>[CAPITALIZE]$LOCALIZE[31535][/CAPITALIZE]</label>
+						<label>[CAPITALIZE]$ADDON[skin.titan.bingie.mod 31535][/CAPITALIZE]</label>
 						<aligny>center</aligny>
 						<font>Reg34</font>
 						<textcolor>$INFO[Skin.String(BingieButtonTextColor)]</textcolor>

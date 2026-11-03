@@ -219,7 +219,7 @@
             </control>
             <control type="list" id="10">
                 <!--List ID=14-->
-				<viewtype label="31567">list</viewtype>
+				<viewtype label="$ADDON[skin.titan.bingie.mod 31567]">list</viewtype>
                 <include content="View_Forced">
                     <param name="viewtype" value="$LOCALIZE[31567]" />
                 </include>

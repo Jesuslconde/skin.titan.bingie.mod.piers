@@ -18,7 +18,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>13012</defaultID>
-		<label>320029</label>
+		<label>31186</label>
 		<label2>Kodi Command</label2>
 		<icon>common/exit1.png</icon>
 		<thumb />
@@ -26,7 +26,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>13013</defaultID>
-		<label>320030</label>
+		<label>31199</label>
 		<label2>Kodi Command</label2>
 		<icon>common/reboot1.png</icon>
 		<thumb />
@@ -34,7 +34,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>13016</defaultID>
-		<label>320031</label>
+		<label>31202</label>
 		<label2>Kodi Command</label2>
 		<icon>common/shutdown1.png</icon>
 		<thumb />

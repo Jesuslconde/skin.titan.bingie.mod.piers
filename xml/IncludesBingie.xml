@@ -469,7 +469,7 @@
             <aligny>center</aligny>
             <font>bold26</font>
             <textcolor>$INFO[Skin.String(BingieRatingInDetailsColor)]</textcolor>
-            <label>$VAR[RatingDecimalToPercentage,,% $LOCALIZE[31857]]</label>
+            <label>$VAR[RatingDecimalToPercentage,,% $ADDON[skin.titan.bingie.mod 31857]]</label>
             <include>Default_Visible_Fade</include>
         </control>
     </include>
@@ -484,7 +484,7 @@
             <aligny>center</aligny>
             <font>bold26</font>
             <textcolor>$INFO[Skin.String(BingieRatingInDetailsColor)]</textcolor>
-            <label>$VAR[RatingDecimalToPercentage,,% $LOCALIZE[31857]]</label>
+            <label>$VAR[RatingDecimalToPercentage,,% $ADDON[skin.titan.bingie.mod 31857]]</label>
             <include>Default_Visible_Fade</include>
         </control>
     </include>
@@ -499,7 +499,7 @@
             <aligny>center</aligny>
             <font>bold26</font>
             <textcolor>$INFO[Skin.String(BingieRatingInDetailsColor)]</textcolor>
-            <label>$VAR[RatingDecimalToPercentageSeasons,,% $LOCALIZE[31857]]</label>
+            <label>$VAR[RatingDecimalToPercentageSeasons,,% $ADDON[skin.titan.bingie.mod 31857]]</label>
             <include>Default_Visible_Fade</include>
         </control>
     </include>
@@ -1174,7 +1174,7 @@
                       <height>115</height>	  
 					  <bottom>0</bottom>			  
                       <width>650</width>
-                      <label>$INFO[Container(99950).ListItem.Property(Cast.1.Name),$LOCALIZE[320223] ]</label>
+                      <label>$INFO[Container(99950).ListItem.Property(Cast.1.Name),$ADDON[skin.titan.bingie.mod 31770] ]</label>
                       <textcolor>$INFO[Skin.String(BingieAdditionalInfoTextColor)]</textcolor>
                       <align>left</align>
                       <aligny>center</aligny>
@@ -1287,7 +1287,7 @@
         String.IsEqual(Window(Home).Property(LatestMovie.3.Title),ListItem.Title) | String.IsEqual(Window(Home).Property(LatestMovie.4.Title),ListItem.Title) |
         String.IsEqual(Window(Home).Property(LatestMovie.5.Title),ListItem.Title) | String.IsEqual(Window(Home).Property(LatestMovie.6.Title),ListItem.Title) |
         String.IsEqual(Window(Home).Property(LatestMovie.7.Title),ListItem.Title) | String.IsEqual(Window(Home).Property(LatestMovie.8.Title),ListItem.Title) |
-        String.IsEqual(Window(Home).Property(LatestMovie.9.Title),ListItem.Title) | String.IsEqual(Window(Home).Property(LatestMovie.10.Title),ListItem.Title)">$LOCALIZE[31837]</value>
+        String.IsEqual(Window(Home).Property(LatestMovie.9.Title),ListItem.Title) | String.IsEqual(Window(Home).Property(LatestMovie.10.Title),ListItem.Title)">$ADDON[skin.titan.bingie.mod 31837]</value>
     </variable>
 
     <!-- New TVShow -->
@@ -1302,7 +1302,7 @@
         [String.IsEqual(Window(Home).Property(LatestEpisode.4.ShowTitle),ListItem.Title) + String.IsEqual(Window(Home).Property(LatestEpisode.4.EpisodeSeason),1)] |
         [String.IsEqual(Window(Home).Property(LatestEpisode.3.ShowTitle),ListItem.Title) + String.IsEqual(Window(Home).Property(LatestEpisode.3.EpisodeSeason),1)] |
         [String.IsEqual(Window(Home).Property(LatestEpisode.2.ShowTitle),ListItem.Title) + String.IsEqual(Window(Home).Property(LatestEpisode.2.EpisodeSeason),1)] |
-        [String.IsEqual(Window(Home).Property(LatestEpisode.1.ShowTitle),ListItem.Title) + String.IsEqual(Window(Home).Property(LatestEpisode.1.EpisodeSeason),1)]">$LOCALIZE[31837]</value>
+        [String.IsEqual(Window(Home).Property(LatestEpisode.1.ShowTitle),ListItem.Title) + String.IsEqual(Window(Home).Property(LatestEpisode.1.EpisodeSeason),1)]">$ADDON[skin.titan.bingie.mod 31837]</value>
     </variable>
 
     <!-- New Episode -->
@@ -1317,7 +1317,7 @@
         [String.IsEqual(Window(Home).Property(LatestEpisode.7.EpisodeTitle),ListItem.Title) + String.IsEqual(Window(Home).Property(LatestEpisode.7.ShowTitle),ListItem.TVShowTitle)] |
         [String.IsEqual(Window(Home).Property(LatestEpisode.8.EpisodeTitle),ListItem.Title) + String.IsEqual(Window(Home).Property(LatestEpisode.8.ShowTitle),ListItem.TVShowTitle)] |
         [String.IsEqual(Window(Home).Property(LatestEpisode.9.EpisodeTitle),ListItem.Title) + String.IsEqual(Window(Home).Property(LatestEpisode.9.ShowTitle),ListItem.TVShowTitle)] |
-        [String.IsEqual(Window(Home).Property(LatestEpisode.10.EpisodeTitle),ListItem.Title) + String.IsEqual(Window(Home).Property(LatestEpisode.10.ShowTitle),ListItem.TVShowTitle)]">$LOCALIZE[31837]</value>
+        [String.IsEqual(Window(Home).Property(LatestEpisode.10.EpisodeTitle),ListItem.Title) + String.IsEqual(Window(Home).Property(LatestEpisode.10.ShowTitle),ListItem.TVShowTitle)]">$ADDON[skin.titan.bingie.mod 31837]</value>
     </variable>
 
 	<!-- Choose Year / Premiered / PVR -->
@@ -1329,12 +1329,12 @@
 	
 	<!-- Choose Music Year -->
 	<variable name="MusicYear">       
-		<value condition="[!String.IsEmpty(ListItem.Property(Artist_Formed)) | !String.IsEmpty(ListItem.Property(Artist_Disbanded))] + !String.IsEqual(ListItem.Property(Artist_Type),person)">$INFO[ListItem.Property(Artist_Formed),$LOCALIZE[31106] ]$INFO[ListItem.Property(Artist_Disbanded),  |  $LOCALIZE[31107] ]</value>
-		<value condition="[!String.IsEmpty(ListItem.Property(Artist_Born)) | !String.IsEmpty(ListItem.Property(Artist_Died))] + String.IsEqual(ListItem.Property(Artist_Type),person)">$INFO[ListItem.Property(Artist_Born),$LOCALIZE[320195] ]$INFO[ListItem.Property(Artist_Died),  |  $LOCALIZE[320196] ]</value>
+		<value condition="[!String.IsEmpty(ListItem.Property(Artist_Formed)) | !String.IsEmpty(ListItem.Property(Artist_Disbanded))] + !String.IsEqual(ListItem.Property(Artist_Type),person)">$INFO[ListItem.Property(Artist_Formed),$ADDON[skin.titan.bingie.mod 31106] ]$INFO[ListItem.Property(Artist_Disbanded),  |  $ADDON[skin.titan.bingie.mod 31107] ]</value>
+		<value condition="[!String.IsEmpty(ListItem.Property(Artist_Born)) | !String.IsEmpty(ListItem.Property(Artist_Died))] + String.IsEqual(ListItem.Property(Artist_Type),person)">$INFO[ListItem.Property(Artist_Born),$ADDON[skin.titan.bingie.mod 31693] ]$INFO[ListItem.Property(Artist_Died),  |  $ADDON[skin.titan.bingie.mod 31694] ]</value>
 	</variable>
 	
 	<variable name="MusicAlbumYear">
-		<value condition="!String.IsEmpty(ListItem.Year)">$INFO[ListItem.Year,$LOCALIZE[31108] ]</value>        
+		<value condition="!String.IsEmpty(ListItem.Year)">$INFO[ListItem.Year,$ADDON[skin.titan.bingie.mod 31108] ]</value>        
 	</variable>
 	
 	<!-- Choose Music Year -->
@@ -1344,7 +1344,7 @@
 	
 	<!-- Music Label -->
 	<variable name="MusicLabel">
-		<value condition="!String.IsEmpty(ListItem.Property(Album_Label))">$INFO[ListItem.Property(Album_Label),$LOCALIZE[31109] ]</value>        
+		<value condition="!String.IsEmpty(ListItem.Property(Album_Label))">$INFO[ListItem.Property(Album_Label),$ADDON[skin.titan.bingie.mod 31109] ]</value>        
 	</variable>
 	
 	<!-- Choose Duration Or Total Seasons/Episodes count -->
@@ -1393,12 +1393,12 @@
     <!-- Total Seasons/Episodes Info -->
     <variable name="GetTotalSeasonEpisodeCount">
         <!--normal-->
-        <value condition="Integer.IsGreater(ListItem.Property(TotalEpisodes),1) + Integer.IsGreater(ListItem.Property(TotalSeasons),1)">$INFO[ListItem.Property(TotalSeasons),, $LOCALIZE[320207]]</value>
+        <value condition="Integer.IsGreater(ListItem.Property(TotalEpisodes),1) + Integer.IsGreater(ListItem.Property(TotalSeasons),1)">$INFO[ListItem.Property(TotalSeasons),, $ADDON[skin.titan.bingie.mod 31740]]</value>
         <value condition="Integer.IsGreater(ListItem.Property(TotalEpisodes),1) + Integer.IsEqual(ListItem.Property(TotalSeasons),1)">$INFO[ListItem.Property(TotalSeasons),, $LOCALIZE[20373]]</value>
         <value condition="Integer.IsEqual(ListItem.Property(TotalEpisodes),1)">$INFO[ListItem.Property(TotalEpisodes),, $LOCALIZE[20359]]</value>
         <value condition="!String.IsEmpty(ListItem.Property(TotalEpisodes)) + Integer.IsEqual(ListItem.Property(TotalEpisodes),0)">$INFO[ListItem.Property(TotalEpisodes),, $LOCALIZE[20360]]</value>
         <!-- fallback -->
-        <value condition="$EXP[IsMainMenuOpened] + !String.IsEmpty(Window(Home).Property(ListItem.TotalEpisodes)) + Integer.IsGreater(Window(Home).Property(ListItem.TotalSeasons),1)">$INFO[Window(Home).Property(ListItem.TotalSeasons),, $LOCALIZE[320207]]</value>
+        <value condition="$EXP[IsMainMenuOpened] + !String.IsEmpty(Window(Home).Property(ListItem.TotalEpisodes)) + Integer.IsGreater(Window(Home).Property(ListItem.TotalSeasons),1)">$INFO[Window(Home).Property(ListItem.TotalSeasons),, $ADDON[skin.titan.bingie.mod 31740]]</value>
         <value condition="$EXP[IsMainMenuOpened] + Integer.IsGreater(Window(Home).Property(ListItem.TotalEpisodes),1) + Integer.IsEqual(Window(Home).Property(ListItem.TotalSeasons),1)">$INFO[Window(Home).Property(ListItem.TotalSeasons),, $LOCALIZE[20373]]</value>
         <value condition="$EXP[IsMainMenuOpened] + Integer.IsEqual(Window(Home).Property(ListItem.TotalEpisodes),1)">$INFO[Window(Home).Property(ListItem.TotalEpisodes),, $LOCALIZE[20359]]</value>
         <value condition="$EXP[IsMainMenuOpened] + Integer.IsEqual(Window(Home).Property(ListItem.TotalEpisodes),0)">$INFO[Window(Home).Property(ListItem.TotalEpisodes),, $LOCALIZE[20360]]</value>
@@ -1686,10 +1686,10 @@
 
     <!-- Bingie Sublabel - tagline/watch now/album or song/pvr -->
     <variable name="BingieSublabel">
-        <value condition="$EXP[IsTvShowDBTypeNoFallback] + $EXP[IsTVShowInLastEpisodes]">$VAR[GetNewEpisodesTVShowSeason,$LOCALIZE[31070] , $LOCALIZE[31067]]</value>
-        <value condition="$EXP[IsMainMenuOpened] + $EXP[IsTvShowDBType] + $EXP[IsTVShowInLastEpisodesBasedOnProps]">$VAR[GetNewEpisodesTVShowSeasonBasedOnProps,$LOCALIZE[31070] , $LOCALIZE[31067]]</value>
-        <value condition="$EXP[IsTvShowDBTypeNoFallback] + !String.IsEmpty(ListItem.Property(TotalSeasons)) + !Integer.IsEqual(ListItem.Property(TotalSeasons),0) + !Integer.IsEqual(ListItem.Property(TotalSeasons),1) + String.IsEqual(ListItem.Property(UnWatchedEpisodes),ListItem.Property(TotalEpisodes))">$LOCALIZE[31840]</value>
-        <value condition="$EXP[IsMainMenuOpened] + !String.IsEmpty(Window(Home).Property(ListItem.TotalSeasons)) + !Integer.IsEqual(Window(Home).Property(ListItem.TotalSeasons),0) + !Integer.IsEqual(Window(Home).Property(ListItem.TotalSeasons),1) + String.IsEqual(Window(Home).Property(ListItem.UnWatchedEpisodes),Window(Home).Property(ListItem.TotalEpisodes))">$LOCALIZE[31840]</value>
+        <value condition="$EXP[IsTvShowDBTypeNoFallback] + $EXP[IsTVShowInLastEpisodes]">$VAR[GetNewEpisodesTVShowSeason,$ADDON[skin.titan.bingie.mod 31070] , $ADDON[skin.titan.bingie.mod 31067]]</value>
+        <value condition="$EXP[IsMainMenuOpened] + $EXP[IsTvShowDBType] + $EXP[IsTVShowInLastEpisodesBasedOnProps]">$VAR[GetNewEpisodesTVShowSeasonBasedOnProps,$ADDON[skin.titan.bingie.mod 31070] , $ADDON[skin.titan.bingie.mod 31067]]</value>
+        <value condition="$EXP[IsTvShowDBTypeNoFallback] + !String.IsEmpty(ListItem.Property(TotalSeasons)) + !Integer.IsEqual(ListItem.Property(TotalSeasons),0) + !Integer.IsEqual(ListItem.Property(TotalSeasons),1) + String.IsEqual(ListItem.Property(UnWatchedEpisodes),ListItem.Property(TotalEpisodes))">$ADDON[skin.titan.bingie.mod 31840]</value>
+        <value condition="$EXP[IsMainMenuOpened] + !String.IsEmpty(Window(Home).Property(ListItem.TotalSeasons)) + !Integer.IsEqual(Window(Home).Property(ListItem.TotalSeasons),0) + !Integer.IsEqual(Window(Home).Property(ListItem.TotalSeasons),1) + String.IsEqual(Window(Home).Property(ListItem.UnWatchedEpisodes),Window(Home).Property(ListItem.TotalEpisodes))">$ADDON[skin.titan.bingie.mod 31840]</value>
 
         <value condition="[String.IsEqual(ListItem.DBTYPE,album)  | String.IsEqual(Window(Home).Property(ListItem.DBTYPE),album)]">$INFO[ListItem.Album]</value>
         <value condition="!String.IsEmpty(ListItem.Artist)">$INFO[ListItem.TrackNumber,#, ]$INFO[ListItem.Title, ","]$INFO[ListItem.Album, (,)]</value>
@@ -1730,10 +1730,10 @@
     </variable>
 
     <variable name="BingieSpotlightSublabel">
-        <value condition="String.IsEqual(Container(1508).ListItem.DBTYPE,tvshow) + Integer.IsGreater(Container(15081).NumItems,0)">$INFO[Container(15081).ListItem.Season,$LOCALIZE[31070] , $LOCALIZE[31067]]</value>  <!--removed a few [B][/B] for better control of bold use in fonts.xml instead-->
+        <value condition="String.IsEqual(Container(1508).ListItem.DBTYPE,tvshow) + Integer.IsGreater(Container(15081).NumItems,0)">$INFO[Container(15081).ListItem.Season,$ADDON[skin.titan.bingie.mod 31070] , $ADDON[skin.titan.bingie.mod 31067]]</value>  <!--removed a few [B][/B] for better control of bold use in fonts.xml instead-->
         <value condition="String.IsEqual(Container(1508).ListItem.DBTYPE,episode) + !String.IsEmpty(Container(1508).ListItem.Season) + !String.IsEmpty(Container(1508).ListItem.Episode) +
-        !String.IsEmpty(Container(1508).ListItem.Title)">$LOCALIZE[31066] [UPPERCASE]$INFO[Container(1508).ListItem.Season,$LOCALIZE[31871],]$INFO[Container(1508).ListItem.Episode,$LOCALIZE[31872],][/UPPERCASE]$INFO[Container(1508).ListItem.Title, ","] $LOCALIZE[31067]</value>
-        <value>$LOCALIZE[31841]</value>
+        !String.IsEmpty(Container(1508).ListItem.Title)">$ADDON[skin.titan.bingie.mod 31066] [UPPERCASE]$INFO[Container(1508).ListItem.Season,$ADDON[skin.titan.bingie.mod 31871],]$INFO[Container(1508).ListItem.Episode,$ADDON[skin.titan.bingie.mod 31872],][/UPPERCASE]$INFO[Container(1508).ListItem.Title, ","] $ADDON[skin.titan.bingie.mod 31067]</value>
+        <value>$ADDON[skin.titan.bingie.mod 31841]</value>
     </variable>
 
     <variable name="SpotlightTVShowEpisodesPath">
@@ -1756,8 +1756,8 @@
     <!-- Bingie More Details (pseudo-random) -->
     <variable name="BingieMoreDetails">		
         <value condition="Integer.IsLessOrEqual(System.Time(ss),15) + !String.IsEmpty(Container(99950).ListItem.Property(Awards))">$INFO[Container(99950).ListItem.Property(Awards)]</value>       
-        <value condition="Integer.IsLessOrEqual(System.Time(ss),30) + !String.IsEmpty(Container(99950).ListItem.Director) + !String.IsEmpty(Container(99950).ListItem.Property(cast.1.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.2.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.3.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.4.name)) + $EXP[IsMovieDBType]">$INFO[Container(99950).ListItem.Director,$LOCALIZE[320071] ] $LOCALIZE[320054] $INFO[Container(99950).ListItem.Property(cast.1.name)]$INFO[Container(99950).ListItem.Property(cast.2.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.3.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.4.name), $LOCALIZE[320056] ] $LOCALIZE[320193].</value>	
-		<value condition="Integer.IsLessOrEqual(System.Time(ss),30) + !String.IsEmpty(Container(99950).ListItem.Property(Network.1.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.1.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.2.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.3.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.4.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.5.name)) + !$EXP[IsMovieDBType]">$INFO[Container(99950).ListItem.Property(Network.1.name)] $LOCALIZE[320194] $INFO[Container(99950).ListItem.Property(cast.1.name)]$INFO[Container(99950).ListItem.Property(cast.2.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.3.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.4.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.5.name), $LOCALIZE[320056] ] $LOCALIZE[320193].</value>
+        <value condition="Integer.IsLessOrEqual(System.Time(ss),30) + !String.IsEmpty(Container(99950).ListItem.Director) + !String.IsEmpty(Container(99950).ListItem.Property(cast.1.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.2.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.3.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.4.name)) + $EXP[IsMovieDBType]">$INFO[Container(99950).ListItem.Director,$ADDON[skin.titan.bingie.mod 31283] ] $ADDON[skin.titan.bingie.mod 31246] $INFO[Container(99950).ListItem.Property(cast.1.name)]$INFO[Container(99950).ListItem.Property(cast.2.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.3.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.4.name), $ADDON[skin.titan.bingie.mod 31248] ] $ADDON[skin.titan.bingie.mod 31690].</value>	
+		<value condition="Integer.IsLessOrEqual(System.Time(ss),30) + !String.IsEmpty(Container(99950).ListItem.Property(Network.1.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.1.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.2.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.3.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.4.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.5.name)) + !$EXP[IsMovieDBType]">$INFO[Container(99950).ListItem.Property(Network.1.name)] $ADDON[skin.titan.bingie.mod 31691] $INFO[Container(99950).ListItem.Property(cast.1.name)]$INFO[Container(99950).ListItem.Property(cast.2.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.3.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.4.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.5.name), $ADDON[skin.titan.bingie.mod 31248] ] $ADDON[skin.titan.bingie.mod 31690].</value>
 		<value condition="Integer.IsLessOrEqual(System.Time(ss),45) + !String.IsEmpty(ListItem.Tagline)">$INFO[ListItem.Tagline]</value>
         <value condition="!String.IsEmpty(ListItem.Genre) + Integer.IsLessOrEqual(System.Time(ss),60) + !String.Contains(ListItem.Genre,unknown)">$INFO[ListItem.Genre]</value>
     </variable>
@@ -1773,8 +1773,8 @@
 	
 	<!-- Bingie More Details Spotlight(pseudo-random) -->
     <variable name="BingieMoreDetailsSpotlight">		    
-        <value condition="Integer.IsLessOrEqual(System.Time(ss),20) + !String.IsEmpty(Container(99950).ListItem.Director) + !String.IsEmpty(Container(99950).ListItem.Property(cast.1.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.2.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.3.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.4.name)) + $EXP[IsMovieDBType]">$INFO[Container(99950).ListItem.Director,$LOCALIZE[320071] ] $LOCALIZE[320054] $INFO[Container(99950).ListItem.Property(cast.1.name)]$INFO[Container(99950).ListItem.Property(cast.2.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.3.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.4.name), $LOCALIZE[320056] ] $LOCALIZE[320193].</value>	
-		<value condition="Integer.IsLessOrEqual(System.Time(ss),20) + !String.IsEmpty(Container(99950).ListItem.Property(Network.1.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.1.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.2.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.3.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.4.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.5.name)) + !$EXP[IsMovieDBType]">$INFO[Container(99950).ListItem.Property(Network.1.name)] $LOCALIZE[320194] $INFO[Container(99950).ListItem.Property(cast.1.name)]$INFO[Container(99950).ListItem.Property(cast.2.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.3.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.4.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.5.name), $LOCALIZE[320056] ] $LOCALIZE[320193].</value>
+        <value condition="Integer.IsLessOrEqual(System.Time(ss),20) + !String.IsEmpty(Container(99950).ListItem.Director) + !String.IsEmpty(Container(99950).ListItem.Property(cast.1.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.2.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.3.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.4.name)) + $EXP[IsMovieDBType]">$INFO[Container(99950).ListItem.Director,$ADDON[skin.titan.bingie.mod 31283] ] $ADDON[skin.titan.bingie.mod 31246] $INFO[Container(99950).ListItem.Property(cast.1.name)]$INFO[Container(99950).ListItem.Property(cast.2.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.3.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.4.name), $ADDON[skin.titan.bingie.mod 31248] ] $ADDON[skin.titan.bingie.mod 31690].</value>	
+		<value condition="Integer.IsLessOrEqual(System.Time(ss),20) + !String.IsEmpty(Container(99950).ListItem.Property(Network.1.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.1.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.2.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.3.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.4.name)) + !String.IsEmpty(Container(99950).ListItem.Property(cast.5.name)) + !$EXP[IsMovieDBType]">$INFO[Container(99950).ListItem.Property(Network.1.name)] $ADDON[skin.titan.bingie.mod 31691] $INFO[Container(99950).ListItem.Property(cast.1.name)]$INFO[Container(99950).ListItem.Property(cast.2.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.3.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.4.name),$COMMA ,]$INFO[Container(99950).ListItem.Property(cast.5.name), $ADDON[skin.titan.bingie.mod 31248] ] $ADDON[skin.titan.bingie.mod 31690].</value>
 		<value condition="Integer.IsLessOrEqual(System.Time(ss),40) + !String.IsEmpty(ListItem.Tagline)">$INFO[ListItem.Tagline]</value>
         <value condition="!String.IsEmpty(ListItem.Genre) + Integer.IsLessOrEqual(System.Time(ss),60) + !String.Contains(ListItem.Genre,unknown)">$INFO[ListItem.Genre]</value>
     </variable>
@@ -1895,15 +1895,15 @@
 
     <!-- Profile Name for Widgets 'For You' -->
     <variable name="ForCurrentProfileNameLabel">
-        <value condition="!String.IsEqual(System.ProfileName,Master user)">$INFO[System.ProfileName,$LOCALIZE[31862] ,]</value>
-        <value>$LOCALIZE[31863]</value>
+        <value condition="!String.IsEqual(System.ProfileName,Master user)">$INFO[System.ProfileName,$ADDON[skin.titan.bingie.mod 31862] ,]</value>
+        <value>$ADDON[skin.titan.bingie.mod 31863]</value>
     </variable>
 
     <!-- Welcome Notification Message -->
     <variable name="WelcomeNotificationMsg">
-        <value condition="!Skin.HasSetting(BingieFirstStartupDone) | !Skin.HasSetting(BingieSecondStartupDone)">[B]$LOCALIZE[320018][/B]</value>
-        <value condition="!String.IsEqual(System.ProfileName,Master user)">$INFO[System.ProfileName,$LOCALIZE[31858][CR][B],[/B]]</value>
-        <value>$INFO[System.ProfileName,$LOCALIZE[31858][CR][B],[/B]]</value>
+        <value condition="!Skin.HasSetting(BingieFirstStartupDone) | !Skin.HasSetting(BingieSecondStartupDone)">[B]$ADDON[skin.titan.bingie.mod 31153][/B]</value>
+        <value condition="!String.IsEqual(System.ProfileName,Master user)">$INFO[System.ProfileName,$ADDON[skin.titan.bingie.mod 31858][CR][B],[/B]]</value>
+        <value>$INFO[System.ProfileName,$ADDON[skin.titan.bingie.mod 31858][CR][B],[/B]]</value>
     </variable>
     
 	<!-- Bingie Genre Icon Variable List -->
@@ -2037,7 +2037,7 @@
 					</control>
 					<!-- "Switch Profile" TEXT -->   				
 					<control type="label">
-                        <label>[CR]$LOCALIZE[31839]</label>
+                        <label>[CR]$ADDON[skin.titan.bingie.mod 31839]</label>
 						<top>-3</top>
 						<posx>1</posx>
                         <textoffsetx>130</textoffsetx>
@@ -2820,7 +2820,7 @@
                     <height>60</height>
                     <aligny>top</aligny>
                     <width>420</width>
-                    <label>[B]$LOCALIZE[31185]...[/B]</label>
+                    <label>[B]$ADDON[skin.titan.bingie.mod 31185]...[/B]</label>
                     <font>Light22</font>
                     <textcolor>$INFO[Skin.String(BingieHeaderTextColor)]</textcolor>
                 </control>
@@ -2868,7 +2868,7 @@
                     <textcolor>$VAR[SpotlightInfoTextButtonColor]</textcolor>
                     <texturenofocus colordiffuse="$VAR[SpotlightInfoButtonColor]" border="10">diffuse/panel-spot.png</texturenofocus>
 					<font>Reg30</font>
-                    <label>[B]$LOCALIZE[31838][/B]</label>
+                    <label>[B]$ADDON[skin.titan.bingie.mod 31838][/B]</label>
                 </control>
             </control>
 			<control type="image">
@@ -3356,7 +3356,7 @@
                                 <width>450</width>
                                 <font>Reg26</font>
                                 <textcolor>$INFO[Skin.String(BingieHomeProgressBarTextColor)]</textcolor>
-                                <label>$VAR[PercentRemained,,% $LOCALIZE[31059]]</label>
+                                <label>$VAR[PercentRemained,,% $ADDON[skin.titan.bingie.mod 31059]]</label>
                             </control>
                         </control>
 
@@ -3409,7 +3409,7 @@
 						<visible>!Skin.HasSetting(DisableTop250)</visible>
 						<font>bold29</font> 
 						<textcolor>$INFO[Skin.String(BingieSubLabelTextColor)]</textcolor> 
-						<label>$VAR[IMDBTop250RatingValue,#, $LOCALIZE[320157]]</label>
+						<label>$VAR[IMDBTop250RatingValue,#, $ADDON[skin.titan.bingie.mod 31595]]</label>
 						<include>Default_Visible_Fade</include>
 					</control>
 							
@@ -3487,9 +3487,9 @@
         <value condition="String.IsEqual(Container.FolderPath, videodb://tvshows/genres/)">[CAPITALIZE]$LOCALIZE[36903]$LOCALIZE[135, - ,][/CAPITALIZE]</value>
         <value condition="String.IsEqual(Container.FolderPath, videodb://movies/genres/)">[CAPITALIZE]$LOCALIZE[36901]$LOCALIZE[135, - ,][/CAPITALIZE]</value>
         <value condition="String.IsEqual(Container.FolderPath, videodb://movies/sets/)">[CAPITALIZE]$LOCALIZE[20434][/CAPITALIZE]</value>
-        <value condition="String.IsEqual(Container.FolderPath, special://skin/playlists/topratedshows.xsp)">[CAPITALIZE]$LOCALIZE[31098][/CAPITALIZE]</value>
-        <value condition="String.IsEqual(Container.FolderPath, special://skin/playlists/topratedmovies.xsp)">[CAPITALIZE]$LOCALIZE[31532][/CAPITALIZE]</value>
-        <value condition="String.IsEqual(Container.FolderPath, special://skin/extras/widgetplaylists/inprogressmovies.xsp)">[CAPITALIZE]$LOCALIZE[31035][/CAPITALIZE]</value>
+        <value condition="String.IsEqual(Container.FolderPath, special://skin/playlists/topratedshows.xsp)">[CAPITALIZE]$ADDON[skin.titan.bingie.mod 31098][/CAPITALIZE]</value>
+        <value condition="String.IsEqual(Container.FolderPath, special://skin/playlists/topratedmovies.xsp)">[CAPITALIZE]$ADDON[skin.titan.bingie.mod 31532][/CAPITALIZE]</value>
+        <value condition="String.IsEqual(Container.FolderPath, special://skin/extras/widgetplaylists/inprogressmovies.xsp)">[CAPITALIZE]$ADDON[skin.titan.bingie.mod 31035][/CAPITALIZE]</value>
         <value condition="String.IsEqual(Container.FolderPath, special://skin/extras/widgetplaylists/unwatchedmovies.xsp)">[CAPITALIZE]$LOCALIZE[16101][/CAPITALIZE]</value>
         <!-- skin helper widgets -->
         <value condition="String.StartsWith(Container.FolderPath, plugin://script.skin.helper.widgets/?action=inprogress&amp;mediatype=movies)">[CAPITALIZE]$ADDON[script.skin.helper.widgets 32028][/CAPITALIZE]</value>
@@ -4581,9 +4581,9 @@
 	</include>
 	
 	<variable name="HubNames">
-        <value condition="Window.IsActive(1110)">$LOCALIZE[320011]</value>
+        <value condition="Window.IsActive(1110)">$ADDON[skin.titan.bingie.mod 31145]</value>
         <value condition="Window.IsActive(1111)">$LOCALIZE[342]</value>
-		<value condition="Window.IsActive(1114)">$LOCALIZE[31534]</value>
+		<value condition="Window.IsActive(1114)">$ADDON[skin.titan.bingie.mod 31534]</value>
 		<value condition="Window.IsActive(1115)">$INFO[Skin.String(mycustom.label)]</value>
     </variable>
 	

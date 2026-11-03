@@ -491,7 +491,7 @@
 								<textoffsetx>52</textoffsetx>
 								<textoffsety>6</textoffsety>
 								<textwidth>163</textwidth>								
-                                <label>$LOCALIZE[208]$INFO[ListItem.Season, $LOCALIZE[31871],]$INFO[ListItem.Episode,: $LOCALIZE[31872],]</label>
+                                <label>$LOCALIZE[208]$INFO[ListItem.Season, $ADDON[skin.titan.bingie.mod 31871],]$INFO[ListItem.Episode,: $ADDON[skin.titan.bingie.mod 31872],]</label>
                                 <radioposx>13</radioposx>
                                 <radiowidth>22</radiowidth>
                                 <radioheight>22</radioheight>
@@ -525,7 +525,7 @@
 								<textoffsetx>52</textoffsetx>
 								<textoffsety>6</textoffsety>
 								<textwidth>163</textwidth>											
-                                <label>$LOCALIZE[13404]$INFO[ListItem.Season, $LOCALIZE[31871],: ]$INFO[ListItem.Episode,$LOCALIZE[31872],]</label>
+                                <label>$LOCALIZE[13404]$INFO[ListItem.Season, $ADDON[skin.titan.bingie.mod 31871],: ]$INFO[ListItem.Episode,$ADDON[skin.titan.bingie.mod 31872],]</label>
                                 <radioposx>13</radioposx>
                                 <radiowidth>22</radiowidth>
                                 <radioheight>22</radioheight>
@@ -559,7 +559,7 @@
 								<align>left</align>
 								<textoffsetx>57</textoffsetx>
 								<textoffsety>6</textoffsety>	
-                                <label>31867</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31867]</label>
                                 <radioposx>15</radioposx>
                                 <radiowidth>24</radiowidth>
                                 <radioheight>24</radioheight>
@@ -599,7 +599,7 @@
 								<disabledcolor>ffaaaaaa</disabledcolor>
 								<texturefocus>-</texturefocus>
 								<texturenofocus>-</texturenofocus>
-                                <label>31523</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31523]</label>
 								<height>50</height>
 								<width>220</width>
 								<aligny>top</aligny>
@@ -642,13 +642,13 @@
 								<height>50</height>
 								<width>220</width>	
 								<textwidth>159</textwidth>			
-                                <label>$LOCALIZE[320005]</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31094]</label>
                                 <radioposx>13</radioposx>
                                 <radiowidth>24</radiowidth>
                                 <radioheight>24</radioheight>
 								<onfocus>SetProperty(Path.Similar,"$VAR[Path_Similar]")</onfocus>
                                 <onclick>SetProperty(AdditionalInfo, similar)</onclick>
-                                <onclick>SetProperty(subtitle, $LOCALIZE[320005])</onclick>
+                                <onclick>SetProperty(subtitle, $ADDON[skin.titan.bingie.mod 31094])</onclick>
                                 <onclick>SetFocus(352)</onclick>
                             </control> 
 
@@ -667,7 +667,7 @@
 								<disabledcolor>ffaaaaaa</disabledcolor>
 								<texturefocus>-</texturefocus>
 								<texturenofocus>-</texturenofocus>
-                                <label>31534</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31534]</label>
                              	<height>50</height>
 								<width>220</width>	
 								<textwidth>161</textwidth>			
@@ -696,7 +696,7 @@
 								<disabledcolor>ffaaaaaa</disabledcolor>
 								<texturefocus>-</texturefocus>
 								<texturenofocus>-</texturenofocus>
-                                <label>31534</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31534]</label>
 								<height>50</height>
 								<width>220</width>								
                                 <aligny>top</aligny>
@@ -724,7 +724,7 @@
 								<disabledcolor>ffaaaaaa</disabledcolor>
 								<texturefocus>-</texturefocus>
 								<texturenofocus>-</texturenofocus>
-                                <label>320221</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31763]</label>
                              	<height>50</height>
 								<width>220</width>	
 								<textwidth>161</textwidth>			
@@ -752,7 +752,7 @@
 								<disabledcolor>ffaaaaaa</disabledcolor>
 								<texturefocus>-</texturefocus>
 								<texturenofocus>-</texturenofocus>
-                                <label>320217</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31759]</label>
                              	<height>50</height>
 								<width>220</width>	
 								<textwidth>161</textwidth>			
@@ -778,7 +778,7 @@
 								<disabledcolor>ffaaaaaa</disabledcolor>
 								<texturefocus>-</texturefocus>
 								<texturenofocus>-</texturenofocus>
-                                <label>$LOCALIZE[31838]</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31838]</label>
 								<height>50</height>
 								<width>220</width>	
 								<textwidth>174</textwidth>			
@@ -790,7 +790,7 @@
                                 <radiowidth>24</radiowidth>
                                 <radioheight>24</radioheight>
 								<onclick>SetProperty(AdditionalInfo, cast)</onclick>
-                                <onclick>SetProperty(subtitle, $LOCALIZE[320067])</onclick>
+                                <onclick>SetProperty(subtitle, $ADDON[skin.titan.bingie.mod 31279])</onclick>
                                 <onclick>SetFocus(8999,0)</onclick>	
 							</control>						
 							
@@ -813,7 +813,7 @@
 								<textoffsetx>57</textoffsetx>
 								<textoffsety>6</textoffsety>	
 								<textwidth>158</textwidth>			
-								<label>31054</label>
+								<label>$ADDON[skin.titan.bingie.mod 31054]</label>
 								<radioposx>15</radioposx>
 								<radiowidth>25</radiowidth>
 								<radioheight>25</radioheight>								
@@ -842,7 +842,7 @@
 								<textoffsetx>57</textoffsetx>
 								<textoffsety>6</textoffsety>	
 								<textwidth>158</textwidth>			
-								<label>31054</label>
+								<label>$ADDON[skin.titan.bingie.mod 31054]</label>
 								<radioposx>15</radioposx>
 								<radiowidth>25</radiowidth>
 								<radioheight>25</radioheight>								
@@ -867,7 +867,7 @@
 								<textoffsetx>57</textoffsetx>
 								<textoffsety>6</textoffsety>	
 								<textwidth>158</textwidth>			
-								<label>31054</label>
+								<label>$ADDON[skin.titan.bingie.mod 31054]</label>
 								<radioposx>15</radioposx>
 								<radiowidth>25</radiowidth>
 								<radioheight>25</radioheight>
@@ -979,68 +979,68 @@
 			<control type="button">
                 <visible>false</visible>
                 <onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[206])">SetProperty(Path.Cast,"$VAR[Path_Cast]")</onfocus>
-				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31089])">SetProperty(Path.Crew,"$VAR[Path_Crew]")</onfocus>
-				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320069])">SetProperty(Path.Recommendations,"$VAR[Path_Recommendations]")</onfocus>
-				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320077])">SetProperty(Path.FromYear,"$VAR[Path_FromYear]")</onfocus>
-				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320068])">SetProperty(Path.FromGenre,"$VAR[Path_FromGenre]")</onfocus>
-				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320074]) | String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320075])">SetProperty(Path.FromStudio,"$VAR[Path_FromStudio]")</onfocus>
-				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320070])">SetProperty(Path.FromDirector,"$VAR[Path_FromDirector]")</onfocus>
-				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320089])">SetProperty(Path.FromWriter,"$VAR[Path_FromWriter]")</onfocus>
-				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320079])">SetProperty(Path.FromCreator,"$VAR[Path_FromCreator]")</onfocus>
-				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320070])">SetProperty(Director,$VAR[Path_FromDirector_Name])</onfocus>
-				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320089])">SetProperty(Writer,$VAR[Path_FromWriter_Screenplay])</onfocus>
-				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320079])">SetProperty(Creator,$VAR[Path_FromCreator_Name])</onfocus>
+				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31089])">SetProperty(Path.Crew,"$VAR[Path_Crew]")</onfocus>
+				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31281])">SetProperty(Path.Recommendations,"$VAR[Path_Recommendations]")</onfocus>
+				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31299])">SetProperty(Path.FromYear,"$VAR[Path_FromYear]")</onfocus>
+				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31280])">SetProperty(Path.FromGenre,"$VAR[Path_FromGenre]")</onfocus>
+				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31294]) | String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31297])">SetProperty(Path.FromStudio,"$VAR[Path_FromStudio]")</onfocus>
+				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31282])">SetProperty(Path.FromDirector,"$VAR[Path_FromDirector]")</onfocus>
+				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31324])">SetProperty(Path.FromWriter,"$VAR[Path_FromWriter]")</onfocus>
+				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31306])">SetProperty(Path.FromCreator,"$VAR[Path_FromCreator]")</onfocus>
+				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31282])">SetProperty(Director,$VAR[Path_FromDirector_Name])</onfocus>
+				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31324])">SetProperty(Writer,$VAR[Path_FromWriter_Screenplay])</onfocus>
+				<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31306])">SetProperty(Creator,$VAR[Path_FromCreator_Name])</onfocus>
             </control>
         </focusedlayout>
         <content>
 		  
 			<item id="2">
-				<label>$LOCALIZE[31089]</label> <!-- Crew -->
+				<label>$ADDON[skin.titan.bingie.mod 31089]</label> <!-- Crew -->
 				<visible>Skin.HasSetting(more_info_buttons_crew)</visible>
 			</item>
 			
 			<item id="5">
-				<label>$LOCALIZE[320070]</label> <!-- Director -->
+				<label>$ADDON[skin.titan.bingie.mod 31282]</label> <!-- Director -->
 				<visible>String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,episode)</visible>
 				<visible>Skin.HasSetting(more_info_buttons_director)</visible>
 			</item>
 
 			<item id="6">
-				<label>$LOCALIZE[320089]</label> <!-- Writter -->
+				<label>$ADDON[skin.titan.bingie.mod 31324]</label> <!-- Writter -->
 				<visible>String.IsEqual(ListItem.DBType,movie)</visible>
 				<visible>Skin.HasSetting(more_info_buttons_writer)</visible>
 			</item>	
 
 			<item id="9">
-				<label>$LOCALIZE[320079]</label> <!-- Creator -->
+				<label>$ADDON[skin.titan.bingie.mod 31306]</label> <!-- Creator -->
 				<visible>String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,episode)</visible>
 				<visible>Skin.HasSetting(more_info_buttons_creator)</visible>
 			</item>	
 
 			<item id="7">
-				<label>$LOCALIZE[320074]</label> <!-- Studio -->
+				<label>$ADDON[skin.titan.bingie.mod 31294]</label> <!-- Studio -->
 				<visible>String.IsEqual(ListItem.DBType,movie)</visible>
 				<visible>Skin.HasSetting(more_info_buttons_studio)</visible>
 			</item>	
 
 			<item id="10">
-				<label>$LOCALIZE[320075]</label> <!-- Network -->
+				<label>$ADDON[skin.titan.bingie.mod 31297]</label> <!-- Network -->
 				<visible>String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,episode)</visible>
 				<visible>Skin.HasSetting(more_info_buttons_network)</visible>
 			</item>
 
 			<item id="3">
-				<label>$LOCALIZE[320068]</label> <!-- Genre -->
+				<label>$ADDON[skin.titan.bingie.mod 31280]</label> <!-- Genre -->
 				<visible>Skin.HasSetting(more_info_buttons_genre)</visible>
 			</item>		
 			
 			<item id="8">
-				<label>$LOCALIZE[320077]</label> <!-- Year -->
+				<label>$ADDON[skin.titan.bingie.mod 31299]</label> <!-- Year -->
 				<visible>Skin.HasSetting(more_info_buttons_year)</visible>
 			</item>			
 			  
 			<item id="4">
-				<label>$LOCALIZE[320069]</label> <!-- Recommended -->
+				<label>$ADDON[skin.titan.bingie.mod 31281]</label> <!-- Recommended -->
 				<visible>Skin.HasSetting(more_info_buttons_recommended)</visible>
 			</item>			
 
@@ -1074,7 +1074,7 @@
 		<include content="InfoResultWidgetPoster3">
           <param name="id" value="53002" />
 		  <param name="groupid" value="530022" />
-          <param name="label" value="$LOCALIZE[31089]" />
+          <param name="label" value="$ADDON[skin.titan.bingie.mod 31089]" />
           <param name="content" value="$INFO[Window.Property(Path.Crew)]" />
           <param name="orientation" value="horizontal" />
 		  <param name="widgetTags" value="WidgetTagOverlayEnable" />
@@ -1089,7 +1089,7 @@
 		<include content="InfoResultWidgetPoster3">
           <param name="id" value="53005" />
 		  <param name="groupid" value="530055" />
-          <param name="label" value="$INFO[Window.Property(Director),$LOCALIZE[320071] ,]" />
+          <param name="label" value="$INFO[Window.Property(Director),$ADDON[skin.titan.bingie.mod 31283] ,]" />
           <param name="content" value="$INFO[Window.Property(Path.FromDirector)]" />
           <param name="orientation" value="horizontal" />
 		  <param name="widgetTags" value="WidgetTagOverlayEnable" />
@@ -1097,14 +1097,14 @@
 		  <param name="layoutwidth" value="240" />
           <param name="layoutheight" value="330" />
 		  <param name="layout">PosterPanelBingie</param>
-          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320070])" /> <!-- Director -->
+          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31282])" /> <!-- Director -->
 		  <onfocus>SetProperty(TMDbHelper.WidgetContainer,53005,Home)</onfocus>
         </include>
 		
 		<include content="InfoResultWidgetPoster3">
           <param name="id" value="53007" />
 		  <param name="groupid" value="530077" />
-          <param name="label" value="$INFO[Window.Property(Writer),$LOCALIZE[320072] ,]" />
+          <param name="label" value="$INFO[Window.Property(Writer),$ADDON[skin.titan.bingie.mod 31284] ,]" />
           <param name="content" value="$INFO[Window.Property(Path.FromWriter)]" />
           <param name="orientation" value="horizontal" />
 		  <param name="widgetTags" value="WidgetTagOverlayEnable" />
@@ -1112,14 +1112,14 @@
 		  <param name="layoutwidth" value="240" />
           <param name="layoutheight" value="330" />
 		  <param name="layout">PosterPanelBingie</param>
-          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320089])" /> <!-- Writer -->
+          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31324])" /> <!-- Writer -->
 		  <onfocus>SetProperty(TMDbHelper.WidgetContainer,53007,Home)</onfocus>
         </include>
 		
 		<include content="InfoResultWidgetPoster3">
           <param name="id" value="53009" />
 		  <param name="groupid" value="530099" />
-          <param name="label" value="$INFO[Window.Property(Creator),$LOCALIZE[320080] ,]" />
+          <param name="label" value="$INFO[Window.Property(Creator),$ADDON[skin.titan.bingie.mod 31310] ,]" />
           <param name="content" value="$INFO[Window.Property(Path.FromCreator)]" />
           <param name="orientation" value="horizontal" />
 		  <param name="widgetTags" value="WidgetTagOverlayEnable" />
@@ -1127,7 +1127,7 @@
 		  <param name="layoutwidth" value="240" />
           <param name="layoutheight" value="330" />
 		  <param name="layout">PosterPanelBingie</param>
-          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320079])" /> <!-- Creator -->
+          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31306])" /> <!-- Creator -->
 		  <onfocus>SetProperty(TMDbHelper.WidgetContainer,53009,Home)</onfocus>
         </include>
 		
@@ -1142,7 +1142,7 @@
 		  <param name="layoutwidth" value="240" />
           <param name="layoutheight" value="330" />
 		  <param name="layout">PosterPanelBingie</param>
-          <param name="visible" value="[String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320074]) | String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320075])]" /> <!-- Studio -->
+          <param name="visible" value="[String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31294]) | String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31297])]" /> <!-- Studio -->
 		  <onfocus>SetProperty(TMDbHelper.WidgetContainer,53008,Home)</onfocus>
         </include>
 		
@@ -1157,14 +1157,14 @@
 		  <param name="layoutwidth" value="240" />
           <param name="layoutheight" value="330" />
 		  <param name="layout">PosterPanelBingie</param>
-          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320068])" /> <!-- Genre -->
+          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31280])" /> <!-- Genre -->
 		  <onfocus>SetProperty(TMDbHelper.WidgetContainer,53003,Home)</onfocus>
         </include>
 		
 		<include content="InfoResultWidgetPoster3">
           <param name="id" value="53006" />
 		  <param name="groupid" value="530066" />
-          <param name="label" value="$INFO[ListItem.Year,$LOCALIZE[320076] ,]" />
+          <param name="label" value="$INFO[ListItem.Year,$ADDON[skin.titan.bingie.mod 31298] ,]" />
           <param name="content" value="$INFO[Window.Property(Path.FromYear)]" />
           <param name="orientation" value="horizontal" />
 		  <param name="widgetTags" value="WidgetTagOverlayEnable" />
@@ -1172,14 +1172,14 @@
 		  <param name="layoutwidth" value="240" />
           <param name="layoutheight" value="330" />
 		  <param name="layout">PosterPanelBingie</param>
-          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320077])" /> <!-- Year -->
+          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31299])" /> <!-- Year -->
 		  <onfocus>SetProperty(TMDbHelper.WidgetContainer,53006,Home)</onfocus>
         </include>
 		
 		<include content="InfoResultWidgetPoster3">
           <param name="id" value="53004" />
 		  <param name="groupid" value="530044" />
-          <param name="label" value="$LOCALIZE[320073]" />
+          <param name="label" value="$ADDON[skin.titan.bingie.mod 31292]" />
           <param name="content" value="$INFO[Window.Property(Path.Recommendations)]" />
           <param name="orientation" value="horizontal" />
 		  <param name="widgetTags" value="WidgetTagOverlayEnable" />
@@ -1187,7 +1187,7 @@
 		  <param name="layoutwidth" value="240" />
           <param name="layoutheight" value="330" />
 		  <param name="layout">PosterPanelBingie</param>
-          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320069])" /> <!-- Recommended -->
+          <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31281])" /> <!-- Recommended -->
 		  <onfocus>SetProperty(TMDbHelper.WidgetContainer,53004,Home)</onfocus>
         </include>	    
 	</control>
@@ -1200,20 +1200,20 @@
             <align>center</align>
             <wrapmultiline>true</wrapmultiline>
             <textcolor>$INFO[Skin.String(BingiePrimaryTextColor)]</textcolor>
-            <label>$LOCALIZE[31558]</label>
-            <visible>String.IsEqual(Window.Property(AdditionalInfo),cast) + [[!Container(53001).IsUpdating + !Integer.IsGreater(Container(53001).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[206])] | [!Container(53002).IsUpdating + !Integer.IsGreater(Container(53002).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31089])] | [!Container(53003).IsUpdating + !Integer.IsGreater(Container(53003).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320068])] | [!Container(53004).IsUpdating + !Integer.IsGreater(Container(53004).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320069])] | 
-					 [!Container(53005).IsUpdating + !Integer.IsGreater(Container(53005).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320070])] | [!Container(53006).IsUpdating + !Integer.IsGreater(Container(53006).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320077])] | [!Container(53007).IsUpdating + !Integer.IsGreater(Container(53007).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320089])] | [!Container(53008).IsUpdating + !Integer.IsGreater(Container(53008).NumItems,0) + [String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320075]) | String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320074])]] |
-					 [!Container(53009).IsUpdating + !Integer.IsGreater(Container(53009).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320079])] | [!Container(53010).IsUpdating + !Integer.IsGreater(Container(53010).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320081])] | [!Container(53011).IsUpdating + !Integer.IsGreater(Container(53011).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31797])]] + !Player.HasVideo | [!Container(50).IsUpdating + !Integer.IsGreater(Container(50).NumItems,0) + !Player.HasVideo] | [!Container(352).IsUpdating + !Integer.IsGreater(Container(352).NumItems,0) + String.IsEqual(Window.Property(AdditionalInfo),similar) + !Player.HasVideo]</visible>
+            <label>$ADDON[skin.titan.bingie.mod 31558]</label>
+            <visible>String.IsEqual(Window.Property(AdditionalInfo),cast) + [[!Container(53001).IsUpdating + !Integer.IsGreater(Container(53001).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[206])] | [!Container(53002).IsUpdating + !Integer.IsGreater(Container(53002).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31089])] | [!Container(53003).IsUpdating + !Integer.IsGreater(Container(53003).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31280])] | [!Container(53004).IsUpdating + !Integer.IsGreater(Container(53004).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31281])] | 
+					 [!Container(53005).IsUpdating + !Integer.IsGreater(Container(53005).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31282])] | [!Container(53006).IsUpdating + !Integer.IsGreater(Container(53006).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31299])] | [!Container(53007).IsUpdating + !Integer.IsGreater(Container(53007).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31324])] | [!Container(53008).IsUpdating + !Integer.IsGreater(Container(53008).NumItems,0) + [String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31297]) | String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31294])]] |
+					 [!Container(53009).IsUpdating + !Integer.IsGreater(Container(53009).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31306])] | [!Container(53010).IsUpdating + !Integer.IsGreater(Container(53010).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31311])] | [!Container(53011).IsUpdating + !Integer.IsGreater(Container(53011).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31797])]] + !Player.HasVideo | [!Container(50).IsUpdating + !Integer.IsGreater(Container(50).NumItems,0) + !Player.HasVideo] | [!Container(352).IsUpdating + !Integer.IsGreater(Container(352).NumItems,0) + String.IsEqual(Window.Property(AdditionalInfo),similar) + !Player.HasVideo]</visible>
         </control>
 			
 		<control type="group">
 			<animation effect="fade" start="0" end="100" time="300" delay="200">WindowOpen</animation>
 			<animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
 			<control type="group">
-			<visible>[Container(50).IsUpdating + !String.IsEqual(Window.Property(AdditionalInfo),similar) + !Player.HasVideo] | [Container(352).IsUpdating + String.IsEqual(Window.Property(AdditionalInfo),similar) + !Player.HasVideo] | String.IsEqual(Window.Property(AdditionalInfo),cast) + [[Container(53001).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[206])] | [Container(53002).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31089])] | [Container(53003).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320068])] |
-			[Container(53004).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320069])] | [Container(53005).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320070])] | [Container(53006).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320077])] |
-			[Container(53007).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320089])] | [Container(53008).IsUpdating + [[String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320074])] | String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320075])]] | [Container(53009).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320079])] | 
-			[Container(53010).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320081])] | [Container(53011).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31797])]] + !Player.HasVideo</visible>
+			<visible>[Container(50).IsUpdating + !String.IsEqual(Window.Property(AdditionalInfo),similar) + !Player.HasVideo] | [Container(352).IsUpdating + String.IsEqual(Window.Property(AdditionalInfo),similar) + !Player.HasVideo] | String.IsEqual(Window.Property(AdditionalInfo),cast) + [[Container(53001).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[206])] | [Container(53002).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31089])] | [Container(53003).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31280])] |
+			[Container(53004).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31281])] | [Container(53005).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31282])] | [Container(53006).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31299])] |
+			[Container(53007).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31324])] | [Container(53008).IsUpdating + [[String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31294])] | String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31297])]] | [Container(53009).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31306])] | 
+			[Container(53010).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31311])] | [Container(53011).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31797])]] + !Player.HasVideo</visible>
 			<centerleft>50%</centerleft>
 			<width>1920</width>
 			<bottom>0</bottom>
@@ -1225,7 +1225,7 @@
 					<width>87%</width>
 					<height>120</height>
 					<align>left</align>
-					<label>$LOCALIZE[320212]</label>
+					<label>$ADDON[skin.titan.bingie.mod 31754]</label>
 					<font>reg40</font>
 					<textcolor>$INFO[Skin.String(BingiePrimaryTextColor)]</textcolor>
 					<scroll>true</scroll>
@@ -1804,7 +1804,7 @@
                                 <include content="Bingie_InfoDialog_Button_Texture">
                                     <param name="radiotexture" value="dialogs/videoinfo/info/play2.png"/>
                                 </include>
-                                <label>$LOCALIZE[13404]$INFO[ListItem.Season, $LOCALIZE[31871],: ]$INFO[ListItem.Episode,$LOCALIZE[31873]. ,]</label>
+                                <label>$LOCALIZE[13404]$INFO[ListItem.Season, $ADDON[skin.titan.bingie.mod 31871],: ]$INFO[ListItem.Episode,$ADDON[skin.titan.bingie.mod 31873]. ,]</label>
                                 <radioposx>17</radioposx>
                                 <radiowidth>22</radiowidth>
                                 <radioheight>22</radioheight>
@@ -1828,7 +1828,7 @@
                                 <include content="Bingie_InfoDialog_Button_Texture">
                                     <param name="radiotexture" value="dialogs/videoinfo/info/play_beginning.png"/>
                                 </include>
-                                <label>$LOCALIZE[320000]</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31000]</label>
                                 <radioposx>17</radioposx>
                                 <radiowidth>22</radiowidth>
                                 <radioheight>22</radioheight>
@@ -1883,7 +1883,7 @@
                                 <include content="Bingie_InfoDialog_Button_Texture">
                                     <param name="radiotexture" value="dialogs/videoinfo/info/more_episodes.png"/>
                                 </include>
-                                <label>$LOCALIZE[31853]</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31853]</label>
 								<radioposy>22</radioposy>
                                 <radioposx>16</radioposx>
                                 <radiowidth>24</radiowidth>
@@ -1919,7 +1919,7 @@
                                 <include content="Bingie_InfoDialog_Button_Texture">
                                     <param name="radiotexture" value="dialogs/videoinfo/info/play2.png"/>
                                 </include>
-                                <label>$LOCALIZE[31868]</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31868]</label>
 								<radioposx>17</radioposx>
                                 <radiowidth>22</radiowidth>
                                 <radioheight>22</radioheight>
@@ -1944,7 +1944,7 @@
                                 <include content="Bingie_InfoDialog_Button_Texture">
                                     <param name="radiotexture" value="dialogs/videoinfo/tvstudio-icon.png"/>
                                 </include>
-                                <label>$LOCALIZE[320192]</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31689]</label>
 								<radioposy>17</radioposy>
                                 <radioposx>13</radioposx>
                                 <radiowidth>27</radiowidth>
@@ -1966,7 +1966,7 @@
                                 <include content="Bingie_InfoDialog_Button_Texture">
                                     <param name="radiotexture" value="dialogs/videoinfo/info/plus.png"/>
                                 </include>
-                                <label>$LOCALIZE[31869]</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31869]</label>
                                 <radioposx>17</radioposx>
                                 <radiowidth>22</radiowidth>
                                 <radioheight>22</radioheight>
@@ -1984,7 +1984,7 @@
                                 <include content="Bingie_InfoDialog_Button_Texture">
                                     <param name="radiotexture" value="dialogs/videoinfo/info/minus.png"/>
                                 </include>
-                                <label>$LOCALIZE[31870]</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31870]</label>
                                 <radioposx>17</radioposx>
                                 <radiowidth>22</radiowidth>
                                 <radioheight>22</radioheight>
@@ -2001,7 +2001,7 @@
                                 <include content="Bingie_InfoDialog_Button_Texture">
                                     <param name="radiotexture" value="dialogs/videoinfo/info/plus.png"/>
                                 </include>
-                                <label>$LOCALIZE[320216]</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31758]</label>
                                 <radioposx>17</radioposx>
                                 <radiowidth>22</radiowidth>
                                 <radioheight>22</radioheight>
@@ -2018,7 +2018,7 @@
                                 <include content="Bingie_InfoDialog_Button_Texture">
                                     <param name="radiotexture" value="dialogs/videoinfo/info/thumbs-up.png"/>
                                 </include>
-                                <label>$LOCALIZE[31854]</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31854]</label>
                                 <radioposx>17</radioposx>
                                 <radiowidth>24</radiowidth>
                                 <radioheight>24</radioheight>
@@ -2036,7 +2036,7 @@
                                 <include content="Bingie_InfoDialog_Button_Texture">
                                     <param name="radiotexture" value="dialogs/videoinfo/info/thumbs-up.png"/>
                                 </include>
-                                <label>$LOCALIZE[31855]</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31855]</label>
                                 <radioposx>15</radioposx>
                                 <radiowidth>24</radiowidth>
                                 <radioheight>24</radioheight>
@@ -2056,7 +2056,7 @@
                                 <include content="Bingie_InfoDialog_Button_Texture">
                                     <param name="radiotexture" value="dialogs/videoinfo/info/thumbs-down.png"/>
                                 </include>
-                                <label>$LOCALIZE[31855]</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31855]</label>
                                 <radioposx>15</radioposx>
 								<radioposy>22</radioposy>
                                 <radiowidth>24</radiowidth>
@@ -2077,7 +2077,7 @@
                                 <include content="Bingie_InfoDialog_Button_Texture">
                                     <param name="radiotexture" value="dialogs/videoinfo/info/trakt.png"/>
                                 </include>
-                                <label>$LOCALIZE[320220]</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31762]</label>
                                 <radioposx>15</radioposx>
 								<radioposy>21</radioposy>
                                 <radiowidth>26</radiowidth>
@@ -2095,7 +2095,7 @@
                                 <include content="Bingie_InfoDialog_Button_Texture">
                                     <param name="radiotexture" value="dialogs/videoinfo/info/plot.png"/>
                                 </include>
-                                <label>$LOCALIZE[207] &amp; $LOCALIZE[31608]</label>
+                                <label>$LOCALIZE[207] &amp; $ADDON[skin.titan.bingie.mod 31608]</label>
                                 <radioposx>16</radioposx>
 								<radioposy>22</radioposy>
                                 <radiowidth>24</radiowidth>
@@ -2111,7 +2111,7 @@
                                 <include content="Bingie_InfoDialog_Button_Texture">
                                     <param name="radiotexture" value="dialogs/videoinfo/info/cast.png"/>
                                 </include>
-                                <label>$LOCALIZE[320067]</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31279]</label>
                                 <radioposx>16</radioposx>
 								<radioposy>22</radioposy>
                                 <radiowidth>24</radiowidth>
@@ -2127,7 +2127,7 @@
                                 <include content="Bingie_InfoDialog_Button_Texture">
                                     <param name="radiotexture" value="dialogs/videoinfo/info/info.png"/>
                                 </include>
-                                <label>$LOCALIZE[31269]</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31269]</label>
                                 <radioposx>15</radioposx>
                                 <radiowidth>24</radiowidth>
                                 <radioheight>24</radioheight>
@@ -2141,7 +2141,7 @@
                                 <include content="Bingie_InfoDialog_Button_Texture">
                                     <param name="radiotexture" value="dialogs/videoinfo/info/similar.png"/>
                                 </include>
-                                <label>$LOCALIZE[31622]</label>
+                                <label>$ADDON[skin.titan.bingie.mod 31622]</label>
                                 <radioposx>16</radioposx>
 								<radioposy>22</radioposy>
                                 <radiowidth>24</radiowidth>
@@ -2159,7 +2159,7 @@
 								<include content="Bingie_InfoDialog_Button_Texture">
 									<param name="radiotexture" value="dialogs/videoinfo/info/artwork.png"/>
 								</include>
-								<label>$LOCALIZE[320002]</label>
+								<label>$ADDON[skin.titan.bingie.mod 31063]</label>
 								<radioposx>15</radioposx>
 								<radioposy>22</radioposy>
 								<radiowidth>25</radiowidth>
@@ -2178,7 +2178,7 @@
 								<onclick condition="String.IsEqual(ListItem.DBType,episode) + System.HasAddon(script.artwork.beef)">RunScript(script.artwork.beef, mode=gui, mediatype=episode, dbid=$INFO[ListItem.DBID])</onclick>
 								<onclick condition="String.IsEqual(ListItem.DBType,tvshow) + System.HasAddon(script.artwork.beef)">RunScript(script.artwork.beef, mode=gui, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
 								<onclick condition="String.IsEqual(ListItem.DBType,movie) + System.HasAddon(script.artwork.beef)">RunScript(script.artwork.beef, mode=gui, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
-								<label>$LOCALIZE[320002]</label>
+								<label>$ADDON[skin.titan.bingie.mod 31063]</label>
 								<radioposx>15</radioposx>
 								<radioposy>22</radioposy>
 								<radiowidth>25</radiowidth>
@@ -2193,7 +2193,7 @@
 								<include content="Bingie_InfoDialog_Button_Texture">
 									<param name="radiotexture" value="dialogs/videoinfo/info/artwork.png"/>
 								</include>
-								<label>$LOCALIZE[320002]</label>
+								<label>$ADDON[skin.titan.bingie.mod 31063]</label>
 								<radioposx>15</radioposx>
 								<radioposy>22</radioposy>
 								<radiowidth>25</radiowidth>
@@ -2509,7 +2509,7 @@
 					</focusedlayout>
 					<content>
 					 <item id="1">
-						<label>$LOCALIZE[31622]</label>
+						<label>$ADDON[skin.titan.bingie.mod 31622]</label>
 					</item>
 					</content>
 				</control>
@@ -2537,7 +2537,7 @@
 					<aligny>top</aligny>
 					<wrapmultiline>true</wrapmultiline>
 					<textcolor>$INFO[Skin.String(BingiePrimaryTextColor)]</textcolor>
-					<label>$LOCALIZE[31558]</label>
+					<label>$ADDON[skin.titan.bingie.mod 31558]</label>
 					<visible>!Container(352).IsUpdating + !Integer.IsGreater(Container(352).NumItems,0)</visible>
 				</control>
 
@@ -2671,7 +2671,7 @@
 					</focusedlayout>
 					<content>
 					 <item id="1">
-						<label>$LOCALIZE[320192]</label>
+						<label>$ADDON[skin.titan.bingie.mod 31689]</label>
 					</item>
 					</content>
 				</control>
@@ -2699,7 +2699,7 @@
 					<aligny>top</aligny>
 					<wrapmultiline>true</wrapmultiline>
 					<textcolor>$INFO[Skin.String(BingiePrimaryTextColor)]</textcolor>
-					<label>$LOCALIZE[31558]</label>
+					<label>$ADDON[skin.titan.bingie.mod 31558]</label>
 					<visible>!Container(354).IsUpdating + !Integer.IsGreater(Container(354).NumItems,0)</visible>
 				</control>
 				
@@ -2776,10 +2776,10 @@
             <aligny>top</aligny>
             <wrapmultiline>true</wrapmultiline>
             <textcolor>$INFO[Skin.String(BingiePrimaryTextColor)]</textcolor>
-            <label>$LOCALIZE[31558]</label>
-            <visible>[!Container(53001).IsUpdating + !Integer.IsGreater(Container(53001).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[206])] | [!Container(53002).IsUpdating + !Integer.IsGreater(Container(53002).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31089])] | [!Container(53003).IsUpdating + !Integer.IsGreater(Container(53003).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320068])] | [!Container(53004).IsUpdating + !Integer.IsGreater(Container(53004).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320069])] | 
-					 [!Container(53005).IsUpdating + !Integer.IsGreater(Container(53005).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320070])] | [!Container(53006).IsUpdating + !Integer.IsGreater(Container(53006).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320077])] | [!Container(53007).IsUpdating + !Integer.IsGreater(Container(53007).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320089])] | [!Container(53008).IsUpdating + !Integer.IsGreater(Container(53008).NumItems,0) + [String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320075]) | String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320074])]] |
-					 [!Container(53009).IsUpdating + !Integer.IsGreater(Container(53009).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320079])] | [!Container(53010).IsUpdating + !Integer.IsGreater(Container(53010).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320081])] | [!Container(53011).IsUpdating + !Integer.IsGreater(Container(53011).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31797])]</visible>
+            <label>$ADDON[skin.titan.bingie.mod 31558]</label>
+            <visible>[!Container(53001).IsUpdating + !Integer.IsGreater(Container(53001).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[206])] | [!Container(53002).IsUpdating + !Integer.IsGreater(Container(53002).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31089])] | [!Container(53003).IsUpdating + !Integer.IsGreater(Container(53003).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31280])] | [!Container(53004).IsUpdating + !Integer.IsGreater(Container(53004).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31281])] | 
+					 [!Container(53005).IsUpdating + !Integer.IsGreater(Container(53005).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31282])] | [!Container(53006).IsUpdating + !Integer.IsGreater(Container(53006).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31299])] | [!Container(53007).IsUpdating + !Integer.IsGreater(Container(53007).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31324])] | [!Container(53008).IsUpdating + !Integer.IsGreater(Container(53008).NumItems,0) + [String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31297]) | String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31294])]] |
+					 [!Container(53009).IsUpdating + !Integer.IsGreater(Container(53009).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31306])] | [!Container(53010).IsUpdating + !Integer.IsGreater(Container(53010).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31311])] | [!Container(53011).IsUpdating + !Integer.IsGreater(Container(53011).NumItems,0) + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31797])]</visible>
         </control>		
 		<control type="list" id="8999">
 			<animation effect="fade" start="100" end="60" time="150" condition="!Control.HasFocus(8999)">Conditional</animation>
@@ -2861,17 +2861,17 @@
 				<control type="button">
 					<visible>false</visible>
 					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[206])">SetProperty(Path.Cast,"$VAR[Path_Cast]")</onfocus>
-					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31089])">SetProperty(Path.Crew,"$VAR[Path_Crew]")</onfocus>
-					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320069])">SetProperty(Path.Recommendations,"$VAR[Path_Recommendations]")</onfocus>
-					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320077])">SetProperty(Path.FromYear,"$VAR[Path_FromYear]")</onfocus>
-					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320068])">SetProperty(Path.FromGenre,"$VAR[Path_FromGenre]")</onfocus>
-					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320074]) | String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320075])">SetProperty(Path.FromStudio,"$VAR[Path_FromStudio]")</onfocus>
-					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320070])">SetProperty(Path.FromDirector,"$VAR[Path_FromDirector]")</onfocus>
-					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320089])">SetProperty(Path.FromWriter,"$VAR[Path_FromWriter]")</onfocus>
-					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320079])">SetProperty(Path.FromCreator,"$VAR[Path_FromCreator]")</onfocus>
-					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320070])">SetProperty(Director,$VAR[Path_FromDirector_Name])</onfocus>
-					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320089])">SetProperty(Writer,$VAR[Path_FromWriter_Screenplay])</onfocus>
-					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320079])">SetProperty(Creator,$VAR[Path_FromCreator_Name])</onfocus>
+					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31089])">SetProperty(Path.Crew,"$VAR[Path_Crew]")</onfocus>
+					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31281])">SetProperty(Path.Recommendations,"$VAR[Path_Recommendations]")</onfocus>
+					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31299])">SetProperty(Path.FromYear,"$VAR[Path_FromYear]")</onfocus>
+					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31280])">SetProperty(Path.FromGenre,"$VAR[Path_FromGenre]")</onfocus>
+					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31294]) | String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31297])">SetProperty(Path.FromStudio,"$VAR[Path_FromStudio]")</onfocus>
+					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31282])">SetProperty(Path.FromDirector,"$VAR[Path_FromDirector]")</onfocus>
+					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31324])">SetProperty(Path.FromWriter,"$VAR[Path_FromWriter]")</onfocus>
+					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31306])">SetProperty(Path.FromCreator,"$VAR[Path_FromCreator]")</onfocus>
+					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31282])">SetProperty(Director,$VAR[Path_FromDirector_Name])</onfocus>
+					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31324])">SetProperty(Writer,$VAR[Path_FromWriter_Screenplay])</onfocus>
+					<onfocus condition="String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31306])">SetProperty(Creator,$VAR[Path_FromCreator_Name])</onfocus>
 				</control>
 			</focusedlayout>
 			<content>
@@ -2882,52 +2882,52 @@
 				</item>
 				  
 				<item id="2">
-					<label>$LOCALIZE[31089]</label> <!-- Crew -->
+					<label>$ADDON[skin.titan.bingie.mod 31089]</label> <!-- Crew -->
 					<visible>Skin.HasSetting(more_info_buttons_crew)</visible>
 				</item>
 				
 				<item id="5">
-					<label>$LOCALIZE[320070]</label> <!-- Director -->
+					<label>$ADDON[skin.titan.bingie.mod 31282]</label> <!-- Director -->
 					<visible>String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,episode)</visible>
 					<visible>Skin.HasSetting(more_info_buttons_director)</visible>
 				</item>
 
 				<item id="6">
-					<label>$LOCALIZE[320089]</label> <!-- Writter -->
+					<label>$ADDON[skin.titan.bingie.mod 31324]</label> <!-- Writter -->
 					<visible>String.IsEqual(ListItem.DBType,movie)</visible>
 					<visible>Skin.HasSetting(more_info_buttons_writer)</visible>
 				</item>	
 
 				<item id="9">
-					<label>$LOCALIZE[320079]</label> <!-- Creator -->
+					<label>$ADDON[skin.titan.bingie.mod 31306]</label> <!-- Creator -->
 					<visible>String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,episode)</visible>
 					<visible>Skin.HasSetting(more_info_buttons_creator)</visible>
 				</item>	
 
 				<item id="7">
-					<label>$LOCALIZE[320074]</label> <!-- Studio -->
+					<label>$ADDON[skin.titan.bingie.mod 31294]</label> <!-- Studio -->
 					<visible>String.IsEqual(ListItem.DBType,movie)</visible>
 					<visible>Skin.HasSetting(more_info_buttons_studio)</visible>
 				</item>	
 
 				<item id="10">
-					<label>$LOCALIZE[320075]</label> <!-- Network -->
+					<label>$ADDON[skin.titan.bingie.mod 31297]</label> <!-- Network -->
 					<visible>String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,episode)</visible>
 					<visible>Skin.HasSetting(more_info_buttons_network)</visible>
 				</item>
 
 				<item id="3">
-					<label>$LOCALIZE[320068]</label> <!-- Genre -->
+					<label>$ADDON[skin.titan.bingie.mod 31280]</label> <!-- Genre -->
 					<visible>Skin.HasSetting(more_info_buttons_genre)</visible>
 				</item>		
 				
 				<item id="8">
-					<label>$LOCALIZE[320077]</label> <!-- Year -->
+					<label>$ADDON[skin.titan.bingie.mod 31299]</label> <!-- Year -->
 					<visible>Skin.HasSetting(more_info_buttons_year)</visible>
 				</item>			
 				  
 				<item id="4">
-					<label>$LOCALIZE[320069]</label> <!-- Recommended -->
+					<label>$ADDON[skin.titan.bingie.mod 31281]</label> <!-- Recommended -->
 					<visible>Skin.HasSetting(more_info_buttons_recommended)</visible>
 				</item>			
 
@@ -2990,7 +2990,7 @@
 			<include content="InfoResultWidget" condition="!Skin.HasSetting(CastCrewImages)">
 			  <param name="id" value="53002" />
 			  <param name="groupid" value="530022" />
-			  <param name="label" value="$LOCALIZE[31089]" />
+			  <param name="label" value="$ADDON[skin.titan.bingie.mod 31089]" />
 			  <param name="content" value="$INFO[Window.Property(Path.Crew)]" />
 			  <param name="force_tags" value="true" />
 			  <param name="height" value="400" />
@@ -3002,7 +3002,7 @@
 			<include content="InfoResultWidgetPoster2" condition="Skin.HasSetting(CastCrewImages)">
 			  <param name="id" value="53002" />
 			  <param name="groupid" value="530022" />
-			  <param name="label" value="$LOCALIZE[31089]" />
+			  <param name="label" value="$ADDON[skin.titan.bingie.mod 31089]" />
 			  <param name="content" value="$INFO[Window.Property(Path.Crew)]" />
 			  <param name="orientation" value="vertical" />
 			  <param name="widgetTags" value="WidgetTagOverlayEnable" />
@@ -3017,7 +3017,7 @@
 			<include content="InfoResultWidgetPoster">
 			  <param name="id" value="53005" />
 			  <param name="groupid" value="530055" />
-			  <param name="label" value="$INFO[Window.Property(Director),$LOCALIZE[320071] ,]" />
+			  <param name="label" value="$INFO[Window.Property(Director),$ADDON[skin.titan.bingie.mod 31283] ,]" />
 			  <param name="content" value="$INFO[Window.Property(Path.FromDirector)]" />
 			  <param name="orientation" value="vertical" />
 			  <param name="widgetTags" value="WidgetTagOverlayEnable" />
@@ -3025,14 +3025,14 @@
 			  <param name="layoutwidth" value="264" />
 			  <param name="layoutheight" value="370" />
 			  <param name="layout">PosterPanelBingie</param>
-			  <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320070])" /> <!-- Director -->
+			  <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31282])" /> <!-- Director -->
 			  <onfocus>SetProperty(TMDbHelper.WidgetContainer,53005,Home)</onfocus>
 			</include>
 			
 			<include content="InfoResultWidgetPoster">
 			  <param name="id" value="53007" />
 			  <param name="groupid" value="530077" />
-			  <param name="label" value="$INFO[Window.Property(Writer),$LOCALIZE[320072] ,]" />
+			  <param name="label" value="$INFO[Window.Property(Writer),$ADDON[skin.titan.bingie.mod 31284] ,]" />
 			  <param name="content" value="$INFO[Window.Property(Path.FromWriter)]" />
 			  <param name="orientation" value="vertical" />
 			  <param name="widgetTags" value="WidgetTagOverlayEnable" />
@@ -3040,14 +3040,14 @@
 			  <param name="layoutwidth" value="264" />
 			  <param name="layoutheight" value="370" />
 			  <param name="layout">PosterPanelBingie</param>
-			  <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320089])" /> <!-- Writer -->
+			  <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31324])" /> <!-- Writer -->
 			  <onfocus>SetProperty(TMDbHelper.WidgetContainer,53007,Home)</onfocus>
 			</include>
 			
 			<include content="InfoResultWidgetPoster">
 			  <param name="id" value="53009" />
 			  <param name="groupid" value="530099" />
-			  <param name="label" value="$INFO[Window.Property(Creator),$LOCALIZE[320080] ,]" />
+			  <param name="label" value="$INFO[Window.Property(Creator),$ADDON[skin.titan.bingie.mod 31310] ,]" />
 			  <param name="content" value="$INFO[Window.Property(Path.FromCreator)]" />
 			  <param name="orientation" value="vertical" />
 			  <param name="widgetTags" value="WidgetTagOverlayEnable" />
@@ -3055,7 +3055,7 @@
 			  <param name="layoutwidth" value="264" />
 			  <param name="layoutheight" value="370" />
 			  <param name="layout">PosterPanelBingie</param>
-			  <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320079])" /> <!-- Creator -->
+			  <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31306])" /> <!-- Creator -->
 			  <onfocus>SetProperty(TMDbHelper.WidgetContainer,53009,Home)</onfocus>
 			</include>
 			
@@ -3070,7 +3070,7 @@
 			  <param name="layoutwidth" value="264" />
 			  <param name="layoutheight" value="370" />
 			  <param name="layout">PosterPanelBingie</param>
-			  <param name="visible" value="[String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320074]) | String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320075])]" /> <!-- Studio -->
+			  <param name="visible" value="[String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31294]) | String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31297])]" /> <!-- Studio -->
 			  <onfocus>SetProperty(TMDbHelper.WidgetContainer,53008,Home)</onfocus>
 			</include>
 			
@@ -3085,14 +3085,14 @@
 			  <param name="layoutwidth" value="264" />
 			  <param name="layoutheight" value="370" />
 			  <param name="layout">PosterPanelBingie</param>
-			  <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320068])" /> <!-- Genre -->
+			  <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31280])" /> <!-- Genre -->
 			  <onfocus>SetProperty(TMDbHelper.WidgetContainer,53003,Home)</onfocus>
 			</include>
 			
 			<include content="InfoResultWidgetPoster">
 			  <param name="id" value="53006" />
 			  <param name="groupid" value="530066" />
-			  <param name="label" value="$INFO[ListItem.Year,$LOCALIZE[320076] ,]" />
+			  <param name="label" value="$INFO[ListItem.Year,$ADDON[skin.titan.bingie.mod 31298] ,]" />
 			  <param name="content" value="$INFO[Window.Property(Path.FromYear)]" />
 			  <param name="orientation" value="vertical" />
 			  <param name="widgetTags" value="WidgetTagOverlayEnable" />
@@ -3100,14 +3100,14 @@
 			  <param name="layoutwidth" value="264" />
 			  <param name="layoutheight" value="370" />
 			  <param name="layout">PosterPanelBingie</param>
-			  <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320077])" /> <!-- Year -->
+			  <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31299])" /> <!-- Year -->
 			  <onfocus>SetProperty(TMDbHelper.WidgetContainer,53006,Home)</onfocus>
 			</include>
 			
 			<include content="InfoResultWidgetPoster">
 			  <param name="id" value="53004" />
 			  <param name="groupid" value="530044" />
-			  <param name="label" value="$LOCALIZE[320073]" />
+			  <param name="label" value="$ADDON[skin.titan.bingie.mod 31292]" />
 			  <param name="content" value="$INFO[Window.Property(Path.Recommendations)]" />
 			  <param name="orientation" value="vertical" />
 			  <param name="widgetTags" value="WidgetTagOverlayEnable" />
@@ -3115,7 +3115,7 @@
 			  <param name="layoutwidth" value="264" />
 			  <param name="layoutheight" value="370" />
 			  <param name="layout">PosterPanelBingie</param>
-			  <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320069])" /> <!-- Recommended -->
+			  <param name="visible" value="String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31281])" /> <!-- Recommended -->
 			  <onfocus>SetProperty(TMDbHelper.WidgetContainer,53004,Home)</onfocus>
 			</include>
 				
@@ -3124,10 +3124,10 @@
 		<include content="Busy_Spinner">
 				<param name="centerleft" value="70%"/>
 				<param name="centertop" value="50%"/>
-				<param name="visibility" value="[[Container(53001).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[206])] | [Container(53002).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31089])] | [Container(53003).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320068])] |
-				[Container(53004).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320069])] | [Container(53005).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320070])] | [Container(53006).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320077])] |
-				[Container(53007).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320089])] | [Container(53008).IsUpdating + [[String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320074])] | String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320075])]] | [Container(53009).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320079])] | 
-				[Container(53010).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[320081])] | [Container(53011).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31797])]]"/>
+				<param name="visibility" value="[[Container(53001).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[206])] | [Container(53002).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31089])] | [Container(53003).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$LOCALIZE[31280])] |
+				[Container(53004).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31281])] | [Container(53005).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31282])] | [Container(53006).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31299])] |
+				[Container(53007).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31324])] | [Container(53008).IsUpdating + [[String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31294])] | String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31297])]] | [Container(53009).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31306])] | 
+				[Container(53010).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31311])] | [Container(53011).IsUpdating + String.IsEqual(Container(8999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31797])]]"/>
 				<param name="size" value="100"/>
 		</include>
 	</control>
@@ -3160,8 +3160,8 @@
 		<include content="Busy_Spinner">
 			<param name="centerleft" value="63%"/>
 			<param name="centertop" value="50%"/>
-			<param name="visibility" value="[[Container(4000).IsUpdating + String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320082])] | [Container(4001).IsUpdating + String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320083])] | [Container(4002).IsUpdating + String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320084])] |
-				[Container(4003).IsUpdating + String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320085])]]"/>
+			<param name="visibility" value="[[Container(4000).IsUpdating + String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[31312])] | [Container(4001).IsUpdating + String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[31313])] | [Container(4002).IsUpdating + String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[31314])] |
+				[Container(4003).IsUpdating + String.IsEqual(Container(2999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31315])]]"/>
 			<param name="size" value="100"/>
 		</include>	
 
@@ -3178,8 +3178,8 @@
 				<onback>ClearProperty(Path_CrewInMovies)</onback>
 				<onback>ClearProperty(Path_CrewInShows)</onback>
 				<onback>8000</onback>
-				<onup condition="String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320086])">90</onup>
-				<onup condition="!String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320086])">3000</onup>
+				<onup condition="String.IsEqual(Container(2999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31316])">90</onup>
+				<onup condition="!String.IsEqual(Container(2999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31316])">3000</onup>
 				<onright>2999</onright>
 				<onleft>2999</onleft>
 				<orientation>horizontal</orientation>
@@ -3225,32 +3225,32 @@
 					</control>
 					<control type="button">
 						<visible>false</visible>
-						<onfocus condition="String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320082])">SetProperty(Path.CastInMovies,"$VAR[Path_CastInMovies]")</onfocus>
-						<onfocus condition="String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320083])">SetProperty(Path.CastInShows,"$VAR[Path_CastInShows]")</onfocus>
-						<onfocus condition="String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320084])">SetProperty(Path.CrewInMovies,"$VAR[Path_CrewInMovies]")</onfocus>
-						<onfocus condition="String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320085])">SetProperty(Path.CrewInShows,"$VAR[Path_CrewInShows]")</onfocus>
+						<onfocus condition="String.IsEqual(Container(2999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31312])">SetProperty(Path.CastInMovies,"$VAR[Path_CastInMovies]")</onfocus>
+						<onfocus condition="String.IsEqual(Container(2999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31313])">SetProperty(Path.CastInShows,"$VAR[Path_CastInShows]")</onfocus>
+						<onfocus condition="String.IsEqual(Container(2999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31314])">SetProperty(Path.CrewInMovies,"$VAR[Path_CrewInMovies]")</onfocus>
+						<onfocus condition="String.IsEqual(Container(2999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31315])">SetProperty(Path.CrewInShows,"$VAR[Path_CrewInShows]")</onfocus>
 					</control>
 				</focusedlayout>
 				<content>
 				
 					<item id="1">
-						<label>$LOCALIZE[320086]</label> <!-- Info -->
+						<label>$ADDON[skin.titan.bingie.mod 31316]</label> <!-- Info -->
 					</item>
 
 					<item id="2">
-						<label>$LOCALIZE[320082]</label> <!-- Cast -->
+						<label>$ADDON[skin.titan.bingie.mod 31312]</label> <!-- Cast -->
 					</item>
 					  
 					<item id="3">
-						<label>$LOCALIZE[320083]</label> <!-- Cast -->
+						<label>$ADDON[skin.titan.bingie.mod 31313]</label> <!-- Cast -->
 					</item>
 					
 					<item id="4">
-						<label>$LOCALIZE[320084]</label> <!-- Crew -->
+						<label>$ADDON[skin.titan.bingie.mod 31314]</label> <!-- Crew -->
 					</item>
 
 					<item id="5">
-						<label>$LOCALIZE[320085]</label> <!-- Crew -->
+						<label>$ADDON[skin.titan.bingie.mod 31315]</label> <!-- Crew -->
 					</item>		
 
 				</content>
@@ -3367,7 +3367,7 @@
 							</control>
 							<!-- Info -->
 							<control type="group" id="300">
-								<visible>String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320086])</visible>			
+								<visible>String.IsEqual(Container(2999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31316])</visible>			
 								<top>0</top>
 								<left>543</left>
 								<control type="grouplist">
@@ -3391,7 +3391,7 @@
 										<posy>0</posy>
 										<width>1238</width>
 										<height>30</height>
-										<label>$INFO[ListItem.Property(Birthday),$LOCALIZE[320195] ]$INFO[ListItem.Property(Deathday), | $LOCALIZE[320196] ]$INFO[ListItem.Property(Age), ($LOCALIZE[320197] ,) ]</label>
+										<label>$INFO[ListItem.Property(Birthday),$ADDON[skin.titan.bingie.mod 31693] ]$INFO[ListItem.Property(Deathday), | $ADDON[skin.titan.bingie.mod 31694] ]$INFO[ListItem.Property(Age), ($ADDON[skin.titan.bingie.mod 31698] ,) ]</label>
 										<textcolor>$INFO[Skin.String(BingieDeatailsTextColor)]</textcolor>
 										<align>justify</align>
 										<font>Reg30</font>
@@ -3440,22 +3440,22 @@
 							<include content="CastContainerTemplate">
 							  <param name="id" value="4000" />
 							  <param name="content" value="$INFO[Window.Property(Path.CastInMovies)]" />
-							  <param name="visible" value="String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320082])" /> <!-- Cast in Movies -->
+							  <param name="visible" value="String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[31312])" /> <!-- Cast in Movies -->
 							</include>
 							<include content="CastContainerTemplate">
 							  <param name="id" value="4001" />
 							  <param name="content" value="$INFO[Window.Property(Path.CastInShows)]" />
-							  <param name="visible" value="String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320083])" /> <!-- Cast in Shows -->
+							  <param name="visible" value="String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[31313])" /> <!-- Cast in Shows -->
 							</include>
 							<include content="CastContainerTemplate">
 							  <param name="id" value="4002" />
 							  <param name="content" value="$INFO[Window.Property(Path.CrewInMovies)]" />
-							  <param name="visible" value="String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320084])" /> <!-- Crew in Movies -->
+							  <param name="visible" value="String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[31314])" /> <!-- Crew in Movies -->
 							</include>
 							<include content="CastContainerTemplate">
 							  <param name="id" value="4003" />
 							  <param name="content" value="$INFO[Window.Property(Path.CrewInShows)]" />
-							  <param name="visible" value="String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320085])" /> <!-- Crew in Shows -->
+							  <param name="visible" value="String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[31315])" /> <!-- Crew in Shows -->
 							</include>				
 							<!-- There are no matches text -->	
 							<control type="label">
@@ -3468,8 +3468,8 @@
 								<aligny>top</aligny>
 								<wrapmultiline>true</wrapmultiline>
 								<textcolor>$INFO[Skin.String(BingiePrimaryTextColor)]</textcolor>
-								<label>$LOCALIZE[31558]</label>
-								<visible>[!Container(4000).IsUpdating + !Integer.IsGreater(Container(4000).NumItems,0) + String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320082])] | [!Container(4001).IsUpdating + !Integer.IsGreater(Container(4001).NumItems,0) + String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320083])] | [!Container(4002).IsUpdating + !Integer.IsGreater(Container(4002).NumItems,0) + String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320084])] | [!Container(4003).IsUpdating + !Integer.IsGreater(Container(4003).NumItems,0) + String.IsEqual(Container(2999).ListItem.Label,$LOCALIZE[320085])]</visible>
+								<label>$ADDON[skin.titan.bingie.mod 31558]</label>
+								<visible>[!Container(4000).IsUpdating + !Integer.IsGreater(Container(4000).NumItems,0) + String.IsEqual(Container(2999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31312])] | [!Container(4001).IsUpdating + !Integer.IsGreater(Container(4001).NumItems,0) + String.IsEqual(Container(2999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31313])] | [!Container(4002).IsUpdating + !Integer.IsGreater(Container(4002).NumItems,0) + String.IsEqual(Container(2999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31314])] | [!Container(4003).IsUpdating + !Integer.IsGreater(Container(4003).NumItems,0) + String.IsEqual(Container(2999).ListItem.Label,$ADDON[skin.titan.bingie.mod 31315])]</visible>
 							</control>		
 						</control>							
 					</control>
@@ -3680,7 +3680,7 @@
                 <param name="icon_image" value="dialogs/videoinfo/writer-icon.png"/>
             </include>
             <include content="More_Details_Object_Label">
-                <param name="label" value="$VAR[BingieInfoCreator,[CAPITALIZE]$LOCALIZE[320064]: [/CAPITALIZE],]" />
+                <param name="label" value="$VAR[BingieInfoCreator,[CAPITALIZE]$ADDON[skin.titan.bingie.mod 31276]: [/CAPITALIZE],]" />
             </include>
         </control>
     </include>
@@ -3734,30 +3734,30 @@
                 <param name="icon_image" value="bingie/top250.png"/>
             </include>
             <include content="More_Details_Object_Label2">
-                <param name="label" value="$INFO[Container(99950).ListItem.Property(Top250),#, $LOCALIZE[320157]]" />
+                <param name="label" value="$INFO[Container(99950).ListItem.Property(Top250),#, $ADDON[skin.titan.bingie.mod 31595]]" />
             </include>
         </control>
     </include>
 
     <!-- play/resume Sxx: ep. xx label -->
     <variable name="PlayOrResumeSeasonEpisodeLabel">
-        <value condition="Container(5050).ListItem.IsResumable">$LOCALIZE[13404]$INFO[Container(5050).ListItem.Season, $LOCALIZE[31871],: ]$INFO[Container(5050).ListItem.Episode,$LOCALIZE[31873]. ,]</value>
-        <value>$LOCALIZE[208]$INFO[Container(5050).ListItem.Season, $LOCALIZE[320003] ,: ]$INFO[Container(5050).ListItem.Episode,$LOCALIZE[320004] ,]</value>
+        <value condition="Container(5050).ListItem.IsResumable">$LOCALIZE[13404]$INFO[Container(5050).ListItem.Season, $ADDON[skin.titan.bingie.mod 31871],: ]$INFO[Container(5050).ListItem.Episode,$ADDON[skin.titan.bingie.mod 31873]. ,]</value>
+        <value>$LOCALIZE[208]$INFO[Container(5050).ListItem.Season, $ADDON[skin.titan.bingie.mod 31083] ,: ]$INFO[Container(5050).ListItem.Episode,$ADDON[skin.titan.bingie.mod 31087] ,]</value>
     </variable>
 	
 	<variable name="PlayOrResumeSeasonEpisodeLabel2">
-        <value condition="Container(5050).ListItem.IsResumable">$LOCALIZE[13404]$INFO[Container(5050).ListItem.Season, $LOCALIZE[31871],: ]$INFO[Container(5050).ListItem.Episode,$LOCALIZE[31872],]</value>
-        <value>$LOCALIZE[208]$INFO[Container(5050).ListItem.Season, $LOCALIZE[31871],: ]$INFO[Container(5050).ListItem.Episode,$LOCALIZE[31872],]</value>
+        <value condition="Container(5050).ListItem.IsResumable">$LOCALIZE[13404]$INFO[Container(5050).ListItem.Season, $ADDON[skin.titan.bingie.mod 31871],: ]$INFO[Container(5050).ListItem.Episode,$ADDON[skin.titan.bingie.mod 31872],]</value>
+        <value>$LOCALIZE[208]$INFO[Container(5050).ListItem.Season, $ADDON[skin.titan.bingie.mod 31871],: ]$INFO[Container(5050).ListItem.Episode,$ADDON[skin.titan.bingie.mod 31872],]</value>
     </variable>
 	
 	<variable name="PlayOrResumeSeasonEpisodeLabel3">
-        <value condition="Container(1234).ListItem.IsResumable">$LOCALIZE[13404]$INFO[Container(1234).ListItem.Season, $LOCALIZE[31871],: ]$INFO[Container(1234).ListItem.Episode,$LOCALIZE[31873]. ,]</value>
-        <value>$LOCALIZE[208]$INFO[Container(1234).ListItem.Season, $LOCALIZE[320003] ,: ]$INFO[Container(1234).ListItem.Episode,$LOCALIZE[320004] ,]</value>
+        <value condition="Container(1234).ListItem.IsResumable">$LOCALIZE[13404]$INFO[Container(1234).ListItem.Season, $ADDON[skin.titan.bingie.mod 31871],: ]$INFO[Container(1234).ListItem.Episode,$ADDON[skin.titan.bingie.mod 31873]. ,]</value>
+        <value>$LOCALIZE[208]$INFO[Container(1234).ListItem.Season, $ADDON[skin.titan.bingie.mod 31083] ,: ]$INFO[Container(1234).ListItem.Episode,$ADDON[skin.titan.bingie.mod 31087] ,]</value>
     </variable>
 	
 	<variable name="PlayOrResumeSeasonEpisodeLabel4">
-        <value condition="Container(1234).ListItem.IsResumable">$LOCALIZE[13404]$INFO[Container(1234).ListItem.Season, $LOCALIZE[31871],: ]$INFO[Container(1234).ListItem.Episode,$LOCALIZE[31872],]</value>
-        <value>$LOCALIZE[208]$INFO[Container(1234).ListItem.Season, $LOCALIZE[31871],: ]$INFO[Container(1234).ListItem.Episode,$LOCALIZE[31872],]</value>
+        <value condition="Container(1234).ListItem.IsResumable">$LOCALIZE[13404]$INFO[Container(1234).ListItem.Season, $ADDON[skin.titan.bingie.mod 31871],: ]$INFO[Container(1234).ListItem.Episode,$ADDON[skin.titan.bingie.mod 31872],]</value>
+        <value>$LOCALIZE[208]$INFO[Container(1234).ListItem.Season, $ADDON[skin.titan.bingie.mod 31871],: ]$INFO[Container(1234).ListItem.Episode,$ADDON[skin.titan.bingie.mod 31872],]</value>
     </variable>
 
     <!-- next-up content for info dialog -->

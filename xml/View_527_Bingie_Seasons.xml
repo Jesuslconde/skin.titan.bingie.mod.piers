@@ -58,7 +58,7 @@
 	
 	<!-- workaround for Total Season/s IN EPISODE LEVEL -->
     <variable name="View527TotalSeasons">
-        <value condition="Integer.IsGreater(Container(527).NumItems,1)">$INFO[Container(527).NumItems,, $LOCALIZE[320207]]</value>
+        <value condition="Integer.IsGreater(Container(527).NumItems,1)">$INFO[Container(527).NumItems,, $ADDON[skin.titan.bingie.mod 31740]]</value>
         <value>$INFO[Container(527).NumItems,, $LOCALIZE[20373]]</value>
     </variable>
 	
@@ -239,7 +239,7 @@
                 <align>left</align>
                 <font>Reg26</font>
                 <textcolor>$INFO[Skin.String(BingiePlotTextColor)]</textcolor>
-                <label>$VAR[View527SubLabel,$LOCALIZE[320150]: ]</label>
+                <label>$VAR[View527SubLabel,$ADDON[skin.titan.bingie.mod 31583]: ]</label>
             </control>
             <!-- plot -->
             <control type="textbox">
@@ -342,7 +342,7 @@
                 <align>left</align>
                 <font>Reg26</font>
                 <textcolor>$INFO[Skin.String(BingiePlotTextColor)]</textcolor>
-                <label>$VAR[View527SubLabel,$LOCALIZE[320150]: ]</label>
+                <label>$VAR[View527SubLabel,$ADDON[skin.titan.bingie.mod 31583]: ]</label>
             </control>
             <!-- plot -->
             <control type="textbox">
@@ -373,7 +373,7 @@
 	<!-- View 527 SxxExx format -->
     <variable name="View527SeasonEpisodeFormat">
 		<value condition="Integer.IsLess(ListItem.Season,1) + !String.IsEmpty(ListItem.Episode)">$LOCALIZE[20381] $INFO[ListItem.Episode]</value>
-        <value condition="!String.IsEmpty(ListItem.Season)">$INFO[ListItem.Season,$LOCALIZE[31871],]$INFO[ListItem.Episode,: $LOCALIZE[31872],]</value>
+        <value condition="!String.IsEmpty(ListItem.Season)">$INFO[ListItem.Season,$ADDON[skin.titan.bingie.mod 31871],]$INFO[ListItem.Episode,: $ADDON[skin.titan.bingie.mod 31872],]</value>
         <value condition="String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode) + !String.Contains(ListItem.Episode,S)">$INFO[ListItem.Episode,$LOCALIZE[31873,,.] ,]</value>
         <value condition="String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode) + String.Contains(ListItem.Episode,S)">$INFO[ListItem.Episode]</value>
     </variable>
@@ -513,7 +513,7 @@
 			<control type="list" id="527">
 				<include>Animation_Right_Bingie_2</include>
                 <animation effect="fade" start="100" end="60" time="150" condition="!Control.HasFocus(527)">Conditional</animation>
-				<viewtype label="31095">wide</viewtype>
+				<viewtype label="$ADDON[skin.titan.bingie.mod 31095]">wide</viewtype>
 				<left>16</left>
 				<top>9</top>
 				<width>565</width>

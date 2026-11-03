@@ -21,8 +21,8 @@
 
 	<!-- New/Popular Hub -->
 	<shortcut>
-		<label>320032</label>
-		<label2>320032</label2>
+		<label>31203</label>
+		<label2>31203</label2>
 		<icon>shortcuts/new.png</icon>
 		<thumb />
 		<action>ActivateWindow(1112,return)</action>

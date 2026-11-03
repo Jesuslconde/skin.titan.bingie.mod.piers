@@ -113,7 +113,7 @@
                     <align>left</align>
                     <aligny>center</aligny>
                     <textcolor>$INFO[Skin.String(BingieSubLabelTextColor)]</textcolor>
-                    <label>$LOCALIZE[31065]: $VAR[BingiePVRUpNextlabel]</label>
+                    <label>$ADDON[skin.titan.bingie.mod 31065]: $VAR[BingiePVRUpNextlabel]</label>
                     <include>Default_Visible_Fade</include>
                 </control>
             </control>

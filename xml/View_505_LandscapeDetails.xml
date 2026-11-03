@@ -43,7 +43,7 @@
 			<ondown>505</ondown>
 			<preloaditems>4</preloaditems>
 			<pagecontrol>60</pagecontrol>
-			<viewtype label="31432">mediainfo</viewtype>
+			<viewtype label="$ADDON[skin.titan.bingie.mod 31432]">mediainfo</viewtype>
             <include content="View_Forced">
                 <param name="viewtype" value="$LOCALIZE[31432]" />
             </include>

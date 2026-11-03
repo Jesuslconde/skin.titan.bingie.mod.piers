@@ -39,7 +39,7 @@
 				<left>137</left>
                 <width>auto</width>
 				<font>Reg32</font>
-                <label>320202</label>
+                <label>$ADDON[skin.titan.bingie.mod 31718]</label>
 				<visible>Skin.HasSetting(EnableBingieSearchFullKeyboard)</visible>				
             </control>
 		</control>
@@ -179,49 +179,49 @@
             <include content="SearchResultWidgetTopLabel">
                 <param name="groupid" value="5100" />
                 <param name="id" value="510" />
-                <param name="label" value="$INFO[Skin.String(CustomSearchTerm),$LOCALIZE[31551] &quot;,&quot;]" />
+                <param name="label" value="$INFO[Skin.String(CustomSearchTerm),$ADDON[skin.titan.bingie.mod 31551] &quot;,&quot;]" />
                 <visible>Control.HasFocus(510) + !Container(510).IsUpdating</visible>
             </include>
             <!-- By Genre (Movies) -->
             <include content="SearchResultWidgetTopLabel">
                 <param name="groupid" value="5200" />
                 <param name="id" value="520" />
-                <param name="label" value="$INFO[Skin.String(CustomSearchTerm),$LOCALIZE[31552] &quot;,&quot;]" />
+                <param name="label" value="$INFO[Skin.String(CustomSearchTerm),$ADDON[skin.titan.bingie.mod 31552] &quot;,&quot;]" />
                 <visible>Control.HasFocus(520) + !Container(520).IsUpdating</visible>
             </include>
             <!-- By Release Year (Movies) -->
             <include content="SearchResultWidgetTopLabel">
                 <param name="groupid" value="5300" />
                 <param name="id" value="530" />
-                <param name="label" value="$INFO[Skin.String(CustomSearchTerm),$LOCALIZE[31553] &quot;,&quot;]" />
+                <param name="label" value="$INFO[Skin.String(CustomSearchTerm),$ADDON[skin.titan.bingie.mod 31553] &quot;,&quot;]" />
                 <visible>Control.HasFocus(530) + !Container(530).IsUpdating</visible>
             </include>	
             <!-- By Studio (Movies) -->
             <include content="SearchResultWidgetTopLabel">
                 <param name="groupid" value="5400" />
                 <param name="id" value="540" />
-                <param name="label" value="$INFO[Skin.String(CustomSearchTerm),$LOCALIZE[31554] &quot;,&quot;]" />
+                <param name="label" value="$INFO[Skin.String(CustomSearchTerm),$ADDON[skin.titan.bingie.mod 31554] &quot;,&quot;]" />
                 <visible>Control.HasFocus(540) + !Container(540).IsUpdating</visible>
             </include>
             <!-- By Actor (Movies) -->
             <include content="SearchResultWidgetTopLabel">
                 <param name="groupid" value="5500" />
                 <param name="id" value="550" />
-                <param name="label" value="$INFO[Skin.String(CustomSearchTerm),$LOCALIZE[31555] &quot;,&quot;]" />
+                <param name="label" value="$INFO[Skin.String(CustomSearchTerm),$ADDON[skin.titan.bingie.mod 31555] &quot;,&quot;]" />
                 <visible>Control.HasFocus(550) + !Container(550).IsUpdating</visible>
             </include>
             <!-- By Director (Movies) -->
             <include content="SearchResultWidgetTopLabel">
                 <param name="groupid" value="5600" />
                 <param name="id" value="560" />
-                <param name="label" value="$INFO[Skin.String(CustomSearchTerm),$LOCALIZE[31556] &quot;,&quot;]" />
+                <param name="label" value="$INFO[Skin.String(CustomSearchTerm),$ADDON[skin.titan.bingie.mod 31556] &quot;,&quot;]" />
                 <visible>Control.HasFocus(560) + !Container(560).IsUpdating</visible>
             </include>
             <!-- By Country (Movies) -->
             <include content="SearchResultWidgetTopLabel">
                 <param name="groupid" value="5700" />
                 <param name="id" value="570" />
-                <param name="label" value="$INFO[Skin.String(CustomSearchTerm),$LOCALIZE[31300] &quot;,&quot;]" />
+                <param name="label" value="$INFO[Skin.String(CustomSearchTerm),$ADDON[skin.titan.bingie.mod 31300] &quot;,&quot;]" />
                 <visible>Control.HasFocus(570) + !Container(570).IsUpdating</visible>
             </include>			
 			</control>

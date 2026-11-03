@@ -109,7 +109,7 @@
 					<ondown condition="Skin.HasSetting(EnableQuickJump)">7000</ondown>
                 <ondown condition="!Skin.HasSetting(EnableQuickJump)">60</ondown>
 					<orientation>horizontal</orientation>
-					<viewtype label="31441">bigwrap</viewtype>
+					<viewtype label="$ADDON[skin.titan.bingie.mod 31441]">bigwrap</viewtype>
                     <include content="View_Forced">
                         <param name="viewtype" value="$LOCALIZE[31441]" />
                     </include>

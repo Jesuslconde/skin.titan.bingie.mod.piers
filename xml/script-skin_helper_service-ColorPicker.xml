@@ -55,7 +55,7 @@
         
         <!-- Color picker panel -->
 		<control type="panel" id="3110">
-			<viewtype label="31438">icons</viewtype>
+			<viewtype label="$ADDON[skin.titan.bingie.mod 31438]">icons</viewtype>
 			<posx>65</posx>
 			<posy>152</posy>
 			<width>1798</width>

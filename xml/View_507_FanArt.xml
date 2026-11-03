@@ -31,7 +31,7 @@
                 <ondown condition="!Skin.HasSetting(EnableQuickJump)">60</ondown>
                 <onleft>507</onleft>
                 <onright>507</onright>
-                <viewtype label="31434">fanart</viewtype>
+                <viewtype label="$ADDON[skin.titan.bingie.mod 31434]">fanart</viewtype>
 				<include content="View_Forced">
 					<param name="viewtype" value="$LOCALIZE[31434]" />
 				</include>

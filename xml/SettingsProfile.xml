@@ -50,7 +50,7 @@
                 <posx>80</posx>
                 <posy>41</posy>
                 <width>520</width>
-                <label>320158</label>
+                <label>$ADDON[skin.titan.bingie.mod 31605]</label>
                 <onup>2</onup>
 				<onright>2</onright>
 				<align>left</align>

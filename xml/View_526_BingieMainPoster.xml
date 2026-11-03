@@ -115,7 +115,7 @@
     <!-- Poster Position -->
     <include name="Bingie_Main_Poster_View">
         <control type="$PARAM[containerType]" id="526">
-            <viewtype label="31027">poster</viewtype>
+            <viewtype label="$ADDON[skin.titan.bingie.mod 31027]">poster</viewtype>
             <include content="View_Forced">
                 <param name="viewtype" value="$LOCALIZE[31027]" />
             </include>

@@ -38,7 +38,7 @@
                 <posx>473</posx>
                 <posy>172</posy>
                 <width>974</width>
-                <label>$LOCALIZE[320211]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31752]</label>
                 <include>DialogHeader</include>
                 <align>center</align>
             </control>

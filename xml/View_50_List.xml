@@ -330,7 +330,7 @@
                 <onup>50</onup>
                 <ondown>50</ondown>
                 <pagecontrol>60</pagecontrol>
-                <viewtype label="31443">list</viewtype>
+                <viewtype label="$ADDON[skin.titan.bingie.mod 31443]">list</viewtype>
                 <include content="View_Forced">
                     <param name="viewtype" value="$LOCALIZE[31443]" />
                 </include>

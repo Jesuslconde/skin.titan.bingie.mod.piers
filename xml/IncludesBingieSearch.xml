@@ -24,13 +24,13 @@
     </variable>
 
     <variable name="EmptySearchResultsString">
-        <value condition="Control.HasFocus(1007) + String.IsEmpty(Skin.String(CustomSearchTerm))">$LOCALIZE[31558]</value>
-        <value condition="String.IsEmpty(Skin.String(CustomSearchTerm)) + Window.IsActive(1106)">$LOCALIZE[31560]</value>
-		<value condition="String.IsEmpty(Skin.String(CustomSearchTerm)) + Window.IsActive(1107)">$LOCALIZE[31038]</value>
-		<value condition="String.IsEmpty(Skin.String(CustomSearchTerm)) + Window.IsActive(1108)">$LOCALIZE[31559]</value>
-        <value condition="String.IsEmpty(Skin.String(CustomSearchTerm)) + Skin.HasSetting(EnableBingieSearchLibrary)">$LOCALIZE[31559]</value>
-		<value condition="String.IsEmpty(Skin.String(CustomSearchTerm)) + Skin.HasSetting(EnableBingieSearchTMDBHelper)">$LOCALIZE[320225]</value>
-        <value>$LOCALIZE[31578]</value>
+        <value condition="Control.HasFocus(1007) + String.IsEmpty(Skin.String(CustomSearchTerm))">$ADDON[skin.titan.bingie.mod 31558]</value>
+        <value condition="String.IsEmpty(Skin.String(CustomSearchTerm)) + Window.IsActive(1106)">$ADDON[skin.titan.bingie.mod 31560]</value>
+		<value condition="String.IsEmpty(Skin.String(CustomSearchTerm)) + Window.IsActive(1107)">$ADDON[skin.titan.bingie.mod 31038]</value>
+		<value condition="String.IsEmpty(Skin.String(CustomSearchTerm)) + Window.IsActive(1108)">$ADDON[skin.titan.bingie.mod 31559]</value>
+        <value condition="String.IsEmpty(Skin.String(CustomSearchTerm)) + Skin.HasSetting(EnableBingieSearchLibrary)">$ADDON[skin.titan.bingie.mod 31559]</value>
+		<value condition="String.IsEmpty(Skin.String(CustomSearchTerm)) + Skin.HasSetting(EnableBingieSearchTMDBHelper)">$ADDON[skin.titan.bingie.mod 31795]</value>
+        <value>$ADDON[skin.titan.bingie.mod 31578]</value>
     </variable>
 
     <variable name="SuggestionBorderColor">
@@ -43,197 +43,197 @@
     <include name="Search_Suggestions_Content">
         <content>
             <item>
-                <label>$LOCALIZE[31078]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31078]</label>
                 <property name="path">special://skin/playlists/blockbustermovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31079]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31079]</label>
                 <property name="path">special://skin/playlists/bingeworthyshows.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31649]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31649]</label>
                 <property name="path">special://skin/playlists/watchitagainmovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[31650]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31650]</label>
                 <property name="path">special://skin/playlists/watchitagaintvshows.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31101]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31101]</label>
                 <property name="path">special://skin/playlists/recentlyaddedshows.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31716]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31716]</label>
                 <property name="path">special://skin/playlists/recentlyaddedmovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31532]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31532]</label>
                 <property name="path">special://skin/playlists/criticallyacclaimedmovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31098]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31098]</label>
                 <property name="path">special://skin/playlists/criticallyacclaimedtvshows.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31533]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31533]</label>
                 <property name="path">special://skin/playlists/marvelmovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31181]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31181]</label>
                 <property name="path">special://skin/playlists/netflixoriginalseries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31536]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31536]</label>
                 <property name="path">special://skin/playlists/actionandcrimemovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31537]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31537]</label>
                 <property name="path">special://skin/playlists/kidsandfamily.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31046]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31046]</label>
                 <property name="path">special://skin/playlists/anime.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31048]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31048]</label>
                 <property name="path">special://skin/playlists/horrormovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31049]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31049]</label>
                 <property name="path">special://skin/playlists/musicandmusical.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31047]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31047]</label>
                 <property name="path">special://skin/playlists/romanticmovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31164]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31164]</label>
                 <property name="path">special://skin/playlists/actionandcrimeseries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31160]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31160]</label>
                 <property name="path">special://skin/playlists/docuseries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31162]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31162]</label>
                 <property name="path">special://skin/playlists/adventureandfantasymovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31182]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31182]</label>
                 <property name="path">special://skin/playlists/netlfixoriginalmovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31163]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31163]</label>
                 <property name="path">special://skin/playlists/adventureandfantasyseries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31859]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31859]</label>
                 <property name="path">special://skin/playlists/imdbtop250movies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31156]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31156]</label>
                 <property name="path">special://skin/playlists/amazonoriginalseries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31157]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31157]</label>
                 <property name="path">special://skin/playlists/comedymovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31158]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31158]</label>
                 <property name="path">special://skin/playlists/disneyandpixarmovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31159]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31159]</label>
                 <property name="path">special://skin/playlists/documentaries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31161]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31161]</label>
                 <property name="path">special://skin/playlists/europeanmovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31187]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31187]</label>
                 <property name="path">special://skin/playlists/foodandtravelshows.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31188]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31188]</label>
                 <property name="path">special://skin/playlists/hboshows.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31189]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31189]</label>
                 <property name="path">special://skin/playlists/historywarmovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31190]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31190]</label>
                 <property name="path">special://skin/playlists/huluoriginalshows.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31191]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31191]</label>
                 <property name="path">special://skin/playlists/marvelseries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31192]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31192]</label>
                 <property name="path">special://skin/playlists/realitytv.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31076]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31076]</label>
                 <property name="path">special://skin/playlists/britishseries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31193]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31193]</label>
                 <property name="path">special://skin/playlists/standup.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31194]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31194]</label>
                 <property name="path">special://skin/playlists/syfymovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31195]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31195]</label>
                 <property name="path">special://skin/playlists/syfyseries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31196]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31196]</label>
                 <property name="path">special://skin/playlists/thrillerandsuspensemovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31197]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31197]</label>
                 <property name="path">special://skin/playlists/thrillerandsuspenseseries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
@@ -244,107 +244,107 @@
     <include name="Search_Suggestions_Movies">
         <content>
             <item>
-                <label>$LOCALIZE[31078]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31078]</label>
                 <property name="path">special://skin/playlists/blockbustermovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31649]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31649]</label>
                 <property name="path">special://skin/playlists/watchitagainmovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31716]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31716]</label>
                 <property name="path">special://skin/playlists/recentlyaddedmovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31532]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31532]</label>
                 <property name="path">special://skin/playlists/criticallyacclaimedmovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31533]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31533]</label>
                 <property name="path">special://skin/playlists/marvelmovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31536]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31536]</label>
                 <property name="path">special://skin/playlists/actionandcrimemovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31537]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31537]</label>
                 <property name="path">special://skin/playlists/kidsandfamily.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31048]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31048]</label>
                 <property name="path">special://skin/playlists/horrormovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31049]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31049]</label>
                 <property name="path">special://skin/playlists/musicandmusical.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31047]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31047]</label>
                 <property name="path">special://skin/playlists/romanticmovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31162]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31162]</label>
                 <property name="path">special://skin/playlists/adventureandfantasymovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31182]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31182]</label>
                 <property name="path">special://skin/playlists/netlfixoriginalmovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31859]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31859]</label>
                 <property name="path">special://skin/playlists/imdbtop250movies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31157]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31157]</label>
                 <property name="path">special://skin/playlists/comedymovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31158]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31158]</label>
                 <property name="path">special://skin/playlists/disneyandpixarmovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31159]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31159]</label>
                 <property name="path">special://skin/playlists/documentaries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31161]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31161]</label>
                 <property name="path">special://skin/playlists/europeanmovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31189]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31189]</label>
                 <property name="path">special://skin/playlists/historywarmovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31193]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31193]</label>
                 <property name="path">special://skin/playlists/standup.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31194]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31194]</label>
                 <property name="path">special://skin/playlists/syfymovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31196]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31196]</label>
                 <property name="path">special://skin/playlists/thrillerandsuspensemovies.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
@@ -355,92 +355,92 @@
     <include name="Search_Suggestions_TVShows">
         <content>
             <item>
-                <label>$LOCALIZE[31079]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31079]</label>
                 <property name="path">special://skin/playlists/bingeworthyshows.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[31650]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31650]</label>
                 <property name="path">special://skin/playlists/watchitagaintvshows.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31101]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31101]</label>
                 <property name="path">special://skin/playlists/recentlyaddedshows.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31098]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31098]</label>
                 <property name="path">special://skin/playlists/criticallyacclaimedtvshows.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31181]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31181]</label>
                 <property name="path">special://skin/playlists/netflixoriginalseries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31046]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31046]</label>
                 <property name="path">special://skin/playlists/anime.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31164]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31164]</label>
                 <property name="path">special://skin/playlists/actionandcrimeseries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31160]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31160]</label>
                 <property name="path">special://skin/playlists/docuseries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31163]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31163]</label>
                 <property name="path">special://skin/playlists/adventureandfantasyseries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31156]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31156]</label>
                 <property name="path">special://skin/playlists/amazonoriginalseries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31187]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31187]</label>
                 <property name="path">special://skin/playlists/foodandtravelshows.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31188]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31188]</label>
                 <property name="path">special://skin/playlists/hboshows.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31190]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31190]</label>
                 <property name="path">special://skin/playlists/huluoriginalshows.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31191]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31191]</label>
                 <property name="path">special://skin/playlists/marvelseries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31192]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31192]</label>
                 <property name="path">special://skin/playlists/realitytv.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31076]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31076]</label>
                 <property name="path">special://skin/playlists/britishseries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31195]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31195]</label>
                 <property name="path">special://skin/playlists/syfyseries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[31197]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31197]</label>
                 <property name="path">special://skin/playlists/thrillerandsuspenseseries.xsp</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
@@ -451,107 +451,107 @@
     <include name="Search_Suggestions_Content_2">
         <content>
 			<item>
-                <label>$LOCALIZE[320112]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31457]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=trending_day&amp;type=movie&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[320106]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31399]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=trending_day&amp;type=tv&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[320107]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31414]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=trending_week&amp;type=movie&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[320130]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31519]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=trending_week&amp;type=tv&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[320131]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31522]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=popular&amp;type=movie&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[320132]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31524]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=popular&amp;type=tv&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[320133]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31525]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=top_rated&amp;type=movie&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[320134]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31526]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=top_rated&amp;type=tv&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[320135]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31527]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=airing_today&amp;type=tv&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[320136]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31528]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=on_the_air&amp;type=tv&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[320137]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31529]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=revenue_movies&amp;type=movie&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[320138]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31530]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=most_voted&amp;type=movie&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[320139]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31538]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=most_voted&amp;type=tv&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[320140]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31539]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=trakt_trending&amp;type=movie&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[320141]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31540]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=trakt_trending&amp;type=tv&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
             <item>
-                <label>$LOCALIZE[320142]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31541]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=trakt_popular&amp;type=movie&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[320143]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31542]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=trakt_popular&amp;type=tv&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[320144]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31544]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=trakt_mostplayed&amp;type=movie&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[320145]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31545]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=trakt_mostplayed&amp;type=tv&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[320146]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31548]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=trakt_mostviewers&amp;type=movie&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>
 			<item>
-                <label>$LOCALIZE[320147]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31561]</label>
                 <property name="path">plugin://plugin.video.themoviedb.helper?info=trakt_mostviewers&amp;type=tv&amp;nextpage=false</property>
                 <visible>String.IsEmpty(Skin.String(CustomSearchTerm))</visible>
             </item>			

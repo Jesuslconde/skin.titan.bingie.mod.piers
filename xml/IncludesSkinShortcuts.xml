@@ -8,7 +8,7 @@
             <align>left</align>
             <height>40</height>
             <font>Reg26</font>
-            <label>[B]$LOCALIZE[31499] $PARAM[widgetpos][/B]</label>
+            <label>[B]$ADDON[skin.titan.bingie.mod 31499] $PARAM[widgetpos][/B]</label>
         </control>
         <control type="button" id="900$PARAM[widgetpos]1">
             <description>select widget</description>
@@ -79,10 +79,10 @@
             <height>45</height>
             <align>left</align>
             <font>Reg22</font>
-            <label>$LOCALIZE[31675]:</label>
+            <label>$ADDON[skin.titan.bingie.mod 31675]:</label>
             <label2>$INFO[Container(211).ListItem.Property(widgetTags$PARAM[widgetprop])]</label2>
             <textoffsetx>10</textoffsetx>
-            <onclick>RunScript(script.skin.helper.service,action=setskinshortcutsproperty,header=$LOCALIZE[31675],property=widgetTags$PARAM[widgetprop],setting=Widgets_DisplayTags)</onclick>
+            <onclick>RunScript(script.skin.helper.service,action=setskinshortcutsproperty,header=$ADDON[skin.titan.bingie.mod 31675],property=widgetTags$PARAM[widgetprop],setting=Widgets_DisplayTags)</onclick>
             <visible>!String.IsEmpty(Container(211).ListItem.Property(widget$PARAM[widgetprop]))</visible>
             <visible>String.IsEqual(Skin.String(Widgets_DisplayTags),override)</visible>
             <visible>!String.Contains(Container(211).ListItem.Property(widgetstyle$PARAM[widgetprop]),box) + ![String.IsEmpty(Container(211).ListItem.Property(widgetstyle$PARAM[widgetprop])) + String.Contains(Skin.String(widgetstyle),box)]</visible>
@@ -90,7 +90,7 @@
         <control type="radiobutton" id="900$PARAM[widgetpos]7">
             <description>widget force refresh</description>
             <width>500</width>
-            <label>31717</label>
+            <label>$ADDON[skin.titan.bingie.mod 31717]</label>
             <font>Reg22</font>
             <align>left</align>
             <textoffsetx>10</textoffsetx>
@@ -113,7 +113,7 @@
         <control type="radiobutton" id="900$PARAM[widgetpos]8">
             <description>widget auto rotate</description>
             <width>500</width>
-            <label>31723</label>
+            <label>$ADDON[skin.titan.bingie.mod 31723]</label>
             <font>Reg22</font>
             <align>left</align>
             <textoffsetx>10</textoffsetx>
@@ -142,7 +142,7 @@
             <align>left</align>
             <height>40</height>
             <font>Reg26</font>
-            <label>[B]$LOCALIZE[31499] $PARAM[widgetpos][/B]</label>
+            <label>[B]$ADDON[skin.titan.bingie.mod 31499] $PARAM[widgetpos][/B]</label>
         </control>
         <control type="button" id="900$PARAM[widgetpos]1">
             <description>select widget</description>
@@ -172,11 +172,11 @@
             <width>500</width>
             <height>45</height>
             <align>left</align>
-            <label>$LOCALIZE[320036]:</label>
+            <label>$ADDON[skin.titan.bingie.mod 31211]:</label>
             <font>Reg22</font>
             <label2>$VAR[widget_style_label$PARAM[widgetpos]]</label2>
             <textoffsetx>10</textoffsetx>
-            <onclick>RunScript(script.skin.helper.service,action=setskinshortcutsproperty,setting=widgetstyle,header=$LOCALIZE[320036],property=widgetstyle$PARAM[widgetprop])</onclick>
+            <onclick>RunScript(script.skin.helper.service,action=setskinshortcutsproperty,setting=widgetstyle,header=$ADDON[skin.titan.bingie.mod 31211],property=widgetstyle$PARAM[widgetprop])</onclick>
             <visible>!String.IsEmpty(Container(211).ListItem.Property(widget$PARAM[widgetprop]))</visible>
         </control>
         <control type="button" id="900$PARAM[widgetpos]4">
@@ -225,10 +225,10 @@
             <height>45</height>
             <align>left</align>
             <font>Reg22</font>
-            <label>$LOCALIZE[31675]:</label>
+            <label>$ADDON[skin.titan.bingie.mod 31675]:</label>
             <label2>$INFO[Container(211).ListItem.Property(widgetTags$PARAM[widgetprop])]</label2>
             <textoffsetx>10</textoffsetx>
-            <onclick>RunScript(script.skin.helper.service,action=setskinshortcutsproperty,header=$LOCALIZE[31675],property=widgetTags$PARAM[widgetprop],setting=Widgets_DisplayTags)</onclick>
+            <onclick>RunScript(script.skin.helper.service,action=setskinshortcutsproperty,header=$ADDON[skin.titan.bingie.mod 31675],property=widgetTags$PARAM[widgetprop],setting=Widgets_DisplayTags)</onclick>
             <visible>!String.IsEmpty(Container(211).ListItem.Property(widget$PARAM[widgetprop]))</visible>
             <visible>String.IsEqual(Skin.String(Widgets_DisplayTags),override)</visible>
             <visible>!String.Contains(Container(211).ListItem.Property(widgetstyle$PARAM[widgetprop]),box) + ![String.IsEmpty(Container(211).ListItem.Property(widgetstyle$PARAM[widgetprop])) + String.Contains(Skin.String(widgetstyle),box)]</visible>
@@ -236,7 +236,7 @@
         <control type="radiobutton" id="900$PARAM[widgetpos]9">
             <description>widget force refresh</description>
             <width>500</width>
-            <label>31717</label>
+            <label>$ADDON[skin.titan.bingie.mod 31717]</label>
             <font>Reg22</font>
             <align>left</align>
             <textoffsetx>10</textoffsetx>
@@ -259,7 +259,7 @@
         <control type="radiobutton" id="900$PARAM[widgetpos]10">
             <description>widget auto rotate</description>
             <width>500</width>
-            <label>31723</label>
+            <label>$ADDON[skin.titan.bingie.mod 31723]</label>
             <font>Reg22</font>
             <align>left</align>
             <textoffsetx>10</textoffsetx>
@@ -282,7 +282,7 @@
         <control type="radiobutton" id="900$PARAM[widgetpos]11">
             <description>widget static focus</description>
             <width>500</width>
-            <label>31823</label>
+            <label>$ADDON[skin.titan.bingie.mod 31823]</label>
             <font>Reg22</font>
             <align>left</align>
             <textoffsetx>10</textoffsetx>
@@ -310,7 +310,7 @@
             <align>left</align>
             <height>40</height>
             <font>Reg26</font>
-            <label>[B]$LOCALIZE[31499] $PARAM[widgetpos][/B]</label>
+            <label>[B]$ADDON[skin.titan.bingie.mod 31499] $PARAM[widgetpos][/B]</label>
         </control>
         <control type="button" id="900$PARAM[widgetpos]1">
             <description>select widget</description>
@@ -338,7 +338,7 @@
 		<control type="radiobutton" id="900$PARAM[widgetpos]3">
             <description>highlight widget</description>
             <width>500</width>
-            <label>$LOCALIZE[320045]</label>
+            <label>$ADDON[skin.titan.bingie.mod 31230]</label>
             <font>Reg22</font>
             <align>left</align>
             <textoffsetx>10</textoffsetx>
@@ -349,7 +349,7 @@
 			<textureradionofocus colordiffuse="$INFO[Skin.String(ButtonTextColor)]">common/radio/radio-button-nf-small.png</textureradionofocus>
 			<textureradioondisabled colordiffuse="aaffffff">common/radio/radio-button-fo-small.png</textureradioondisabled>
 			<textureradiooffdisabled colordiffuse="$INFO[Skin.String(ButtonTextColor)]">common/radio/radio-button-nf-small.png</textureradiooffdisabled>
-			<onclick>RunScript(script.skin.helper.service,action=setskinshortcutsproperty,setting=widgetstyle1,header=$LOCALIZE[320051],property=widgetstyle$PARAM[widgetprop])</onclick>
+			<onclick>RunScript(script.skin.helper.service,action=setskinshortcutsproperty,setting=widgetstyle1,header=$ADDON[skin.titan.bingie.mod 31242],property=widgetstyle$PARAM[widgetprop])</onclick>
             <onclick>Skin.ToggleSetting(EnableHighlightWidget)</onclick>
             <selected>Skin.HasSetting(EnableHighlightWidget)</selected>
             <visible>!String.IsEmpty(Container(211).ListItem.Property(widget$PARAM[widgetprop]))</visible>
@@ -401,10 +401,10 @@
             <height>45</height>
             <align>left</align>
             <font>Reg22</font>
-            <label>$LOCALIZE[31675]:</label>
+            <label>$ADDON[skin.titan.bingie.mod 31675]:</label>
             <label2>$INFO[Container(211).ListItem.Property(widgetTags$PARAM[widgetprop])]</label2>
             <textoffsetx>10</textoffsetx>
-            <onclick>RunScript(script.skin.helper.service,action=setskinshortcutsproperty,header=$LOCALIZE[31675],property=widgetTags$PARAM[widgetprop],setting=Widgets_DisplayTags)</onclick>
+            <onclick>RunScript(script.skin.helper.service,action=setskinshortcutsproperty,header=$ADDON[skin.titan.bingie.mod 31675],property=widgetTags$PARAM[widgetprop],setting=Widgets_DisplayTags)</onclick>
             <visible>!String.IsEmpty(Container(211).ListItem.Property(widget$PARAM[widgetprop]))</visible>
             <visible>String.IsEqual(Skin.String(Widgets_DisplayTags),override)</visible>
             <visible>!String.Contains(Container(211).ListItem.Property(widgetstyle$PARAM[widgetprop]),box) + ![String.IsEmpty(Container(211).ListItem.Property(widgetstyle$PARAM[widgetprop])) + String.Contains(Skin.String(widgetstyle),box)]</visible>
@@ -412,7 +412,7 @@
         <control type="radiobutton" id="900$PARAM[widgetpos]9">
             <description>widget force refresh</description>
             <width>500</width>
-            <label>31717</label>
+            <label>$ADDON[skin.titan.bingie.mod 31717]</label>
             <font>Reg22</font>
             <align>left</align>
             <textoffsetx>10</textoffsetx>
@@ -435,7 +435,7 @@
         <control type="radiobutton" id="900$PARAM[widgetpos]10">
             <description>widget auto rotate</description>
             <width>500</width>
-            <label>31723</label>
+            <label>$ADDON[skin.titan.bingie.mod 31723]</label>
             <font>Reg22</font>
             <align>left</align>
             <textoffsetx>10</textoffsetx>
@@ -458,7 +458,7 @@
         <control type="radiobutton" id="900$PARAM[widgetpos]11">
             <description>widget static focus</description>
             <width>500</width>
-            <label>31823</label>
+            <label>$ADDON[skin.titan.bingie.mod 31823]</label>
             <font>Reg22</font>
             <align>left</align>
             <textoffsetx>10</textoffsetx>
@@ -485,42 +485,42 @@
     <variable name="widget_style_label1">
         <value condition="!String.IsEmpty(Container(211).ListItem.Property(widgetstyle.name))">$INFO[Container(211).ListItem.Property(widgetstyle.name)]</value>
         <value condition="!String.IsEmpty(Container(211).ListItem.Property(widgetstyle))">$INFO[Container(211).ListItem.Property(widgetstyle)]</value>
-        <value>$LOCALIZE[31641]</value>
+        <value>$ADDON[skin.titan.bingie.mod 31641]</value>
     </variable>
     <variable name="widget_style_label2">
         <value condition="!String.IsEmpty(Container(211).ListItem.Property(widgetstyle.1.name))">$INFO[Container(211).ListItem.Property(widgetstyle.1.name)]</value>
         <value condition="!String.IsEmpty(Container(211).ListItem.Property(widgetstyle.1))">$INFO[Container(211).ListItem.Property(widgetstyle.1)]</value>
-        <value>$LOCALIZE[31641]</value>
+        <value>$ADDON[skin.titan.bingie.mod 31641]</value>
     </variable>
     <variable name="widget_style_label3">
         <value condition="!String.IsEmpty(Container(211).ListItem.Property(widgetstyle.2.name))">$INFO[Container(211).ListItem.Property(widgetstyle.2.name)]</value>
         <value condition="!String.IsEmpty(Container(211).ListItem.Property(widgetstyle.2))">$INFO[Container(211).ListItem.Property(widgetstyle.2)]</value>
-        <value>$LOCALIZE[31641]</value>
+        <value>$ADDON[skin.titan.bingie.mod 31641]</value>
     </variable>
     <variable name="widget_style_label4">
         <value condition="!String.IsEmpty(Container(211).ListItem.Property(widgetstyle.3.name))">$INFO[Container(211).ListItem.Property(widgetstyle.3.name)]</value>
         <value condition="!String.IsEmpty(Container(211).ListItem.Property(widgetstyle.3))">$INFO[Container(211).ListItem.Property(widgetstyle.3)]</value>
-        <value>$LOCALIZE[31641]</value>
+        <value>$ADDON[skin.titan.bingie.mod 31641]</value>
     </variable>
     <variable name="widget_style_label5">
         <value condition="!String.IsEmpty(Container(211).ListItem.Property(widgetstyle.4.name))">$INFO[Container(211).ListItem.Property(widgetstyle.4.name)]</value>
         <value condition="!String.IsEmpty(Container(211).ListItem.Property(widgetstyle.4))">$INFO[Container(211).ListItem.Property(widgetstyle.4)]</value>
-        <value>$LOCALIZE[31641]</value>
+        <value>$ADDON[skin.titan.bingie.mod 31641]</value>
     </variable>
     <variable name="widget_style_label6">
         <value condition="!String.IsEmpty(Container(211).ListItem.Property(widgetstyle.5.name))">$INFO[Container(211).ListItem.Property(widgetstyle.5.name)]</value>
         <value condition="!String.IsEmpty(Container(211).ListItem.Property(widgetstyle.5))">$INFO[Container(211).ListItem.Property(widgetstyle.5)]</value>
-        <value>$LOCALIZE[31641]</value>
+        <value>$ADDON[skin.titan.bingie.mod 31641]</value>
     </variable>
     <variable name="widget_style_label7">
         <value condition="!String.IsEmpty(Container(211).ListItem.Property(widgetstyle.6.name))">$INFO[Container(211).ListItem.Property(widgetstyle.6.name)]</value>
         <value condition="!String.IsEmpty(Container(211).ListItem.Property(widgetstyle.6))">$INFO[Container(211).ListItem.Property(widgetstyle.6)]</value>
-        <value>$LOCALIZE[31641]</value>
+        <value>$ADDON[skin.titan.bingie.mod 31641]</value>
     </variable>
     <variable name="widget_style_label8">
         <value condition="!String.IsEmpty(Container(211).ListItem.Property(widgetstyle.7.name))">$INFO[Container(211).ListItem.Property(widgetstyle.7.name)]</value>
         <value condition="!String.IsEmpty(Container(211).ListItem.Property(widgetstyle.7))">$INFO[Container(211).ListItem.Property(widgetstyle.7)]</value>
-        <value>$LOCALIZE[31641]</value>
+        <value>$ADDON[skin.titan.bingie.mod 31641]</value>
     </variable>
 
     <!-- widget infolabel label -->

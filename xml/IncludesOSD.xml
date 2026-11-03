@@ -1010,7 +1010,7 @@
 					<aligny>top</aligny>
 					<font>Light26</font>
 					<textcolor>$INFO[Skin.String(BingieOSDProgressTextColor)]</textcolor>
-					<label>$INFO[Player.StartTime]$INFO[VideoPlayer.EndTime,-,] | $VAR[PlayerTitle][UPPERCASE]$INFO[VideoPlayer.Season,S,]$INFO[VideoPlayer.Episode,E,][/UPPERCASE]$INFO[VideoPlayer.EpisodeName, ","]$INFO[VideoPlayer.NextTitle, | $LOCALIZE[31065]: ,][CR]$INFO[VideoPlayer.ChannelName]</label>
+					<label>$INFO[Player.StartTime]$INFO[VideoPlayer.EndTime,-,] | $VAR[PlayerTitle][UPPERCASE]$INFO[VideoPlayer.Season,S,]$INFO[VideoPlayer.Episode,E,][/UPPERCASE]$INFO[VideoPlayer.EpisodeName, ","]$INFO[VideoPlayer.NextTitle, | $ADDON[skin.titan.bingie.mod 31065]: ,][CR]$INFO[VideoPlayer.ChannelName]</label>
 					<scroll>false</scroll>
 					<visible>VideoPlayer.Content(livetv)</visible>
 				</control>
@@ -1883,7 +1883,7 @@
 				<description> lyrics </description>
 				<width>$PARAM[size]</width>
 				<height>$PARAM[size]</height>
-				<label>31128</label>
+				<label>$ADDON[skin.titan.bingie.mod 31128]</label>
 				<font/>
 				<texturefocus colordiffuse="$INFO[Skin.String(OSDButtonsFocusColor)]">$PARAM[iconspath]lyrics.png</texturefocus>
 				<texturenofocus colordiffuse="$INFO[Skin.String(OSDButtonsColor)]">$PARAM[iconspath]lyrics.png</texturenofocus>
@@ -1969,7 +1969,7 @@
 				<description> infopanel </description>
 				<width>$PARAM[size]</width>
 				<height>$PARAM[size]</height>
-				<label>31133</label>
+				<label>$ADDON[skin.titan.bingie.mod 31133]</label>
 				<font/>
 				<texturefocus colordiffuse="$INFO[Skin.String(OSDButtonsFocusColor)]">$PARAM[iconspath]info.png</texturefocus>
 				<texturenofocus colordiffuse="$INFO[Skin.String(OSDButtonsColor)]">$PARAM[iconspath]info.png</texturenofocus>
@@ -2473,7 +2473,7 @@
 				<visible>!VideoPlayer.HasEpg + !VideoPlayer.Content(livetv)</visible>
 					<align>left</align>
 					<width>250</width>
-					<label>31366</label>
+					<label>$ADDON[skin.titan.bingie.mod 31366]</label>
 					<font>Reg32</font>
 					<textcolor>$INFO[Skin.String(BingieOSDHeaderTextColor)]</textcolor>
 				</control>
@@ -2483,7 +2483,7 @@
 				<visible>VideoPlayer.HasEpg</visible>
 					<align>left</align>
 					<width>250</width>
-					<label>31366</label>
+					<label>$ADDON[skin.titan.bingie.mod 31366]</label>
 					<font>Reg32</font>
 					<textcolor>$INFO[Skin.String(BingieOSDHeaderTextColor)]</textcolor>
 				</control>
@@ -2598,8 +2598,8 @@
 					<align>left</align>
 					<font>Reg30</font>
 					<textcolor>$INFO[Skin.String(BingieOSDProgressTextColor)]</textcolor>
-					<!--<label>$VAR[FinishTime, [B]$LOCALIZE[31112]: [/B]]</label>-->
-					<label>[B]$LOCALIZE[31112]: [/B] [B]$VAR[FinishTime][/B] </label>
+					<!--<label>$VAR[FinishTime, [B]$ADDON[skin.titan.bingie.mod 31112]: [/B]]</label>-->
+					<label>[B]$ADDON[skin.titan.bingie.mod 31112]: [/B] [B]$VAR[FinishTime][/B] </label>
 				</control>
 				
 				<!-- Current Time OSD Info-->
@@ -2665,7 +2665,7 @@
         <value condition="Player.HasAudio + !String.IsEmpty(MusicPlayer.Artist)">$INFO[MusicPlayer.Artist]</value>
         <value condition="Player.HasAudio + String.IsEmpty(MusicPlayer.Artist) + !String.IsEmpty(MusicPlayer.ChannelName)">$INFO[MusicPlayer.ChannelName]</value>
         <value condition="Player.HasAudio + String.IsEmpty(MusicPlayer.Artist) + String.IsEmpty(MusicPlayer.ChannelName) + !String.IsEmpty(Window(Home).Property(SkinHelper.Player.AddonName))">$INFO[Window(Home).Property(SkinHelper.Player.AddonName)]</value>
-        <value>$LOCALIZE[31040]</value>
+        <value>$ADDON[skin.titan.bingie.mod 31040]</value>
 	 </variable>
 
 	 <variable name="OSDLabel2">
@@ -2691,7 +2691,7 @@
 		<value condition="Player.HasAudio + String.IsEmpty(MusicPlayer.Artist) + String.IsEmpty(MusicPlayer.ChannelName) + !String.IsEmpty(Window(Home).Property(SkinHelper.Player.AddonName))">$INFO[Window(Home).Property(SkinHelper.Player.AddonName)]</value>
 		<value condition="Player.HasVideo + ![String.Contains(VideoPlayer.Title,movie-trailer) | String.Contains(VideoPlayer.Title,tvshow-trailer)]">$INFO[VideoPlayer.Title]</value>
 		<value condition="Player.HasVideo + [String.Contains(VideoPlayer.Title,movie-trailer) | String.Contains(VideoPlayer.Title,tvshow-trailer)]"/>
-		<value>$LOCALIZE[31040]</value>
+		<value>$ADDON[skin.titan.bingie.mod 31040]</value>
 	</variable>
 
 	<variable name="OSDLabel5">
@@ -2761,58 +2761,58 @@
      
      <variable name="PlayerActionLabel">
 		<value condition="[Player.Paused + Player.Caching] + !Player.Seeking">[B]$LOCALIZE[15107]:[/B] $INFO[Player.CacheLevel]%</value>
-		<value condition="!String.IsEmpty(Player.SeekStepSize) + ![Player.Forwarding | Player.Rewinding] + Player.seeking">[B]$LOCALIZE[31255][/B] $INFO[Player.SeekStepSize]</value>
-		<value condition="Player.DisplayAfterSeek  + ![Player.Forwarding | Player.Rewinding] + !String.IsEmpty(Player.SeekOffset)">[B]$LOCALIZE[31255][/B] $INFO[Player.SeekOffset]</value>
-		<value condition="Player.seeking">[B]$LOCALIZE[31255][/B] $VAR[SeekTime] - $VAR[TotalDuration]</value>
-		<value condition="Player.Forwarding2x">[B]$LOCALIZE[31253][/B] x2</value>
-		<value condition="Player.Forwarding4x">[B]$LOCALIZE[31253][/B] x4</value>
-		<value condition="Player.Forwarding8x">[B]$LOCALIZE[31253][/B] x8</value>
-		<value condition="Player.Forwarding16x">[B]$LOCALIZE[31253][/B] x16</value>
-		<value condition="Player.Forwarding32x">[B]$LOCALIZE[31253][/B] x32</value>
-		<value condition="Player.Rewinding2x">[B]$LOCALIZE[31254][/B] x2</value>
-		<value condition="Player.Rewinding4x">[B]$LOCALIZE[31254][/B] x4</value>
-		<value condition="Player.Rewinding8x">[B]$LOCALIZE[31254][/B] x8</value>
-		<value condition="Player.Rewinding16x">[B]$LOCALIZE[31254][/B] x16</value>
-		<value condition="Player.Rewinding32x">[B]$LOCALIZE[31254][/B] x32</value>
-		<value condition="!String.IsEmpty(Player.FinishTime) | !String.IsEmpty(PVR.EpgEventFinishTime)">$LOCALIZE[31112]: $VAR[FinishTime]</value>
+		<value condition="!String.IsEmpty(Player.SeekStepSize) + ![Player.Forwarding | Player.Rewinding] + Player.seeking">[B]$ADDON[skin.titan.bingie.mod 31255][/B] $INFO[Player.SeekStepSize]</value>
+		<value condition="Player.DisplayAfterSeek  + ![Player.Forwarding | Player.Rewinding] + !String.IsEmpty(Player.SeekOffset)">[B]$ADDON[skin.titan.bingie.mod 31255][/B] $INFO[Player.SeekOffset]</value>
+		<value condition="Player.seeking">[B]$ADDON[skin.titan.bingie.mod 31255][/B] $VAR[SeekTime] - $VAR[TotalDuration]</value>
+		<value condition="Player.Forwarding2x">[B]$ADDON[skin.titan.bingie.mod 31253][/B] x2</value>
+		<value condition="Player.Forwarding4x">[B]$ADDON[skin.titan.bingie.mod 31253][/B] x4</value>
+		<value condition="Player.Forwarding8x">[B]$ADDON[skin.titan.bingie.mod 31253][/B] x8</value>
+		<value condition="Player.Forwarding16x">[B]$ADDON[skin.titan.bingie.mod 31253][/B] x16</value>
+		<value condition="Player.Forwarding32x">[B]$ADDON[skin.titan.bingie.mod 31253][/B] x32</value>
+		<value condition="Player.Rewinding2x">[B]$ADDON[skin.titan.bingie.mod 31254][/B] x2</value>
+		<value condition="Player.Rewinding4x">[B]$ADDON[skin.titan.bingie.mod 31254][/B] x4</value>
+		<value condition="Player.Rewinding8x">[B]$ADDON[skin.titan.bingie.mod 31254][/B] x8</value>
+		<value condition="Player.Rewinding16x">[B]$ADDON[skin.titan.bingie.mod 31254][/B] x16</value>
+		<value condition="Player.Rewinding32x">[B]$ADDON[skin.titan.bingie.mod 31254][/B] x32</value>
+		<value condition="!String.IsEmpty(Player.FinishTime) | !String.IsEmpty(PVR.EpgEventFinishTime)">$ADDON[skin.titan.bingie.mod 31112]: $VAR[FinishTime]</value>
 	 </variable>
 	 
 	 <variable name="PlayerActionLabelSmall">
 		<value condition="[Player.Paused + Player.Caching] + !Player.Seeking">[B]$LOCALIZE[15107]:[/B] $INFO[Player.CacheLevel]%</value>
-		<value condition="!String.IsEmpty(Player.SeekStepSize) + ![Player.Forwarding | Player.Rewinding] + Player.seeking">[B]$LOCALIZE[31255][/B] $INFO[Player.SeekStepSize]</value>
+		<value condition="!String.IsEmpty(Player.SeekStepSize) + ![Player.Forwarding | Player.Rewinding] + Player.seeking">[B]$ADDON[skin.titan.bingie.mod 31255][/B] $INFO[Player.SeekStepSize]</value>
 		<value condition="Player.DisplayAfterSeek  + ![Player.Forwarding | Player.Rewinding] + !String.IsEmpty(player.chaptercount) + !String.IsEqual(player.chaptercount,00)">$INFO[player.chapter,[B]$LOCALIZE[21396]:[/B] ,]$INFO[player.chaptercount,/,]</value>
-		<value condition="Player.DisplayAfterSeek  + ![Player.Forwarding | Player.Rewinding] + !String.IsEmpty(Player.SeekOffset)">[B]$LOCALIZE[31255][/B] $INFO[Player.SeekOffset]</value>
+		<value condition="Player.DisplayAfterSeek  + ![Player.Forwarding | Player.Rewinding] + !String.IsEmpty(Player.SeekOffset)">[B]$ADDON[skin.titan.bingie.mod 31255][/B] $INFO[Player.SeekOffset]</value>
 		<value condition="Player.Seeking + !String.IsEmpty(player.chaptercount) + !String.IsEqual(player.chaptercount,00)">$INFO[player.chapter,[B]$LOCALIZE[21396]:[/B] ,]$INFO[player.chaptercount,/,]</value>
-		<value condition="Player.Seeking">[B]$LOCALIZE[31255][/B] $VAR[SeekTime] - $VAR[TotalDuration]</value>
-		<value condition="Player.Forwarding2x">[B]$LOCALIZE[31253][/B] x2</value>
-		<value condition="Player.Forwarding4x">[B]$LOCALIZE[31253][/B] x4</value>
-		<value condition="Player.Forwarding8x">[B]$LOCALIZE[31253][/B] x8</value>
-		<value condition="Player.Forwarding16x">[B]$LOCALIZE[31253][/B] x16</value>
-		<value condition="Player.Forwarding32x">[B]$LOCALIZE[31253][/B] x32</value>
-		<value condition="Player.Rewinding2x">[B]$LOCALIZE[31254][/B] x2</value>
-		<value condition="Player.Rewinding4x">[B]$LOCALIZE[31254][/B] x4</value>
-		<value condition="Player.Rewinding8x">[B]$LOCALIZE[31254][/B] x8</value>
-		<value condition="Player.Rewinding16x">[B]$LOCALIZE[31254][/B] x16</value>
-		<value condition="Player.Rewinding32x">[B]$LOCALIZE[31254][/B] x32</value>
-		<value condition="!String.IsEmpty(Player.FinishTime) | !String.IsEmpty(PVR.EpgEventFinishTime)">[B]$LOCALIZE[31112]:[/B] $VAR[FinishTime]</value>
+		<value condition="Player.Seeking">[B]$ADDON[skin.titan.bingie.mod 31255][/B] $VAR[SeekTime] - $VAR[TotalDuration]</value>
+		<value condition="Player.Forwarding2x">[B]$ADDON[skin.titan.bingie.mod 31253][/B] x2</value>
+		<value condition="Player.Forwarding4x">[B]$ADDON[skin.titan.bingie.mod 31253][/B] x4</value>
+		<value condition="Player.Forwarding8x">[B]$ADDON[skin.titan.bingie.mod 31253][/B] x8</value>
+		<value condition="Player.Forwarding16x">[B]$ADDON[skin.titan.bingie.mod 31253][/B] x16</value>
+		<value condition="Player.Forwarding32x">[B]$ADDON[skin.titan.bingie.mod 31253][/B] x32</value>
+		<value condition="Player.Rewinding2x">[B]$ADDON[skin.titan.bingie.mod 31254][/B] x2</value>
+		<value condition="Player.Rewinding4x">[B]$ADDON[skin.titan.bingie.mod 31254][/B] x4</value>
+		<value condition="Player.Rewinding8x">[B]$ADDON[skin.titan.bingie.mod 31254][/B] x8</value>
+		<value condition="Player.Rewinding16x">[B]$ADDON[skin.titan.bingie.mod 31254][/B] x16</value>
+		<value condition="Player.Rewinding32x">[B]$ADDON[skin.titan.bingie.mod 31254][/B] x32</value>
+		<value condition="!String.IsEmpty(Player.FinishTime) | !String.IsEmpty(PVR.EpgEventFinishTime)">[B]$ADDON[skin.titan.bingie.mod 31112]:[/B] $VAR[FinishTime]</value>
 	 </variable>
 	 
 	 <variable name="PlayerActionLabelLarge">
 		<value condition="[Player.Paused + Player.Caching] + !Player.Seeking">[B]$LOCALIZE[15107]:[/B] $INFO[Player.CacheLevel]%</value>
-		<value condition="!String.IsEmpty(Player.SeekStepSize) + ![Player.Forwarding | Player.Rewinding] + Player.seeking">[B]$LOCALIZE[31255][/B] $INFO[Player.SeekStepSize]</value>
-		<value condition="Player.DisplayAfterSeek  + ![Player.Forwarding | Player.Rewinding] + !String.IsEmpty(Player.SeekOffset)">[B]$LOCALIZE[31255][/B] $INFO[Player.SeekOffset]</value>
-		<value condition="Player.Seeking">[B]$LOCALIZE[31255][/B] $VAR[SeekTime] - $VAR[TotalDuration]</value>
-		<value condition="Player.Forwarding2x">[B]$LOCALIZE[31253][/B] x2</value>
-		<value condition="Player.Forwarding4x">[B]$LOCALIZE[31253][/B] x4</value>
-		<value condition="Player.Forwarding8x">[B]$LOCALIZE[31253][/B] x8</value>
-		<value condition="Player.Forwarding16x">[B]$LOCALIZE[31253][/B] x16</value>
-		<value condition="Player.Forwarding32x">[B]$LOCALIZE[31253][/B] x32</value>
-		<value condition="Player.Rewinding2x">[B]$LOCALIZE[31254][/B] x2</value>
-		<value condition="Player.Rewinding4x">[B]$LOCALIZE[31254][/B] x4</value>
-		<value condition="Player.Rewinding8x">[B]$LOCALIZE[31254][/B] x8</value>
-		<value condition="Player.Rewinding16x">[B]$LOCALIZE[31254][/B] x16</value>
-		<value condition="Player.Rewinding32x">[B]$LOCALIZE[31254][/B] x32</value>
-		<value condition="Player.Paused">[B]$LOCALIZE[31251][/B]</value>
+		<value condition="!String.IsEmpty(Player.SeekStepSize) + ![Player.Forwarding | Player.Rewinding] + Player.seeking">[B]$ADDON[skin.titan.bingie.mod 31255][/B] $INFO[Player.SeekStepSize]</value>
+		<value condition="Player.DisplayAfterSeek  + ![Player.Forwarding | Player.Rewinding] + !String.IsEmpty(Player.SeekOffset)">[B]$ADDON[skin.titan.bingie.mod 31255][/B] $INFO[Player.SeekOffset]</value>
+		<value condition="Player.Seeking">[B]$ADDON[skin.titan.bingie.mod 31255][/B] $VAR[SeekTime] - $VAR[TotalDuration]</value>
+		<value condition="Player.Forwarding2x">[B]$ADDON[skin.titan.bingie.mod 31253][/B] x2</value>
+		<value condition="Player.Forwarding4x">[B]$ADDON[skin.titan.bingie.mod 31253][/B] x4</value>
+		<value condition="Player.Forwarding8x">[B]$ADDON[skin.titan.bingie.mod 31253][/B] x8</value>
+		<value condition="Player.Forwarding16x">[B]$ADDON[skin.titan.bingie.mod 31253][/B] x16</value>
+		<value condition="Player.Forwarding32x">[B]$ADDON[skin.titan.bingie.mod 31253][/B] x32</value>
+		<value condition="Player.Rewinding2x">[B]$ADDON[skin.titan.bingie.mod 31254][/B] x2</value>
+		<value condition="Player.Rewinding4x">[B]$ADDON[skin.titan.bingie.mod 31254][/B] x4</value>
+		<value condition="Player.Rewinding8x">[B]$ADDON[skin.titan.bingie.mod 31254][/B] x8</value>
+		<value condition="Player.Rewinding16x">[B]$ADDON[skin.titan.bingie.mod 31254][/B] x16</value>
+		<value condition="Player.Rewinding32x">[B]$ADDON[skin.titan.bingie.mod 31254][/B] x32</value>
+		<value condition="Player.Paused">[B]$ADDON[skin.titan.bingie.mod 31251][/B]</value>
 	 </variable>
 
 	<variable name="PlayerActionLabelBingie">
@@ -3003,7 +3003,7 @@
                     <description>infopanel</description>
                     <width>$PARAM[topsize]</width>
                     <height>$PARAM[topsize]</height>
-                    <label>31133</label>
+                    <label>$ADDON[skin.titan.bingie.mod 31133]</label>
                     <font/>
                     <texturefocus colordiffuse="$INFO[Skin.String(OSDBingieButtonsFocusColor)]">$PARAM[iconspath]info_fo.png</texturefocus>
                     <texturenofocus colordiffuse="$INFO[Skin.String(OSDBingieButtonsColor)]">$PARAM[iconspath]info.png</texturenofocus>
@@ -3231,7 +3231,7 @@
 			  <animation effect="fade" time="350" condition="Skin.HasSetting(UseBingieOSD)">Hidden</animation>
 			  <width>200</width>
 			  <height>50</height>
-			  <label>$LOCALIZE[31089]</label>
+			  <label>$ADDON[skin.titan.bingie.mod 31089]</label>
 			  <altlabel>$LOCALIZE[15067]</altlabel>
 			  <font>Reg26</font>
 			  <textwidth>160</textwidth>
@@ -3308,7 +3308,7 @@
 
 	<variable name="VideoRatingTopBarLabel">
 		<value condition="String.Contains(VideoPlayer.MPAA,rated)">$INFO[VideoPlayer.MPAA]</value>
-		<value>$INFO[VideoPlayer.MPAA,$LOCALIZE[31023] ,]</value>
+		<value>$INFO[VideoPlayer.MPAA,$ADDON[skin.titan.bingie.mod 31023] ,]</value>
 	</variable>
 
 	<variable name="ForwardRewindIndicatorImage">

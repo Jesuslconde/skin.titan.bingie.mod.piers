@@ -484,8 +484,8 @@
                     <ondown>13</ondown>
                     <control type="togglebutton" id="34">
                         <description>TV/Radio Button</description>
-                        <label>31135</label>
-                        <altlabel>31132</altlabel>
+                        <label>$ADDON[skin.titan.bingie.mod 31135]</label>
+                        <altlabel>$ADDON[skin.titan.bingie.mod 31132]</altlabel>
 						<width>300</width>
                         <usealttexture>!String.IsEmpty(Window.Property(IsRadio))</usealttexture>
                         <include>DialogButtonOther</include>

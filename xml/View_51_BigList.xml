@@ -329,7 +329,7 @@
 				<onleft condition="$EXP[IsPlayingUnrecognizedContent] + Skin.HasSetting(DetailsAutoTrailer) + [!String.IsEmpty(ListItem.Trailer) | !String.IsEmpty(Window(Home).Property(TrailerPlaying))] + !String.IsEqual(Window(Home).Property(TrailerPlaying),fullscreen)">PlayerControl(Stop)</onleft>
 				<onback>CancelAlarm(preview_delay,silent)</onback>
 				<onback condition="$EXP[IsPlayingUnrecognizedContent] + Skin.HasSetting(DetailsAutoTrailer) + [!String.IsEmpty(ListItem.Trailer) | !String.IsEmpty(Window(Home).Property(TrailerPlaying))] + !String.IsEqual(Window(Home).Property(TrailerPlaying),fullscreen)">PlayerControl(Stop)</onback>
-				<viewtype label="31444">list</viewtype>
+				<viewtype label="$ADDON[skin.titan.bingie.mod 31444]">list</viewtype>
 				<include content="View_Forced">
 					<param name="viewtype" value="$LOCALIZE[31444]" />
 				</include>

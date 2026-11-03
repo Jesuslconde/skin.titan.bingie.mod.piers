@@ -2932,991 +2932,991 @@ msgctxt "#31999"
 msgid "Only Show Logo"
 msgstr ""
 
-msgctxt "#320000"
+msgctxt "#31000"
 msgid "Play From Beginning"
 msgstr ""
 
-msgctxt "#320001"
+msgctxt "#31012"
 msgid "Home mainmenu line under icons"
 msgstr ""
 
-msgctxt "#320002"
+msgctxt "#31063"
 msgid "Choose Art"
 msgstr ""
 
-msgctxt "#320003"
+msgctxt "#31083"
 msgid "Season"
 msgstr ""
 
-msgctxt "#320004"
+msgctxt "#31087"
 msgid "Episode"
 msgstr ""
 
-msgctxt "#320005"
+msgctxt "#31094"
 msgid "Similar"
 msgstr ""
 
-msgctxt "#320006"
+msgctxt "#31110"
 msgid "Bingie OSD buttons color"
 msgstr ""
 
-msgctxt "#320007"
+msgctxt "#31111"
 msgid "Bingie OSD focus button color"
 msgstr ""
 
-msgctxt "#320008"
+msgctxt "#31126"
 msgid "Style for media/codec info"
 msgstr ""
 
-msgctxt "#320009"
+msgctxt "#31136"
 msgid "Video Information"
 msgstr ""
 
-msgctxt "#320010"
+msgctxt "#31144"
 msgid "OSD volume button color"
 msgstr ""
 
-msgctxt "#320011"
+msgctxt "#31145"
 msgid "Shows"
 msgstr ""
 
-msgctxt "#320012"
+msgctxt "#31146"
 msgid "TV Channels"
 msgstr ""
 
-msgctxt "#320013"
+msgctxt "#31147"
 msgid "TV Guide"
 msgstr ""
 
-msgctxt "#320014"
+msgctxt "#31148"
 msgid "TV Search"
 msgstr ""
 
-msgctxt "#320015"
+msgctxt "#31149"
 msgid "TV Recordings"
 msgstr ""
 
-msgctxt "#320016"
+msgctxt "#31150"
 msgid "Timer Rules"
 msgstr ""
 
-msgctxt "#320017"
+msgctxt "#31152"
 msgid "Radio Channels"
 msgstr ""
 
-msgctxt "#320018"
+msgctxt "#31153"
 msgid "Welcome to[CR]BINGIE MOD"
 msgstr ""
 
-msgctxt "#320019"
+msgctxt "#31154"
 msgid "MPAA Color Panel"
 msgstr ""
 
-msgctxt "#320020"
+msgctxt "#31165"
 msgid "General Audiences Panel Color"
 msgstr ""
 
-msgctxt "#320021"
+msgctxt "#31166"
 msgid "Parental Guidance Suggested Panel Color"
 msgstr ""
 
-msgctxt "#320022"
+msgctxt "#31169"
 msgid "Parents Strongly Cautioned Panel Color"
 msgstr ""
 
-msgctxt "#320023"
+msgctxt "#31172"
 msgid "Restricted Panel Color"
 msgstr ""
 
-msgctxt "#320024"
+msgctxt "#31173"
 msgid "Adults Only Panel Color"
 msgstr ""
 
-msgctxt "#320025"
+msgctxt "#31177"
 msgid "Not Rated Panel Color"
 msgstr ""
 
-msgctxt "#320026"
+msgctxt "#31178"
 msgid "MPAA Font Color"
 msgstr ""
 
-msgctxt "#320027"
+msgctxt "#31180"
 msgid "Surprise Me"
 msgstr ""
 
-msgctxt "#320028"
+msgctxt "#31184"
 msgid "Random TV Shows"
 msgstr ""
 
-msgctxt "#320029"
+msgctxt "#31186"
 msgid "Exit Bingie"
 msgstr ""
 
-msgctxt "#320030"
+msgctxt "#31199"
 msgid "Reboot"
 msgstr ""
 
-msgctxt "#320031"
+msgctxt "#31202"
 msgid "Power Off System"
 msgstr ""
 
-msgctxt "#320032"
+msgctxt "#31203"
 msgid "New & Popular"
 msgstr ""
 
-msgctxt "#320033"
+msgctxt "#31206"
 msgid "MANAGE PROFILES"
 msgstr ""
 
-msgctxt "#320034"
+msgctxt "#31208"
 msgid "Random Movies"
 msgstr ""
 
-msgctxt "#320035"
+msgctxt "#31209"
 msgid "Bingie plot text color"
 msgstr ""
 
-msgctxt "#320036"
+msgctxt "#31211"
 msgid "Layout for Widget"
 msgstr ""
 
-msgctxt "#320037"
+msgctxt "#31215"
 msgid "Border Color for Fixed MPAA Panel"
 msgstr ""
 
-msgctxt "#320038"
+msgctxt "#31216"
 msgid "Metacritic Rating"
 msgstr ""
 
-msgctxt "#320039"
+msgctxt "#31217"
 msgid "Trakt Rating"
 msgstr ""
 
-msgctxt "#320040"
+msgctxt "#31218"
 msgid "Oscar"
 msgstr ""
 
-msgctxt "#320041"
+msgctxt "#31224"
 msgid "TVDB Rating"
 msgstr ""
 
-msgctxt "#320042"
+msgctxt "#31225"
 msgid "IMDB Top 250"
 msgstr ""
 
-msgctxt "#320043"
+msgctxt "#31228"
 msgid "Rotten Tomatoes Fresh Certified"
 msgstr ""
 
-msgctxt "#320044"
+msgctxt "#31229"
 msgid "Rotten Tomatoes Audience Rating"
 msgstr ""
 
-msgctxt "#320045"
+msgctxt "#31230"
 msgid "Enable Highlight Widget"
 msgstr ""
 
-msgctxt "#320046"
+msgctxt "#31234"
 msgid "Disable Highlight Widget (use current layout)"
 msgstr ""
 
-msgctxt "#320047"
+msgctxt "#31235"
 msgid "Display Clearlogo as fallback on landscape images"
 msgstr ""
 
-msgctxt "#320048"
+msgctxt "#31236"
 msgid "Enable Ratings"
 msgstr ""
 
-msgctxt "#320049"
+msgctxt "#31240"
 msgid "Bingie OSD plot text color"
 msgstr ""
 
-msgctxt "#320050"
+msgctxt "#31241"
 msgid "Bingie OSD sublabel text color"
 msgstr ""
 
-msgctxt "#320051"
+msgctxt "#31242"
 msgid "Highlight Widget"
 msgstr ""
 
-msgctxt "#320052"
+msgctxt "#31243"
 msgid "Search TMDB Helper"
 msgstr ""
 
-msgctxt "#320053"
+msgctxt "#31244"
 msgid "New Search"
 msgstr ""
 
-msgctxt "#320054"
+msgctxt "#31246"
 msgid "with"
 msgstr ""
 
-msgctxt "#320055"
+msgctxt "#31247"
 msgid "Search Library"
 msgstr ""
 
-msgctxt "#320056"
+msgctxt "#31248"
 msgid "and"
 msgstr ""
 
-msgctxt "#320057"
+msgctxt "#31249"
 msgid "Movies"
 msgstr ""
 
-msgctxt "#320058"
+msgctxt "#31250"
 msgid "TV Shows"
 msgstr ""
 
-msgctxt "#320059"
+msgctxt "#31258"
 msgid "People"
 msgstr ""
 
-msgctxt "#320060"
+msgctxt "#31261"
 msgid "Enable auto pause on OSD open"
 msgstr ""
 
-msgctxt "#320061"
+msgctxt "#31262"
 msgid "Bingie additional info icons color"
 msgstr ""
 
-msgctxt "#320062"
+msgctxt "#31264"
 msgid "Bingie Top 250 icon color"
 msgstr ""
 
-msgctxt "#320063"
+msgctxt "#31275"
 msgid "Play Next Episode"
 msgstr ""
 
-msgctxt "#320064"
+msgctxt "#31276"
 msgid "Creators"
 msgstr ""
 
-msgctxt "#320065"
+msgctxt "#31277"
 msgid "Collection"
 msgstr ""
 
-msgctxt "#320066"
+msgctxt "#31278"
 msgid "Runtime"
 msgstr ""
 
-msgctxt "#320067"
+msgctxt "#31279"
 msgid "Credits & More Info"
 msgstr ""
 
-msgctxt "#320068"
+msgctxt "#31280"
 msgid "Genres"
 msgstr ""
 
-msgctxt "#320069"
+msgctxt "#31281"
 msgid "Recommended"
 msgstr ""
 
-msgctxt "#320070"
+msgctxt "#31282"
 msgid "Director"
 msgstr ""
 
-msgctxt "#320071"
+msgctxt "#31283"
 msgid "Directed by"
 msgstr ""
 
-msgctxt "#320072"
+msgctxt "#31284"
 msgid "Written by"
 msgstr ""
 
-msgctxt "#320073"
+msgctxt "#31292"
 msgid "Recommendations"
 msgstr ""
 
-msgctxt "#320074"
+msgctxt "#31294"
 msgid "Studio"
 msgstr ""
 
-msgctxt "#320075"
+msgctxt "#31297"
 msgid "Network"
 msgstr ""
 
-msgctxt "#320076"
+msgctxt "#31298"
 msgid "Premiered in"
 msgstr ""
 
-msgctxt "#320077"
+msgctxt "#31299"
 msgid "Year"
 msgstr ""
 
-msgctxt "#320078"
+msgctxt "#31303"
 msgid "Posters"
 msgstr ""
 
-msgctxt "#320079"
+msgctxt "#31306"
 msgid "Creator"
 msgstr ""
 
-msgctxt "#320080"
+msgctxt "#31310"
 msgid "Created by"
 msgstr ""
 
-msgctxt "#320081"
+msgctxt "#31311"
 msgid "Trailers"
 msgstr ""
 
-msgctxt "#320082"
+msgctxt "#31312"
 msgid "Cast in Movies"
 msgstr ""
 
-msgctxt "#320083"
+msgctxt "#31313"
 msgid "Cast in TV Shows"
 msgstr ""
 
-msgctxt "#320084"
+msgctxt "#31314"
 msgid "Crew in Movies"
 msgstr ""
 
-msgctxt "#320085"
+msgctxt "#31315"
 msgid "Crew in TV Shows"
 msgstr ""
 
-msgctxt "#320086"
+msgctxt "#31316"
 msgid "Information"
 msgstr ""
 
-msgctxt "#320087"
+msgctxt "#31317"
 msgid "Golden Globe"
 msgstr ""
 
-msgctxt "#320088"
+msgctxt "#31319"
 msgid "Emmy"
 msgstr ""
 
-msgctxt "#320089"
+msgctxt "#31324"
 msgid "Writer"
 msgstr ""
 
-msgctxt "#320090"
+msgctxt "#31326"
 msgid "Categories Hub"
 msgstr ""
 
-msgctxt "#320091"
+msgctxt "#31328"
 msgid "Library List"
 msgstr ""
 
-msgctxt "#320092"
+msgctxt "#31337"
 msgid "TMDB Helper List"
 msgstr ""
 
-msgctxt "#320093"
+msgctxt "#31340"
 msgid "Play Something Else"
 msgstr ""
 
-msgctxt "#320094"
+msgctxt "#31342"
 msgid "Exit"
 msgstr ""
 
-msgctxt "#320095"
+msgctxt "#31343"
 msgid "Search results for"
 msgstr ""
 
-msgctxt "#320096"
+msgctxt "#31352"
 msgid "Local library"
 msgstr ""
 
-msgctxt "#320097"
+msgctxt "#31353"
 msgid "Streaming services"
 msgstr ""
 
-msgctxt "#320098"
+msgctxt "#31354"
 msgid "Dialog Video Info Lists Filter"
 msgstr ""
 
-msgctxt "#320099"
+msgctxt "#31372"
 msgid "Enable Streaming Services Filter"
 msgstr ""
 
-msgctxt "#320100"
+msgctxt "#31373"
 msgid "Choose a profile icon"
 msgstr ""
 
-msgctxt "#320101"
+msgctxt "#31377"
 msgid "Action & Adventure"
 msgstr ""
 
-msgctxt "#320102"
+msgctxt "#31381"
 msgid "Dramas"
 msgstr ""
 
-msgctxt "#320103"
+msgctxt "#31382"
 msgid "Comedies"
 msgstr ""
 
-msgctxt "#320104"
+msgctxt "#31386"
 msgid "Kids & Family"
 msgstr ""
 
-msgctxt "#320105"
+msgctxt "#31398"
 msgid "Horror"
 msgstr ""
 
-msgctxt "#320106"
+msgctxt "#31399"
 msgid "TMDB Trending TV Shows"
 msgstr ""
 
-msgctxt "#320107"
+msgctxt "#31414"
 msgid "Trending This Week Movies"
 msgstr ""
 
-msgctxt "#320108"
+msgctxt "#31446"
 msgid "Crime"
 msgstr ""
 
-msgctxt "#320109"
+msgctxt "#31448"
 msgid "Fantasy"
 msgstr ""
 
-msgctxt "#320110"
+msgctxt "#31454"
 msgid "History & War"
 msgstr ""
 
-msgctxt "#320111"
+msgctxt "#31456"
 msgid "Animations"
 msgstr ""
 
-msgctxt "#320112"
+msgctxt "#31457"
 msgid "TMDB Trending Movies"
 msgstr ""
 
-msgctxt "#320113"
+msgctxt "#31465"
 msgid "Romance"
 msgstr ""
 
-msgctxt "#320114"
+msgctxt "#31466"
 msgid "Sci-Fi"
 msgstr ""
 
-msgctxt "#320115"
+msgctxt "#31467"
 msgid "Mysteries"
 msgstr ""
 
-msgctxt "#320116"
+msgctxt "#31468"
 msgid "Thriller"
 msgstr ""
 
-msgctxt "#320117"
+msgctxt "#31469"
 msgid "Westerns"
 msgstr ""
 
-msgctxt "#320118"
+msgctxt "#31474"
 msgid "TV Action & Adventure"
 msgstr ""
 
-msgctxt "#320119"
+msgctxt "#31488"
 msgid "TV Dramas"
 msgstr ""
 
-msgctxt "#320120"
+msgctxt "#31489"
 msgid "TV Comedies"
 msgstr ""
 
-msgctxt "#320121"
+msgctxt "#31490"
 msgid "TV Kids & Family"
 msgstr ""
 
-msgctxt "#320122"
+msgctxt "#31491"
 msgid "TV Documentaries"
 msgstr ""
 
-msgctxt "#320123"
+msgctxt "#31492"
 msgid "TV Crime"
 msgstr ""
 
-msgctxt "#320124"
+msgctxt "#31494"
 msgid "TV Sci-Fi & Fantasy"
 msgstr ""
 
-msgctxt "#320125"
+msgctxt "#31502"
 msgid "TV War & Politics"
 msgstr ""
 
-msgctxt "#320126"
+msgctxt "#31503"
 msgid "TV Animations"
 msgstr ""
 
-msgctxt "#320127"
+msgctxt "#31508"
 msgid "TV Mysteries"
 msgstr ""
 
-msgctxt "#320128"
+msgctxt "#31509"
 msgid "TV Westerns"
 msgstr ""
 
-msgctxt "#320129"
+msgctxt "#31510"
 msgid "Select Which Categories to Show in Categories Hub"
 msgstr ""
 
-msgctxt "#320130"
+msgctxt "#31519"
 msgid "Trending This Week TV Shows"
 msgstr ""
 
-msgctxt "#320131"
+msgctxt "#31522"
 msgid "TMDB Popular Movies"
 msgstr ""
 
-msgctxt "#320132"
+msgctxt "#31524"
 msgid "TMDB Popular TV Shows"
 msgstr ""
 
-msgctxt "#320133"
+msgctxt "#31525"
 msgid "Top Rated Movies"
 msgstr ""
 
-msgctxt "#320134"
+msgctxt "#31526"
 msgid "Top Rated TV Shows"
 msgstr ""
 
-msgctxt "#320135"
+msgctxt "#31527"
 msgid "Airing Today TV Shows"
 msgstr ""
 
-msgctxt "#320136"
+msgctxt "#31528"
 msgid "Currently Airing TV Shows"
 msgstr ""
 
-msgctxt "#320137"
+msgctxt "#31529"
 msgid "Highest Revenue Movies"
 msgstr ""
 
-msgctxt "#320138"
+msgctxt "#31530"
 msgid "Most Voted Movies"
 msgstr ""
 
-msgctxt "#320139"
+msgctxt "#31538"
 msgid "Most Voted TV Shows"
 msgstr ""
 
-msgctxt "#320140"
+msgctxt "#31539"
 msgid "Trakt Trending Movies"
 msgstr ""
 
-msgctxt "#320141"
+msgctxt "#31540"
 msgid "Trakt Trending TV Shows"
 msgstr ""
 
-msgctxt "#320142"
+msgctxt "#31541"
 msgid "Trakt Popular Movies"
 msgstr ""
 
-msgctxt "#320143"
+msgctxt "#31542"
 msgid "Trakt Popular TV Shows"
 msgstr ""
 
-msgctxt "#320144"
+msgctxt "#31544"
 msgid "Most Played Movies"
 msgstr ""
 
-msgctxt "#320145"
+msgctxt "#31545"
 msgid "Most Played TV Shows"
 msgstr ""
 
-msgctxt "#320146"
+msgctxt "#31548"
 msgid "Most Watched Movies"
 msgstr ""
 
-msgctxt "#320147"
+msgctxt "#31561"
 msgid "Most Watched TV Shows"
 msgstr ""
 
-msgctxt "#320148"
+msgctxt "#31581"
 msgid "Disable Collections"
 msgstr ""
 
-msgctxt "#320149"
+msgctxt "#31582"
 msgid "Replace Default Choose Art with Artwork Beef"
 msgstr ""
 
-msgctxt "#320150"
+msgctxt "#31583"
 msgid "Air date"
 msgstr ""
 
-msgctxt "#320151"
+msgctxt "#31584"
 msgid "Disable Top250 Sublabel on Video Info"
 msgstr ""
 
-msgctxt "#320152"
+msgctxt "#31585"
 msgid "Prefer White Icon on Top250 Sublabel"
 msgstr ""
 
-msgctxt "#320153"
+msgctxt "#31586"
 msgid "Disable Sub Label on Spotlight"
 msgstr ""
 
-msgctxt "#320154"
+msgctxt "#31587"
 msgid "Prefer White Top 250 Icon on Spotlight Sublabel"
 msgstr ""
 
-msgctxt "#320155"
+msgctxt "#31588"
 msgid "Prefer Red/White Additionali Details Icon on Spotlight Sublabel"
 msgstr ""
 
-msgctxt "#320156"
+msgctxt "#31594"
 msgid "Enable Circular Navigation"
 msgstr ""
 
-msgctxt "#320157"
+msgctxt "#31595"
 msgid "on IMDB Today"
 msgstr ""
 
-msgctxt "#320158"
+msgctxt "#31605"
 msgid "General"
 msgstr ""
 
-msgctxt "#320159"
+msgctxt "#31606"
 msgid "Prefer IMDB/RT/TVDB Ratings over Percentage on Details Row"
 msgstr ""
 
-msgctxt "#320160"
+msgctxt "#31607"
 msgid "Prefer White Logos on Details Row"
 msgstr ""
 
-msgctxt "#320161"
+msgctxt "#31609"
 msgid "Enable UK MPAA Icons on Details Row (only for US and UK ratings)"
 msgstr ""
 
-msgctxt "#320162"
+msgctxt "#31610"
 msgid "Enable Color MPAA Icons"
 msgstr ""
 
-msgctxt "#320163"
+msgctxt "#31611"
 msgid "Enable Color MPAA Icons With Fixed Panel Size"
 msgstr ""
 
-msgctxt "#320164"
+msgctxt "#31612"
 msgid "Enable Audio Codec on Details Row"
 msgstr ""
 
-msgctxt "#320165"
+msgctxt "#31613"
 msgid "Only Show Atmos Audio Codec on Details Row"
 msgstr ""
 
-msgctxt "#320166"
+msgctxt "#31614"
 msgid "Fake Codec Info on Details Row (if no codec info is present)"
 msgstr ""
 
-msgctxt "#320167"
+msgctxt "#31615"
 msgid "Show TV Show Status on Details Row Home & Bingie Views"
 msgstr ""
 
-msgctxt "#320168"
+msgctxt "#31618"
 msgid "Disable Top250 Sublabel on Home and Bingie Views"
 msgstr ""
 
-msgctxt "#320169"
+msgctxt "#31620"
 msgid "Prefer White Icon on Top250 Sublabel"
 msgstr ""
 
-msgctxt "#320170"
+msgctxt "#31621"
 msgid "Prefer Red/White Additional Details Icon"
 msgstr ""
 
-msgctxt "#320171"
+msgctxt "#31625"
 msgid "Disable Continue Watching Netflix Style"
 msgstr ""
 
-msgctxt "#320172"
+msgctxt "#31630"
 msgid "OSD buffering spinner color"
 msgstr ""
 
-msgctxt "#320173"
+msgctxt "#31631"
 msgid "Footer (except Bingie Views)"
 msgstr ""
 
-msgctxt "#320174"
+msgctxt "#31633"
 msgid "Hide Ratings and Studio Icon While Trailer is Playing"
 msgstr ""
 
-msgctxt "#320175"
+msgctxt "#31638"
 msgid "Disable Profile on Sideblade Menu"
 msgstr ""
 
-msgctxt "#320176"
+msgctxt "#31639"
 msgid "Use Netflix user Profile Icon Instead of Default"
 msgstr ""
 
-msgctxt "#320177"
+msgctxt "#31645"
 msgid "Disable Static Slim Menu"
 msgstr ""
 
-msgctxt "#320178"
+msgctxt "#31647"
 msgid "Disable Bingie Mod Logo on Home and Settings"
 msgstr ""
 
-msgctxt "#320179"
+msgctxt "#31655"
 msgid "Snow Animation"
 msgstr ""
 
-msgctxt "#320180"
+msgctxt "#31656"
 msgid "Halloween Animation"
 msgstr ""
 
-msgctxt "#320181"
+msgctxt "#31660"
 msgid "Disable Total Media Count in Bingie Views"
 msgstr ""
 
-msgctxt "#320182"
+msgctxt "#31661"
 msgid "Enable Animated Discart on Supported OSD"
 msgstr ""
 
-msgctxt "#320183"
+msgctxt "#31674"
 msgid "Enable Finish Time, Current Time, & Total Duration for OSD Playback"
 msgstr ""
 
-msgctxt "#320184"
+msgctxt "#31676"
 msgid "Show ClearArt Instead of Clearlogo on Pause"
 msgstr ""
 
-msgctxt "#320185"
+msgctxt "#31677"
 msgid "Enable Plot on Pause"
 msgstr ""
 
-msgctxt "#320186"
+msgctxt "#31678"
 msgid "Show Clearart Instead of Clearlogo on Infopane"
 msgstr ""
 
-msgctxt "#320187"
+msgctxt "#31682"
 msgid "Enable OSD Seek/Jump Indicator"
 msgstr ""
 
-msgctxt "#320188"
+msgctxt "#31683"
 msgid "Disable 'Top 250' indicator"
 msgstr ""
 
-msgctxt "#320189"
+msgctxt "#31684"
 msgid "Bingie Mod Default"
 msgstr ""
 
-msgctxt "#320190"
+msgctxt "#31685"
 msgid "Netflix exteneded"
 msgstr ""
 
-msgctxt "#320191"
+msgctxt "#31686"
 msgid "Fixed Focus Home Panel"
 msgstr ""
 
-msgctxt "#320192"
+msgctxt "#31689"
 msgid "Trailers & More"
 msgstr ""
 
-msgctxt "#320193"
+msgctxt "#31690"
 msgid "in main roles"
 msgstr ""
 
-msgctxt "#320194"
+msgctxt "#31691"
 msgid "series with"
 msgstr ""
 
-msgctxt "#320195"
+msgctxt "#31693"
 msgid "Born:"
 msgstr ""
 
-msgctxt "#320196"
+msgctxt "#31694"
 msgid "Died:"
 msgstr ""
 
-msgctxt "#320197"
+msgctxt "#31698"
 msgid "Age"
 msgstr ""
 
-msgctxt "#320198"
+msgctxt "#31699"
 msgid "We think you'll like this"
 msgstr ""
 
-msgctxt "#320199"
+msgctxt "#31700"
 msgid "movie"
 msgstr ""
 
-msgctxt "#320200"
+msgctxt "#31707"
 msgid "TV show"
 msgstr ""
 
-msgctxt "#320201"
+msgctxt "#31712"
 msgid "Movie Collections"
 msgstr ""
 
-msgctxt "#320202"
+msgctxt "#31718"
 msgid "Press up for full keyboard"
 msgstr ""
 
-msgctxt "#320203"
+msgctxt "#31719"
 msgid "Votes"
 msgstr ""
 
-msgctxt "#320204"
+msgctxt "#31721"
 msgid "Premiered"
 msgstr ""
 
-msgctxt "#320205"
+msgctxt "#31726"
 msgid "Last Air Date"
 msgstr ""
 
-msgctxt "#320206"
+msgctxt "#31734"
 msgid "Rating"
 msgstr ""
 
-msgctxt "#320207"
+msgctxt "#31740"
 msgid "Seasons"
 msgstr ""
 
-msgctxt "#320208"
+msgctxt "#31741"
 msgid "Minutes"
 msgstr ""
 
-msgctxt "#320209"
+msgctxt "#31742"
 msgid "Status"
 msgstr ""
 
-msgctxt "#320210"
+msgctxt "#31748"
 msgid "Fanarts"
 msgstr ""
 
-msgctxt "#320211"
+msgctxt "#31752"
 msgid "Plot"
 msgstr ""
 
-msgctxt "#320212"
+msgctxt "#31754"
 msgid "Content loading"
 msgstr ""
 
-msgctxt "#320213"
+msgctxt "#31755"
 msgid "Replace Add to My List (local library) with Add/Remove Watchlist (trakt)"
 msgstr ""
 
-msgctxt "#320214"
+msgctxt "#31756"
 msgid "My Movie List"
 msgstr ""
 
-msgctxt "#320215"
+msgctxt "#31757"
 msgid "My TV Show List"
 msgstr ""
 
-msgctxt "#320216"
+msgctxt "#31758"
 msgid "Add/Remove Watchlist"
 msgstr ""
 
-msgctxt "#320217"
+msgctxt "#31759"
 msgid "Trakt"
 msgstr ""
 
-msgctxt "#320218"
+msgctxt "#31760"
 msgid "Set Number of Roles to Show in Cast Info"
 msgstr ""
 
-msgctxt "#320219"
+msgctxt "#31761"
 msgid "Roles"
 msgstr ""
 
-msgctxt "#320220"
+msgctxt "#31762"
 msgid "Trakt Manager"
 msgstr ""
 
-msgctxt "#320221"
+msgctxt "#31763"
 msgid "Watchlist"
 msgstr ""
 
-msgctxt "#320222"
+msgctxt "#31766"
 msgid "Replace Credits & More Info with Extended Info"
 msgstr ""
 
-msgctxt "#320223"
+msgctxt "#31770"
 msgid "Starring"
 msgstr ""
 
-msgctxt "#320224"
+msgctxt "#31774"
 msgid "Disable Additional Details Cast Thumbnails"
 msgstr ""
 
-msgctxt "#320225"
+msgctxt "#31795"
 msgid "Search by Movies, Movie Collections, TV Shows or People"
 msgstr ""
 
-msgctxt "#320226"
+msgctxt "#31808"
 msgid "Replace Cast and Crew List with Cast and Crew Images"
 msgstr ""
 
-msgctxt "#320227"
+msgctxt "#31810"
 msgid "Hide Ratings and Studio Logo on Widgets"
 msgstr ""
 
-msgctxt "#320228"
+msgctxt "#31811"
 msgid "Hide Ratings and Studio Logo on Spotlight"
 msgstr ""
 
-msgctxt "#320229"
+msgctxt "#31819"
 msgid "Auto Hide Plot when System is Idle"
 msgstr ""
 
-msgctxt "#320230"
+msgctxt "#31820"
 msgid "Play Movie/Open Seasons Instead Open Info"
 msgstr ""
 
-msgctxt "#320231"
+msgctxt "#31826"
 msgid "Enable Auto Play Trailer Only for Highlight Widget"
 msgstr ""
 
-msgctxt "#320232"
+msgctxt "#31829"
 msgid "Disable Dummy Spotlight Widget"
 msgstr ""
 
-msgctxt "#320233"
+msgctxt "#31833"
 msgid "Categories List"
 msgstr ""
 
-msgctxt "#320234"
+msgctxt "#31848"
 msgid "Search categories"
 msgstr ""
 
-msgctxt "#320235"
+msgctxt "#31860"
 msgid "Startup animations"
 msgstr ""
 
-msgctxt "#320236"
+msgctxt "#31875"
 msgid "Netflix Alternative"
 msgstr ""
 
-msgctxt "#320237"
+msgctxt "#31877"
 msgid "Enable air date"
 msgstr ""
 
-msgctxt "#320238"
+msgctxt "#31879"
 msgid "Slow Down Image Change Time"
 msgstr ""
 
-msgctxt "#320239"
+msgctxt "#31887"
 msgid "Slow Down Image Scroll Speed"
 msgstr ""
 
-msgctxt "#320240"
+msgctxt "#31888"
 msgid "Disable Bingie Logo"
 msgstr ""
 
-msgctxt "#320241"
+msgctxt "#31889"
 msgid "Disable Clearlogo"
 msgstr ""
 
-msgctxt "#320242"
+msgctxt "#31895"
 msgid "Enable 2 Studio Logos on Home/Bingie Views"
-msgid ""
+msgstr ""
 
-msgctxt "#320243"
+msgctxt "#31897"
 msgid "Bingie ScreenSaver Settings"
 msgstr ""
 
-msgctxt "#320244"
+msgctxt "#31898"
 msgid "Show Media File Path (BingiePoster/List/Panel)"
 msgstr ""
 
-msgctxt "#320245"
+msgctxt "#31899"
 msgid "Show Media File Path (BingiePoster/List/Panel)"
 msgstr ""
 
-msgctxt "#320246"
+msgctxt "#31900"
 msgid "Show Media File Path (DialogVideoInfo)"
 msgstr ""
 

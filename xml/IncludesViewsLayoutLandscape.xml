@@ -528,7 +528,7 @@
                 <aligny>center</aligny>
                 <font>Reg19</font>
                 <textoffsety>1</textoffsety>
-                <label>[B]$LOCALIZE[31007][/B]</label>
+                <label>[B]$ADDON[skin.titan.bingie.mod 31007][/B]</label>
                 <textcolor>$INFO[Skin.String(NewEpisodes.TextColor)]</textcolor>
 				<focusedcolor>$INFO[Skin.String(NewEpisodes.TextColor)]</focusedcolor>
                 <textoffsetx>5</textoffsetx>

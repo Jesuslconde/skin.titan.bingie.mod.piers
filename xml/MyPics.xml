@@ -86,7 +86,7 @@
                 <!-- <control type="radiobutton" id="31029"> -->
                     <!-- Disable footer -->
                     <!-- <include>SideBladeMenuButton</include> -->
-                    <!-- <label>31029</label> -->
+                    <!-- <label>$ADDON[skin.titan.bingie.mod 31029]</label> -->
                     <!-- <onclick>Skin.ToggleSetting(MyPicsDisableFooter)</onclick> -->
                     <!-- <selected>Skin.HasSetting(MyPicsDisableFooter)</selected> -->
                 <!-- </control> -->

@@ -44,7 +44,7 @@
 					<scroll>false</scroll>
 					<align>left</align>
 					<aligny>top</aligny>
-					<label>$LOCALIZE[31387]</label>
+					<label>$ADDON[skin.titan.bingie.mod 31387]</label>
 				</control>
 				<!-- message -->
 				<control id="5" type="textbox">
@@ -57,7 +57,7 @@
 					<textcolor>ffffffff</textcolor>
 					<aligny>top</aligny>
 					<pagecontrol>3000</pagecontrol>
-					<label>$LOCALIZE[31388]</label>
+					<label>$ADDON[skin.titan.bingie.mod 31388]</label>
 				</control>
 				<!-- Button -->
 				<control type="grouplist" id="100">
@@ -83,7 +83,7 @@
 						<texturenofocus border="10" colordiffuse="a6ffffff">bingie/border/slimframefo.png</texturenofocus>
 						<alttexturefocus border="10" colordiffuse="ffffffff">bingie/border/slimframefo.png</alttexturefocus>
 						<alttexturenofocus border="10" colordiffuse="a6ffffff">bingie/border/slimframefo.png</alttexturenofocus>
-						<label>$LOCALIZE[31389]</label>
+						<label>$ADDON[skin.titan.bingie.mod 31389]</label>
 						<onclick>Skin.SetBool(BingieFirstStartupDone)</onclick>
 						<onclick>SetProperty(finishBingieStartup1,1,Home)</onclick>
 						<onclick condition="System.GetBool(filelists.showparentdiritems)">RunScript(script.skin.helper.service,action=togglekodisetting,setting=filelists.showparentdiritems)</onclick>
@@ -110,7 +110,7 @@
 						<texturenofocus border="10" colordiffuse="a6ffffff">bingie/border/slimframefo.png</texturenofocus>
 						<alttexturefocus border="10" colordiffuse="ffffffff">bingie/border/slimframefo.png</alttexturefocus>
 						<alttexturenofocus border="10" colordiffuse="a6ffffff">bingie/border/slimframefo.png</alttexturenofocus>
-						<label>$LOCALIZE[31390]</label>
+						<label>$ADDON[skin.titan.bingie.mod 31390]</label>
 						<onclick>Skin.SetBool(BingieFirstStartupDone)</onclick>
 						<onclick>SetProperty(finishBingieStartup1,1,Home)</onclick>
 						<onclick>AlarmClock(clear_property,ClearProperty(finishBingieStartup1,Home),00:02,silent)</onclick>

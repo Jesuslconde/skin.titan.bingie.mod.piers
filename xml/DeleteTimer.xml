@@ -35,7 +35,7 @@
                 <posy>10</posy>
                 <width>1200</width>
 				<font>Bold45</font>
-                <label>31137</label>
+                <label>$ADDON[skin.titan.bingie.mod 31137]</label>
                 <height>100</height>
                 <align>left</align>
             </control>
@@ -77,14 +77,14 @@
                     <control type="radiobutton" id="10">
 						<description>episode recording</description>
                         <width>1200</width>
-                        <label>31138</label>
+                        <label>$ADDON[skin.titan.bingie.mod 31138]</label>
                         <align>left</align>
 						<textoffsetx>20</textoffsetx>
                     </control>
                     <control type="radiobutton" id="11">
 						<description>series recording</description>
                         <width>1200</width>
-                        <label>31139</label>
+                        <label>$ADDON[skin.titan.bingie.mod 31139]</label>
                         <align>left</align>
 						<textoffsetx>20</textoffsetx>
                     </control>

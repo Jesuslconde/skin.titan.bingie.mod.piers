@@ -34,7 +34,7 @@
 			<!--Showcase-->
             <control type="wraplist" id="524">
                 <!--Wraplist ID 500-->
-                <viewtype label="31429">posterwrap</viewtype>
+                <viewtype label="$ADDON[skin.titan.bingie.mod 31429]">posterwrap</viewtype>
                 <include content="View_Forced">
                     <param name="viewtype" value="$LOCALIZE[31429]" />
                 </include>

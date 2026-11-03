@@ -374,7 +374,7 @@
 					<posy>330</posy>
 					<width>400</width>
 					<height>290</height>
-					<label>[B]$LOCALIZE[31212]:[/B][CR]$INFO[ListItem.Property(NextNumber),,. ]$INFO[ListItem.Property(NextTitle)][CR][CR][B]$LOCALIZE[31213]:[/B][CR]$INFO[ListItem.Property(NextDate)] $INFO[ListItem.Property(ShortTime)]$INFO[ListItem.Property(Network), @ ][CR][CR][B]$LOCALIZE[126]:[/B][CR]$INFO[ListItem.Property(Status)]</label>
+					<label>[B]$ADDON[skin.titan.bingie.mod 31212]:[/B][CR]$INFO[ListItem.Property(NextNumber),,. ]$INFO[ListItem.Property(NextTitle)][CR][CR][B]$ADDON[skin.titan.bingie.mod 31213]:[/B][CR]$INFO[ListItem.Property(NextDate)] $INFO[ListItem.Property(ShortTime)]$INFO[ListItem.Property(Network), @ ][CR][CR][B]$LOCALIZE[126]:[/B][CR]$INFO[ListItem.Property(Status)]</label>
 					<font>Reg24</font>
 					<textcolor>$VAR[ViewDetailsTextColor]</textcolor>
 					<aligny>top</aligny>
@@ -416,7 +416,7 @@
 					<posy>330</posy>
 					<width>400</width>
 					<height>290</height>
-					<label>[B]$LOCALIZE[31212]:[/B][CR]$INFO[ListItem.Property(NextNumber),,. ]$INFO[ListItem.Property(NextTitle)][CR][CR][B]$LOCALIZE[31213]:[/B][CR]$INFO[ListItem.Property(NextDate)] $INFO[ListItem.Property(ShortTime)]$INFO[ListItem.Property(Network), @ ][CR][CR][B]$LOCALIZE[126]:[/B][CR]$INFO[ListItem.Property(Status)]</label>
+					<label>[B]$ADDON[skin.titan.bingie.mod 31212]:[/B][CR]$INFO[ListItem.Property(NextNumber),,. ]$INFO[ListItem.Property(NextTitle)][CR][CR][B]$ADDON[skin.titan.bingie.mod 31213]:[/B][CR]$INFO[ListItem.Property(NextDate)] $INFO[ListItem.Property(ShortTime)]$INFO[ListItem.Property(Network), @ ][CR][CR][B]$LOCALIZE[126]:[/B][CR]$INFO[ListItem.Property(Status)]</label>
 					<font>Reg24</font>
 					<textcolor>$VAR[ViewDetailsTextColor]</textcolor>
 					<aligny>top</aligny>

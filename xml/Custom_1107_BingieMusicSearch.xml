@@ -166,28 +166,28 @@
 			<include content="SearchResultWidgetTopLabel">
 				<param name="groupid" value="5900" />
 				<param name="id" value="590" />
-				<param name="label" value="$INFO[Skin.String(CustomSearchTerm),$LOCALIZE[31580] &quot;,&quot;]" />
+				<param name="label" value="$INFO[Skin.String(CustomSearchTerm),$ADDON[skin.titan.bingie.mod 31580] &quot;,&quot;]" />
 				<visible>Control.HasFocus(590) + !Container(590).IsUpdating</visible>
 			</include>	
 			<!-- Search Albums Widget -->
 			<include content="SearchResultWidgetTopLabel">
 				<param name="groupid" value="6100" />
 				<param name="id" value="610" />
-				<param name="label" value="$INFO[Skin.String(CustomSearchTerm),$LOCALIZE[31593] &quot;,&quot;]" />
+				<param name="label" value="$INFO[Skin.String(CustomSearchTerm),$ADDON[skin.titan.bingie.mod 31593] &quot;,&quot;]" />
 				<visible>Control.HasFocus(610) + !Container(610).IsUpdating</visible>
 			</include>	
 			<!-- Search Artists Widget -->
 			<include content="SearchResultWidgetTopLabel">
 				<param name="groupid" value="6200" />
 				<param name="id" value="620" />
-				<param name="label" value="$INFO[Skin.String(CustomSearchTerm),$LOCALIZE[31081] &quot;,&quot;]" />
+				<param name="label" value="$INFO[Skin.String(CustomSearchTerm),$ADDON[skin.titan.bingie.mod 31081] &quot;,&quot;]" />
 				<visible>Control.HasFocus(620) + !Container(620).IsUpdating</visible>
 			</include>
 			<!-- Search Songs Widget -->
 			<include content="SearchResultWidgetTopLabel">
 				<param name="groupid" value="6300" />
 				<param name="id" value="630" />
-				<param name="label" value="$INFO[Skin.String(CustomSearchTerm),$LOCALIZE[31082] &quot;,&quot;]" />
+				<param name="label" value="$INFO[Skin.String(CustomSearchTerm),$ADDON[skin.titan.bingie.mod 31082] &quot;,&quot;]" />
 				<visible>Control.HasFocus(630) + !Container(630).IsUpdating</visible>
 			</include>
 			</control>

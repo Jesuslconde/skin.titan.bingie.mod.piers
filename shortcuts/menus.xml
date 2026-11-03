@@ -28,7 +28,7 @@
 
         <item name="new">
             <icon>shortcuts/new.png</icon>
-            <label>$LOCALIZE[320032]</label>
+            <label>$LOCALIZE[31203]</label>
             <action>ActivateWindow(1112,return)</action>
         </item>
 
@@ -77,19 +77,19 @@
 
         <item name="quit">
             <icon>common/exit1.png</icon>
-            <label>$LOCALIZE[320029]</label>
+            <label>$LOCALIZE[31186]</label>
             <action>Quit()</action>
         </item>
 
         <item name="reboot">
             <icon>common/reboot1.png</icon>
-            <label>$LOCALIZE[320030]</label>
+            <label>$LOCALIZE[31199]</label>
             <action>Reboot</action>
         </item>
 
         <item name="shutdown">
             <icon>common/shutdown1.png</icon>
-            <label>$LOCALIZE[320031]</label>
+            <label>$LOCALIZE[31202]</label>
             <action>ShutDown</action>
         </item>
 

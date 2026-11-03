@@ -29,7 +29,7 @@
 	  
 	  <control type="panel" id="512">
         <animation effect="slide" end="-630" time="0" condition="Skin.HasSetting(View512_ShowInfoRight)">Conditional</animation>
-        <viewtype label="31439">icons</viewtype>
+        <viewtype label="$ADDON[skin.titan.bingie.mod 31439]">icons</viewtype>
           <include content="View_Forced">
               <param name="viewtype" value="$LOCALIZE[31439]" />
           </include>

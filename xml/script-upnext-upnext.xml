@@ -48,7 +48,7 @@
                     <font>Reg30</font>
                     <textcolor>$INFO[Skin.String(BingieButtonTextColor)]</textcolor>
                     <focusedcolor>$INFO[Skin.String(BingieButtonFocusTextColor)]</focusedcolor>
-                    <label>31021</label>
+                    <label>$ADDON[skin.titan.bingie.mod 31021]</label>
                     <texturefocus colordiffuse="$INFO[Skin.String(ViewDetailsBorderFocusColor)]" border="10">bingie/border/slimframefo.png</texturefocus>
                     <texturenofocus/>
                     <onclick>SendClick(3013)</onclick>
@@ -63,7 +63,7 @@
                     <font>Reg30</font>
                     <textcolor>$INFO[Skin.String(BingieButtonTextColor)]</textcolor>
                     <focusedcolor>$INFO[Skin.String(BingieButtonFocusTextColor)]</focusedcolor>
-                    <label>$INFO[Player.TimeRemaining(ss),$LOCALIZE[31212] ,]</label>
+                    <label>$INFO[Player.TimeRemaining(ss),$ADDON[skin.titan.bingie.mod 31212] ,]</label>
                     <texturefocus colordiffuse="$INFO[Skin.String(ViewDetailsBorderFocusColor)]" border="10">bingie/border/slimframefo.png</texturefocus>
                     <texturenofocus/>
                     <textureradioonfocus colordiffuse="$INFO[Skin.String(BingieButtonFocusTextColor)]">dialogs/upnext/play.png</textureradioonfocus>
@@ -112,7 +112,7 @@
                         <font>Bold32</font>
                         <aligny>center</aligny>
                         <textcolor>$INFO[Skin.String(BingieOSDSubLabelTextColor)]</textcolor>
-                        <label>[LIGHT]$INFO[Player.TimeRemaining(ss),$LOCALIZE[31850] , $LOCALIZE[31231,,...]][/LIGHT]</label>
+                        <label>[LIGHT]$INFO[Player.TimeRemaining(ss),$ADDON[skin.titan.bingie.mod 31850] , $LOCALIZE[31231,,...]][/LIGHT]</label>
                     </control>
                     <!-- Thumb/Fanart -->
                     <control type="group">

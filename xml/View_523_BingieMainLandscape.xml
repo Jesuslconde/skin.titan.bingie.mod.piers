@@ -74,7 +74,7 @@
     <!-- Container -->
     <include name="Bingie_Main_Landscape_View">
         <control type="$PARAM[containerType]" id="523">
-            <viewtype label="31018">panel</viewtype>
+            <viewtype label="$ADDON[skin.titan.bingie.mod 31018]">panel</viewtype>
             <include content="View_Forced">
                 <param name="viewtype" value="$LOCALIZE[31018]" />
             </include>

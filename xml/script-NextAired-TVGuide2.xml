@@ -414,7 +414,7 @@
 				<control type="radiobutton" id="1004">
                     <!--Show Fanart Background-->
                     <include>SideBladeMenuButton</include>
-                    <label>31155</label>
+                    <label>$ADDON[skin.titan.bingie.mod 31155]</label>
                     <onclick>Skin.ToggleSetting(ShowNAFanartBackground)</onclick>
                     <selected>Skin.HasSetting(ShowNAFanartBackground)</selected>
 					<visible>!Control.IsVisible(507)</visible>

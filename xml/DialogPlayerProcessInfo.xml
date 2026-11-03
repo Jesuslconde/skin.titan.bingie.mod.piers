@@ -320,7 +320,7 @@
 					<top>10</top>
 					<width>565</width>
 					<height>25</height>
-					<label>$LOCALIZE[31781]</label> 
+					<label>$ADDON[skin.titan.bingie.mod 31781]</label> 
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>Bold26</font>
@@ -332,7 +332,7 @@
 					<top>40</top>
 					<width>250</width>
 					<height>25</height>
-					<label>$LOCALIZE[31782]: </label> 
+					<label>$ADDON[skin.titan.bingie.mod 31782]: </label> 
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>Reg26</font>
@@ -357,7 +357,7 @@
 					<top>40</top>
 					<width>490</width>
 					<height>25</height>
-					<label>$LOCALIZE[31783]</label> 
+					<label>$ADDON[skin.titan.bingie.mod 31783]</label> 
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>Reg26</font>
@@ -371,7 +371,7 @@
 					<top>65</top>
 					<width>250</width>
 					<height>25</height>
-					<label>$LOCALIZE[31784]: </label> 
+					<label>$ADDON[skin.titan.bingie.mod 31784]: </label> 
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>Reg26</font>
@@ -443,7 +443,7 @@
 					<top>145</top>
 					<width>565</width>
 					<height>25</height>
-					<label>$LOCALIZE[31785]</label> 
+					<label>$ADDON[skin.titan.bingie.mod 31785]</label> 
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>Bold26</font>
@@ -455,7 +455,7 @@
 					<top>175</top>
 					<width>250</width>
 					<height>25</height>
-					<label>$LOCALIZE[31784]: </label> 
+					<label>$ADDON[skin.titan.bingie.mod 31784]: </label> 
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>Reg26</font>
@@ -547,7 +547,7 @@
 					<top>285</top>
 					<width>250</width>
 					<height>25</height>
-					<label>$LOCALIZE[31257]: </label> 
+					<label>$ADDON[skin.titan.bingie.mod 31257]: </label> 
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>Reg26</font>
@@ -626,7 +626,7 @@
 					<width>auto</width>
 					<height>100</height>
 					<textoffsetx>40</textoffsetx>
-					<label>$LOCALIZE[31786]</label> 
+					<label>$ADDON[skin.titan.bingie.mod 31786]</label> 
 				</control>
 			</control>
 		</control>

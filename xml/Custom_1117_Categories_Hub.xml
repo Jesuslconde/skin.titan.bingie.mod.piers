@@ -141,7 +141,7 @@
                                 <width>450</width>
                                 <font>Reg26</font>
                                 <textcolor>$INFO[Skin.String(BingieSecondaryTextColor)]</textcolor>
-                                <label>$VAR[PercentRemained,,% $LOCALIZE[31059]]</label>
+                                <label>$VAR[PercentRemained,,% $ADDON[skin.titan.bingie.mod 31059]]</label>
                             </control>
                         </control>
 						
@@ -391,7 +391,7 @@
                 <aligny>top</aligny>
                 <wrapmultiline>true</wrapmultiline>
                 <textcolor>$INFO[Skin.String(BingieSecondaryTextColor)]</textcolor>
-                <label>$LOCALIZE[31064]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31064]</label>
                 <visible>!Container(117).IsUpdating + !Integer.IsGreater(Container(117).NumItems,0)</visible>
             </control>
         </control>

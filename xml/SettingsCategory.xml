@@ -136,7 +136,7 @@
                 <height>47</height>
                 <font>Reg28</font>
                 <font>Reg28</font>
-                <label>31071</label>
+                <label>$ADDON[skin.titan.bingie.mod 31071]</label>
                 <textcolor>$INFO[Skin.String(GeneralTextColor)]</textcolor>
                 <align>left</align>
             </control>

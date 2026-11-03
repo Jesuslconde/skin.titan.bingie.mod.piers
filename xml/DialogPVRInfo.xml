@@ -262,8 +262,8 @@
 					<width>289</width>
 					<description>Youtube</description>
 					<include>DialogButtonOther</include>
-					<label>31797</label>
-                    <onclick condition="System.HasAddon(plugin.video.youtube)">RunScript(script.skin.helper.service,action=searchyoutube,title=$INFO[ListItem.Title] $INFO[ListItem.Year],header=$LOCALIZE[31797])</onclick>
+					<label>$ADDON[skin.titan.bingie.mod 31797]</label>
+                    <onclick condition="System.HasAddon(plugin.video.youtube)">RunScript(script.skin.helper.service,action=searchyoutube,title=$INFO[ListItem.Title] $INFO[ListItem.Year],header=$ADDON[skin.titan.bingie.mod 31797])</onclick>
                     <onclick condition="!System.HasAddon(plugin.video.youtube)">ActivateWindow(Videos,plugin://plugin.video.youtube)</onclick>
                     <visible>Skin.HasSetting(videoinfo_button_youtubevideos)</visible>
 				</control>

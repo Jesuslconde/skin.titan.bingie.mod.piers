@@ -97,7 +97,7 @@
 				<top>98</top>
 				<font>reg30</font> 
 				<textcolor>$INFO[Skin.String(BingiePrimaryTextColor)]</textcolor>
-				<label>$LOCALIZE[320094]</label>
+				<label>$ADDON[skin.titan.bingie.mod 31342]</label>
 				<visible>Container(1510).HasNext | Container(1510).HasPrevious</visible>
 			</control>
 			<control type="image">
@@ -131,7 +131,7 @@
 				<height>37</height>
                 <font>reg30</font>
 				<align>right</align>
-				<label>$LOCALIZE[320093]</label>
+				<label>$ADDON[skin.titan.bingie.mod 31340]</label>
 				<textcolor>$INFO[Skin.String(BingiePrimaryTextColor)]</textcolor>
 			</control>
 			</control>		
@@ -190,14 +190,14 @@
 					<top>270</top>
 					<font>reg30</font> 
 					<textcolor>$INFO[Skin.String(BingieSubLabelTextColor)]</textcolor>
-					<label>$LOCALIZE[320198] [LOWERCASE]$INFO[Container(99950).ListItem.Property(Genre.1.Name)][/LOWERCASE] $LOCALIZE[320199]</label>
+					<label>$ADDON[skin.titan.bingie.mod 31699] [LOWERCASE]$INFO[Container(99950).ListItem.Property(Genre.1.Name)][/LOWERCASE] $ADDON[skin.titan.bingie.mod 31700]</label>
 					<visible>[String.IsEmpty(Control.GetLabel(823155)) | String.IsEmpty(Control.GetLabel(823157))] + $EXP[IsMovieDBType] + !String.IsEmpty(Container(99950).ListItem.Property(Genre.1.Name))</visible>
 				</control>
 				<control type="label" id="823157">
 					<top>270</top>
 					<font>reg30</font> 
 					<textcolor>$INFO[Skin.String(BingieSubLabelTextColor)]</textcolor>
-					<label>$LOCALIZE[320198] [LOWERCASE]$INFO[Container(99950).ListItem.Property(Genre.1.Name)][/LOWERCASE] $LOCALIZE[320200]</label>
+					<label>$ADDON[skin.titan.bingie.mod 31699] [LOWERCASE]$INFO[Container(99950).ListItem.Property(Genre.1.Name)][/LOWERCASE] $ADDON[skin.titan.bingie.mod 31707]</label>
 					<visible>[String.IsEmpty(Control.GetLabel(823155)) | String.IsEmpty(Control.GetLabel(823156))] + $EXP[IsTvShowDBType] + !String.IsEmpty(Container(99950).ListItem.Property(Genre.1.Name))</visible>
 				</control>
 			</control>			
@@ -796,7 +796,7 @@
                 <font>Bold31</font>
                 <include>widget_header_leftalign</include>
 				<textcolor>$INFO[Skin.String(BingieHeaderTextColor)]</textcolor>
-                <label>$INFO[Container($PARAM[widgetid]).ListItem.Property(similartitle),$LOCALIZE[31543] ,]$INFO[Container($PARAM[widgetid]).ListItem.Property(genretitle)]</label>
+                <label>$INFO[Container($PARAM[widgetid]).ListItem.Property(similartitle),$ADDON[skin.titan.bingie.mod 31543] ,]$INFO[Container($PARAM[widgetid]).ListItem.Property(genretitle)]</label>
                 <animation effect="slide" end="50" time="0" condition="Container($PARAM[widgetid]).IsUpdating + Integer.IsEqual(Container($PARAM[widgetid]).NumItems,0)">Conditional</animation>
                 <visible>!String.IsEmpty(Container($PARAM[widgetid]).ListItem.Property(similartitle)) | !String.IsEmpty(Container($PARAM[widgetid]).ListItem.Property(genretitle))</visible>
 			</control>
@@ -943,7 +943,7 @@
         <content>			
             <!-- Library lists -->
             <item id="1">
-                <label>$LOCALIZE[320101]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31377]</label>
 				<thumb>bingie/categories/actionadventure.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/actionadventure.xsp</property>
@@ -952,7 +952,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_action)</visible>
             </item>
             <item id="2">
-                <label>$LOCALIZE[320102]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31381]</label>
 				<thumb>bingie/categories/dramas.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/dramas.xsp</property>
@@ -961,7 +961,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_dramas)</visible>
             </item>
             <item id="3">
-                <label>$LOCALIZE[320103]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31382]</label>
 				<thumb>bingie/categories/comedies.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/comedies.xsp</property>
@@ -970,7 +970,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_comedies)</visible>
             </item>
 			<item id="4">
-                <label>$LOCALIZE[320104]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31386]</label>
 				<thumb>bingie/categories/kidsfamily.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/kidsandfamily.xsp</property>
@@ -979,7 +979,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_family)</visible>
             </item>
             <item id="5">
-                <label>$LOCALIZE[320105]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31398]</label>
 				<thumb>bingie/categories/horror.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/horror.xsp</property>
@@ -988,7 +988,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_horror)</visible>
             </item>
             <item id="6">
-                <label>$LOCALIZE[31159]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31159]</label>
 				<thumb>bingie/categories/documentaries.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/documentaries.xsp</property>
@@ -997,7 +997,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_documentaries)</visible>
             </item>
             <item id="7">
-                <label>$LOCALIZE[31046]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31046]</label>
 				<thumb>bingie/categories/anime.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/anime.xsp</property>
@@ -1006,7 +1006,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_anime)</visible>
             </item>
             <item id="8">
-                <label>$LOCALIZE[320108]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31446]</label>
 				<thumb>bingie/categories/crime.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/crime.xsp</property>
@@ -1015,7 +1015,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_crime)</visible>
             </item>
             <item id="9">
-                <label>$LOCALIZE[320109]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31448]</label>
 				<thumb>bingie/categories/fantasy.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/fantasy.xsp</property>
@@ -1024,7 +1024,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_fantasy)</visible>
             </item>
 			<item id="10">
-                <label>$LOCALIZE[320110]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31454]</label>
 				<thumb>bingie/categories/historywar.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/historywar.xsp</property>
@@ -1033,7 +1033,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_history)</visible>
             </item>
 			<item id="11">
-                <label>$LOCALIZE[320111]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31456]</label>
 				<thumb>bingie/categories/animations.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/animations.xsp</property>
@@ -1042,7 +1042,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_animations)</visible>
             </item>
             <item id="12">
-                <label>$LOCALIZE[31049]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31049]</label>
 				<thumb>bingie/categories/musicals.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/musicandmusical.xsp</property>               
@@ -1051,16 +1051,16 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_musicals)</visible>
             </item>
             <item id="13">
-                <label>$LOCALIZE[320113]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31465]</label>
 				<thumb>bingie/categories/romance.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/romance.xsp</property>
-                <onclick>SetProperty(category,romance,home)</onclick>
+                <onclick>SetProperty(category,Romance,home)</onclick>
                 <onclick>ActivateWindow(1117,return)</onclick>
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_romance)</visible>
             </item>
 			<item id="14">
-                <label>$LOCALIZE[320114]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31466]</label>
 				<thumb>bingie/categories/scifi.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/scifi.xsp</property>
@@ -1069,7 +1069,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_sci-fi)</visible>
             </item>
 			<item id="15">
-                <label>$LOCALIZE[320115]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31467]</label>
 				<thumb>bingie/categories/mysteries.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/mysteries.xsp</property>
@@ -1078,7 +1078,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_mysteries)</visible>
             </item>
 			<item id="16">
-                <label>$LOCALIZE[320116]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31468]</label>
 				<thumb>bingie/categories/thriller.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/thriller.xsp</property>
@@ -1087,7 +1087,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_thriller)</visible>
             </item>
 			<item id="17">
-                <label>$LOCALIZE[320117]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31469]</label>
 				<thumb>bingie/categories/westerns.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/westerns.xsp</property>
@@ -1096,7 +1096,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_westerns)</visible>
             </item>
 			<item id="18">
-                <label>$LOCALIZE[320118]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31474]</label>
 				<thumb>bingie/categories/tvactionadventure.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/tvactionadventure.xsp</property>
@@ -1105,7 +1105,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_tvaction)</visible>
             </item>
 			<item id="19">
-                <label>$LOCALIZE[320119]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31488]</label>
 				<thumb>bingie/categories/tvdramas.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/tvdramas.xsp</property>
@@ -1114,7 +1114,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_tvdramas)</visible>
             </item>
 			<item id="20">
-                <label>$LOCALIZE[320120]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31489]</label>
 				<thumb>bingie/categories/tvcomedies.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/tvcomedies.xsp</property>
@@ -1123,7 +1123,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_tvcomedies)</visible>
             </item>
 			<item id="21">
-                <label>$LOCALIZE[320121]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31490]</label>
 				<thumb>bingie/categories/tvkidsfamily.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/tvkidsandfamily.xsp</property>
@@ -1132,7 +1132,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_tvfamily)</visible>
             </item>
 			<item id="22">
-                <label>$LOCALIZE[320122]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31491]</label>
 				<thumb>bingie/categories/tvdocumentaries.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/tvdocumentaries.xsp</property>
@@ -1141,16 +1141,16 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_tvdocumentaries)</visible>
             </item>
 			<item id="23">
-                <label>$LOCALIZE[320123]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31492]</label>
 				<thumb>bingie/categories/tvcrime.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/tvcrime.xsp</property>
-                <onclick>SetProperty(TV category,crime,home)</onclick>
+                <onclick>SetProperty(category,TV crime,home)</onclick>
                 <onclick>ActivateWindow(1117,return)</onclick>
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_tvcrime)</visible>
             </item>
 			<item id="24">
-                <label>$LOCALIZE[320124]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31494]</label>
 				<thumb>bingie/categories/tvscififantasy.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/tvscififantasy.xsp</property>
@@ -1159,7 +1159,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_tvfantasy)</visible>
             </item>
 			<item id="25">
-                <label>$LOCALIZE[320125]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31502]</label>
 				<thumb>bingie/categories/tvwarpolitics.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/tvwarpolitics.xsp</property>
@@ -1168,7 +1168,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_tvwar)</visible>
             </item>
 			<item id="26">
-                <label>$LOCALIZE[320126]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31503]</label>
 				<thumb>bingie/categories/tvanimations.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/tvanimations.xsp</property>
@@ -1177,7 +1177,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_tvanimations)</visible>
             </item>
 			<item id="27">
-                <label>$LOCALIZE[320127]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31508]</label>
 				<thumb>bingie/categories/tvmysteries.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/tvmysteries.xsp</property>
@@ -1186,7 +1186,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),LibraryList) + Skin.HasSetting(categories_list_tvmysteries)</visible>
             </item>
 			<item id="28">
-                <label>$LOCALIZE[320128]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31509]</label>
 				<thumb>bingie/categories/tvwesterns.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">special://skin/extras/categories/tvwesterns.xsp</property>
@@ -1197,7 +1197,7 @@
 			
 			<!-- TMDb Helper lists -->
 			<item id="1">
-                <label>$LOCALIZE[320101]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31377]</label>
 				<thumb>bingie/categories/actionadventure.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=movie&amp;with_genres=28%20%2f%2012&amp;with_id=True&amp;with_separator=OR&amp;without_genres=16$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1206,7 +1206,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_action)</visible>
             </item>
 			<item id="2">
-                <label>$LOCALIZE[320102]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31381]</label>
 				<thumb>bingie/categories/dramas.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=movie&amp;with_genres=18&amp;with_id=True&amp;with_separator=AND$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1215,7 +1215,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_dramas)</visible>
             </item>
 			<item id="3">
-                <label>$LOCALIZE[320103]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31382]</label>
 				<thumb>bingie/categories/comedies.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=movie&amp;with_genres=35&amp;with_id=True&amp;with_separator=AND$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1224,7 +1224,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_comedies)</visible>
             </item>
 			<item id="4">
-                <label>$LOCALIZE[320104]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31386]</label>
 				<thumb>bingie/categories/kidsfamily.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=movie&amp;with_genres=10751&amp;with_id=True&amp;with_separator=AND$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1233,7 +1233,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_family)</visible>
             </item>
 			<item id="5">
-                <label>$LOCALIZE[320105]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31398]</label>
 				<thumb>bingie/categories/horror.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=movie&amp;with_genres=27&amp;with_id=True&amp;with_separator=AND$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1242,7 +1242,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_horror)</visible>
             </item>
 			<item id="6">
-                <label>$LOCALIZE[31159]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31159]</label>
 				<thumb>bingie/categories/documentaries.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=movie&amp;with_genres=99&amp;with_id=True&amp;with_separator=AND$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1251,7 +1251,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_documentaries)</visible>
             </item>
 			<item id="7">
-                <label>$LOCALIZE[31046]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31046]</label>
 				<thumb>bingie/categories/anime.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=movie&amp;with_id=True&amp;with_keywords=210024&amp;with_separator=AND$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1260,7 +1260,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_anime)</visible>
             </item>
 			<item id="8">
-                <label>$LOCALIZE[320108]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31446]</label>
 				<thumb>bingie/categories/crime.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=movie&amp;with_genres=80&amp;with_id=True&amp;with_separator=AND$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1269,7 +1269,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_crime)</visible>
             </item>
 			<item id="9">
-                <label>$LOCALIZE[320109]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31448]</label>
 				<thumb>bingie/categories/fantasy.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=movie&amp;with_genres=14&amp;with_id=True&amp;with_separator=AND&amp;without_genres=16$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1278,7 +1278,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_fantasy)</visible>
             </item>
 			<item id="10">
-                <label>$LOCALIZE[320110]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31454]</label>
 				<thumb>bingie/categories/historywar.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=movie&amp;with_genres=36%20%2f%2010752&amp;with_id=True&amp;with_separator=OR$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1287,7 +1287,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_history)</visible>
             </item>
 			<item id="11">
-                <label>$LOCALIZE[320111]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31456]</label>
 				<thumb>bingie/categories/animations.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=movie&amp;with_genres=16&amp;with_id=True&amp;with_separator=AND$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1296,7 +1296,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_animations)</visible>
             </item>
 			<item id="12">
-                <label>$LOCALIZE[31049]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31049]</label>
 				<thumb>bingie/categories/musicals.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=movie&amp;with_genres=10402&amp;with_id=True&amp;with_separator=AND$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1305,16 +1305,16 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_musicals)</visible>
             </item>
 			<item id="13">
-                <label>$LOCALIZE[320113]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31465]</label>
 				<thumb>bingie/categories/romance.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=movie&amp;with_genres=10749&amp;with_id=True&amp;with_separator=AND$VAR[Path_Param_Categories_Digital_Release]</property>
-                <onclick>SetProperty(category,romance,home)</onclick>
+                <onclick>SetProperty(category,Romance,home)</onclick>
                 <onclick>ActivateWindow(1117,return)</onclick>
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_romance)</visible>
             </item>
 			<item id="14">
-                <label>$LOCALIZE[320114]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31466]</label>
 				<thumb>bingie/categories/scifi.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=movie&amp;with_genres=878&amp;with_id=True&amp;with_separator=AND&amp;without_genres=16$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1323,7 +1323,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_sci-fi)</visible>
             </item>
 			<item id="15">
-                <label>$LOCALIZE[320115]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31467]</label>
 				<thumb>bingie/categories/mysteries.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=movie&amp;with_genres=9648&amp;with_id=True&amp;with_separator=AND&amp;without_genres=16$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1332,7 +1332,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_mysteries)</visible>
             </item>
 			<item id="16">
-                <label>$LOCALIZE[320116]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31468]</label>
 				<thumb>bingie/categories/thriller.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=movie&amp;with_genres=53&amp;with_id=True&amp;with_separator=AND$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1341,7 +1341,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_thriller)</visible>
             </item>
 			<item id="17">
-                <label>$LOCALIZE[320117]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31469]</label>
 				<thumb>bingie/categories/westerns.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=movie&amp;with_genres=37&amp;with_id=True&amp;with_separator=AND&amp;without_genres=16$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1350,7 +1350,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_westerns)</visible>
             </item>
 			<item id="18">
-                <label>$LOCALIZE[320118]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31474]</label>
 				<thumb>bingie/categories/tvactionadventure.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=tv&amp;with_genres=10759&amp;with_id=True&amp;with_separator=AND&amp;without_genres=16%20%2f%2010766$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1359,7 +1359,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_tvaction)</visible>
             </item>
 			<item id="19">
-                <label>$LOCALIZE[320119]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31488]</label>
 				<thumb>bingie/categories/tvdramas.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=tv&amp;with_genres=18&amp;with_id=True&amp;with_separator=AND&amp;without_genres=10766$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1368,7 +1368,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_tvdramas)</visible>
             </item>
 			<item id="20">
-                <label>$LOCALIZE[320120]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31489]</label>
 				<thumb>bingie/categories/tvcomedies.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=tv&amp;with_genres=35&amp;with_id=True&amp;with_separator=AND&amp;without_genres=10766$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1377,7 +1377,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_tvcomedies)</visible>
             </item>
 			<item id="21">
-                <label>$LOCALIZE[320121]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31490]</label>
 				<thumb>bingie/categories/tvkidsfamily.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=tv&amp;with_genres=10751%20%2f%2010762&amp;with_id=True&amp;with_separator=OR&amp;without_genres=10766$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1386,7 +1386,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_tvfamily)</visible>
             </item>
 			<item id="22">
-                <label>$LOCALIZE[320122]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31491]</label>
 				<thumb>bingie/categories/tvdocumentaries.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=tv&amp;with_genres=99&amp;with_id=True&amp;with_separator=AND$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1395,7 +1395,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_tvdocumentaries)</visible>
             </item>
 			<item id="23">
-                <label>$LOCALIZE[320123]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31492]</label>
 				<thumb>bingie/categories/tvcrime.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=tv&amp;with_genres=80&amp;with_id=True&amp;with_separator=AND$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1404,7 +1404,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_tvcrime)</visible>
             </item>
 			<item id="24">
-                <label>$LOCALIZE[320124]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31494]</label>
 				<thumb>bingie/categories/tvscififantasy.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=tv&amp;with_genres=10765&amp;with_id=True&amp;with_separator=AND&amp;without_genres=16$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1413,7 +1413,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_tvfantasy)</visible>
             </item>
 			<item id="25">
-                <label>$LOCALIZE[320125]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31502]</label>
 				<thumb>bingie/categories/tvwarpolitics.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=tv&amp;with_genres=10768&amp;with_id=True&amp;with_separator=AND$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1422,7 +1422,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_tvwar)</visible>
             </item>
 			<item id="26">
-                <label>$LOCALIZE[320126]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31503]</label>
 				<thumb>bingie/categories/tvanimations.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=tv&amp;with_genres=16&amp;with_id=True&amp;with_separator=AND$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1431,7 +1431,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_tvanimations)</visible>
             </item>
 			<item id="27">
-                <label>$LOCALIZE[320127]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31508]</label>
 				<thumb>bingie/categories/tvmysteries.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=tv&amp;with_genres=9648&amp;with_id=True&amp;with_separator=AND&amp;without_genres=16$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1440,7 +1440,7 @@
 				<visible>String.IsEqual(Skin.String(categories_types),TMDbHelperList) + Skin.HasSetting(categories_list_tvmysteries)</visible>
             </item>
 			<item id="28">
-                <label>$LOCALIZE[320128]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31509]</label>
 				<thumb>bingie/categories/tvwesterns.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path">plugin://plugin.video.themoviedb.helper/?info=discover&amp;sort_by=popularity.desc&amp;tmdb_id=None&amp;tmdb_type=tv&amp;with_genres=37&amp;with_id=True&amp;with_separator=AND$VAR[Path_Param_Categories_Digital_Release]</property>
@@ -1474,7 +1474,7 @@
             <onclick>ActivateWindow(systeminfo)</onclick>
         </item>
         <item>
-            <label>$LOCALIZE[31257]</label>
+            <label>$ADDON[skin.titan.bingie.mod 31257]</label>
             <label2>[CR]$INFO[System.Memory(used.percent)]</label2>
             <thumb>resource://resource.images.skinicons.wide/memory2.png</thumb>
             <property name="poster">resource://resource.images.skinicons.wide/memory_poster.png</property>
@@ -1760,7 +1760,7 @@
         <definition>
             <control type="panel" id="$PARAM[id]">
                 <visible>Container($PARAM[id]).IsUpdating | Integer.IsGreater(Container($PARAM[id]).NumItems,0)</visible>				
-                <viewtype label="31018">panel</viewtype>
+                <viewtype label="$ADDON[skin.titan.bingie.mod 31018]">panel</viewtype>
                 <focusedposition>0</focusedposition>
                 <itemgap>0</itemgap>
                 <width>1666</width>
@@ -1867,7 +1867,7 @@
                 <font>Bold31</font>
 				<textcolor>white</textcolor>
                 <textcolor>$INFO[Skin.String(BingieSecondaryTextColor)]</textcolor>
-                <label>$LOCALIZE[31185]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31185]</label>
             </control>
             <control type="image">
                 <left>0</left>
@@ -1905,7 +1905,7 @@
                 <font>Bold31</font>
 				<textcolor>white</textcolor>
                 <textcolor>$INFO[Skin.String(BingieSecondaryTextColor)]</textcolor>
-                <label>$LOCALIZE[31185]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31185]</label>
             </control>
             <control type="image">
                 <left>0</left>
@@ -1938,28 +1938,28 @@
     <include name="StaticWidget_pvr">
         <content>
             <item id="1">
-                <label>$LOCALIZE[320012]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31146]</label>
                 <thumb>bingie/categories/tvchannels.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path"></property>
                 <onclick>ActivateWindow(tvchannels,return)</onclick>
             </item>
             <item id="2">
-                <label>$LOCALIZE[320013]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31147]</label>
                 <thumb>bingie/categories/tvguide.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path"></property>
                 <onclick>ActivateWindow(tvguide,return)</onclick>
             </item>
             <item id="3">
-                <label>$LOCALIZE[320014]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31148]</label>
                 <thumb>bingie/categories/tvsearch.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path"></property>
                 <onclick>ActivateWindow(tvsearch,return)</onclick>
             </item>
             <item id="4">
-                <label>$LOCALIZE[320015]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31149]</label>
                 <thumb>bingie/categories/tvrecordings.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path"></property>
@@ -1973,14 +1973,14 @@
                 <onclick>ActivateWindow(tvtimers,return)</onclick>
             </item>
             <item id="6">
-                <label>$LOCALIZE[320016]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31150]</label>
                 <thumb>bingie/categories/timerrules.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path"></property>
                 <onclick>ActivateWindow(tvtimerrules,return)</onclick>
             </item>
             <item id="7">
-                <label>$LOCALIZE[320017]</label>
+                <label>$ADDON[skin.titan.bingie.mod 31152]</label>
                 <thumb>bingie/categories/radiochannels.png</thumb>
                 <property name="DBTYPE">category</property>
                 <property name="path"></property>

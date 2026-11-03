@@ -27,7 +27,7 @@
             <include content="Hub_Widget_Label">
                 <param name="widgetid" value="$PARAM[widgetid]" />
                 <param name="visibility" value="!String.IsEmpty(Container($PARAM[widgetid]).ListItem.Property(similartitle)) | !String.IsEmpty(Container($PARAM[widgetid]).ListItem.Property(genretitle))" />
-                <param name="label" value="$INFO[Container($PARAM[widgetid]).ListItem.Property(similartitle),$LOCALIZE[31543] ,]$INFO[Container($PARAM[widgetid]).ListItem.Property(genretitle)]" />
+                <param name="label" value="$INFO[Container($PARAM[widgetid]).ListItem.Property(similartitle),$ADDON[skin.titan.bingie.mod 31543] ,]$INFO[Container($PARAM[widgetid]).ListItem.Property(genretitle)]" />
             </include>
             <!-- spinner -->
             <control type="multiimage">
@@ -320,17 +320,17 @@
 	<!-- MyList -->
     <include name="bingie_items_mylist">
         <include content="Custom_Container_Empty_Label_Mylist" condition="Skin.HasSetting(AddToWatchlist)">
-            <param name="label" value="$LOCALIZE[31371]" />
+            <param name="label" value="$ADDON[skin.titan.bingie.mod 31371]" />
         </include>
         <include content="bingie_custom_hub_items" condition="Skin.HasSetting(AddToWatchlist)">
             <param name="hubname" value="mylist"/>
         </include>
 		<include condition="!Skin.HasSetting(AddToWatchlist)">mylist_left</include>		
         <include content="Custom_Container_Label" condition="!Skin.HasSetting(AddToWatchlist)">
-            <param name="label" value="$LOCALIZE[31534]" />
+            <param name="label" value="$ADDON[skin.titan.bingie.mod 31534]" />
         </include>
         <include content="Custom_Container_Empty_Label" condition="!Skin.HasSetting(AddToWatchlist)">
-            <param name="label" value="$LOCALIZE[31371]" />
+            <param name="label" value="$ADDON[skin.titan.bingie.mod 31371]" />
         </include>
         <include content="ListHubContainerTemplate" condition="!Skin.HasSetting(AddToWatchlist)">
             <param name="widgetid" value="1510"/>
@@ -475,7 +475,7 @@
             </include>
             <textoffsetx>65</textoffsetx>
             <textwidth>900</textwidth>
-            <label>31874</label>
+            <label>$ADDON[skin.titan.bingie.mod 31874]</label>
             <label2>$INFO[Skin.String(spotlight$PARAM[hubname].label)]</label2>
             <onclick condition="Skin.String(spotlight$PARAM[hubname].label)">Skin.Reset(spotlight$PARAM[hubname].label)</onclick>
             <onclick condition="Skin.String(spotlight$PARAM[hubname].path)">Skin.Reset(spotlight$PARAM[hubname].path)</onclick>
@@ -498,7 +498,7 @@
             </include>
             <textoffsetx>65</textoffsetx>
             <textwidth>900</textwidth>
-            <label>31384</label>
+            <label>$ADDON[skin.titan.bingie.mod 31384]</label>
             <label2>$INFO[Skin.String(mycustom.label)]</label2>
             <onclick condition="Skin.String(mycustom.label)">Skin.Reset(mycustom.label)</onclick>
             <onclick condition="Skin.String(mycustom.path)">Skin.Reset(mycustom.path)</onclick>
@@ -605,7 +605,7 @@
             <param name="label" value="$INFO[Skin.String(mycustom.label)]" />
         </include>
         <include content="Custom_Container_Empty_Label">
-            <param name="label" value="$LOCALIZE[31372]" />
+            <param name="label" value="$ADDON[skin.titan.bingie.mod 31372]" />
         </include>
         <!-- set label -->
         <control type="button" id="1502">
@@ -633,7 +633,7 @@
 
     <include name="ListHubContainerTemplate">
         <control type="panel" id="$PARAM[widgetid]">			
-            <viewtype label="31018">panel</viewtype>
+            <viewtype label="$ADDON[skin.titan.bingie.mod 31018]">panel</viewtype>
             <width>1666</width>
 			<animation effect="slide" time="0" start="0" end="0,40" condition="Window.IsActive(1114) + [String.IsEqual(Skin.String(widgetstyle),landscapesmall) | String.IsEqual(Skin.String(widgetstyle),landscapelarge)] | Window.IsActive(1115) + [String.IsEqual(String.IsEqual(Skin.String(widgetstyle),landscapesmall) | String.IsEqual(Skin.String(widgetstyle),landscapelarge)]">Conditional</animation>
 			<include condition="Window.IsActive(1114) + [String.IsEqual(Skin.String(widgetstyle),landscape) | String.IsEqual(Skin.String(widgetstyle),landscapesmall) | String.IsEqual(Skin.String(widgetstyle),landscapelarge) | String.IsEqual(Skin.String(widgetstyle),landscapedetails)] | Window.IsActive(1115) + [String.IsEqual(Skin.String(widgetstyle),landscape) | String.IsEqual(Skin.String(widgetstyle),landscapesmall) | String.IsEqual(Skin.String(widgetstyle),landscapelarge) | String.IsEqual(Skin.String(widgetstyle),landscapedetails)]" content="height">
@@ -779,7 +779,7 @@
             <include>widget_header_leftalign</include>
             <textcolor>$INFO[Skin.String(ViewDetailsTextColor)]</textcolor>
             <shadowcolor>$INFO[Skin.String(ViewDetailsTextShadowColor)]</shadowcolor>
-            <label>31372</label>
+            <label>$ADDON[skin.titan.bingie.mod 31372]</label>
         </control>
 
         <control type="grouplist" id="1502">
@@ -816,7 +816,7 @@
                     <focusedcolor>$INFO[Skin.String(BingieButtonFocusTextColor)]</focusedcolor>
                     <texturefocus border="10" colordiffuse="$INFO[Skin.String(ViewDetailsBorderFocusColor)]">bingie/border/default_button_fo_4.png</texturefocus>
                     <texturenofocus/>
-                    <label>31392</label>
+                    <label>$ADDON[skin.titan.bingie.mod 31392]</label>
                     <onclick>ActivateWindow(Videos,sources://video/,return)</onclick>
                     <visible>!Library.HasContent(Video)</visible>
                 </control>
@@ -832,7 +832,7 @@
                     <focusedcolor>$INFO[Skin.String(BingieButtonFocusTextColor)]</focusedcolor>
                     <texturefocus border="10" colordiffuse="$INFO[Skin.String(ViewDetailsBorderFocusColor)]">bingie/border/default_button_fo_4.png</texturefocus>
                     <texturenofocus/>
-                    <label>31394</label>
+                    <label>$ADDON[skin.titan.bingie.mod 31394]</label>
                     <onclick>Skin.ToggleSetting(LockHubWidgets)</onclick>
                     <onclick>ReloadSkin()</onclick>
                     <visible>Skin.HasSetting(LockHubWidgets)</visible>
@@ -854,8 +854,8 @@
     </include>
 
     <variable name="NoItemsInHubButtonsInfo">
-        <value condition="Control.HasFocus(1504)">$LOCALIZE[31391]</value>
-        <value condition="Control.HasFocus(1505)">$LOCALIZE[31393]</value>
+        <value condition="Control.HasFocus(1504)">$ADDON[skin.titan.bingie.mod 31391]</value>
+        <value condition="Control.HasFocus(1505)">$ADDON[skin.titan.bingie.mod 31393]</value>
     </variable>
 </includes>
 

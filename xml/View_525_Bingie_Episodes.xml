@@ -28,14 +28,14 @@
     <!-- View 525 SxxExx format -->
     <variable name="View525SeasonEpisodeFormat">
 		<value condition="Integer.IsLess(ListItem.Season,1) + !String.IsEmpty(ListItem.Episode)">$LOCALIZE[20381] $INFO[ListItem.Episode]</value>
-        <value condition="!String.IsEmpty(ListItem.Season)">$INFO[ListItem.Season,$LOCALIZE[31871],]$INFO[ListItem.Episode,: $LOCALIZE[31872],]</value>
+        <value condition="!String.IsEmpty(ListItem.Season)">$INFO[ListItem.Season,$ADDON[skin.titan.bingie.mod 31871],]$INFO[ListItem.Episode,: $ADDON[skin.titan.bingie.mod 31872],]</value>
         <value condition="String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode) + !String.Contains(ListItem.Episode,S)">$INFO[ListItem.Episode,$LOCALIZE[31873,,.] ,]</value>
         <value condition="String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode) + String.Contains(ListItem.Episode,S)">$INFO[ListItem.Episode]</value>
     </variable>
 
     <!-- workaround for Total Season/s IN EPISODE LEVEL -->
     <variable name="View525TotalSeasons">
-        <value condition="Integer.IsGreater(Container(5250).NumItems,1)">$INFO[Container(5250).NumItems,, $LOCALIZE[320207]]</value>
+        <value condition="Integer.IsGreater(Container(5250).NumItems,1)">$INFO[Container(5250).NumItems,, $ADDON[skin.titan.bingie.mod 31740]]</value>
         <value>$INFO[Container(5250).NumItems,, $LOCALIZE[20373]]</value>
     </variable>
 
@@ -264,7 +264,7 @@
                 <align>left</align>
                 <font>Reg26</font>
                 <textcolor>$INFO[Skin.String(BingiePlotTextColor)]</textcolor>
-                <label>$VAR[View525SubLabel,$LOCALIZE[320150]: ]</label>
+                <label>$VAR[View525SubLabel,$ADDON[skin.titan.bingie.mod 31583]: ]</label>
             </control>
             <!-- plot -->
             <control type="textbox">
@@ -393,7 +393,7 @@
                 <align>left</align>
                 <font>Reg26</font>
                 <textcolor>$INFO[Skin.String(BingiePlotTextColor)]</textcolor>
-                <label>$VAR[View525SubLabel,$LOCALIZE[320150]: ]</label>
+                <label>$VAR[View525SubLabel,$ADDON[skin.titan.bingie.mod 31583]: ]</label>
             </control>
             <!-- plot -->
             <control type="textbox">
@@ -768,7 +768,7 @@
 			<include>Animation_Right_Bingie</include>
                 <!-- main container -->
                 <control type="fixedlist" id="525">
-                    <viewtype label="31827">wide</viewtype>
+                    <viewtype label="$ADDON[skin.titan.bingie.mod 31827]">wide</viewtype>
                     <include content="View_Forced">
                         <param name="viewtype" value="$LOCALIZE[31827]" />
                     </include>

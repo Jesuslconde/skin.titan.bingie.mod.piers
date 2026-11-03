@@ -177,7 +177,7 @@
 						<!-- <visible>!String.IsEmpty(Control.GetLabel(823100))</visible> -->
 						<!-- <font>bold32</font>  -->
 						<!-- <textcolor>$INFO[Skin.String(BingieSubLabelTextColor)]</textcolor>  -->
-						<!-- <label>$VAR[IMDBTop250RatingValue,#, $LOCALIZE[320157]]</label> -->
+						<!-- <label>$VAR[IMDBTop250RatingValue,#, $ADDON[skin.titan.bingie.mod 31595]]</label> -->
 						<!-- <include>Default_Visible_Fade</include> -->
 					<!-- </control> -->
 					<!-- Spotlight Watch season xx Now -->
@@ -350,7 +350,7 @@
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>Reg28</font> 
-						<label>$INFO[Container(99950).ListItem.Property(Cast.1.Name),$LOCALIZE[320223] ]</label>
+						<label>$INFO[Container(99950).ListItem.Property(Cast.1.Name),$ADDON[skin.titan.bingie.mod 31770] ]</label>
 						<autoscroll>false</autoscroll>					
 						<label>$VAR[BingieMoreDetailsSpotlight]</label>
 					</control>
@@ -487,7 +487,7 @@
                                 <width>450</width>
                                 <font>Reg26</font>
                                 <textcolor>$INFO[Skin.String(BingieHomeProgressBarTextColor)]</textcolor>
-                                <label>$VAR[PercentRemained,,% $LOCALIZE[31059]]</label>
+                                <label>$VAR[PercentRemained,,% $ADDON[skin.titan.bingie.mod 31059]]</label>
                             </control>
                         </control>
 					<control type="grouplist">
@@ -542,7 +542,7 @@
 							<visible>!String.IsEmpty(Control.GetLabel(8231))</visible>
 							<font>bold29</font> 
 							<textcolor>$INFO[Skin.String(BingieSubLabelTextColor)]</textcolor>
-							<label>$VAR[IMDBTop250RatingValue,#, $LOCALIZE[320157]]</label>
+							<label>$VAR[IMDBTop250RatingValue,#, $ADDON[skin.titan.bingie.mod 31595]]</label>
 							<include>Default_Visible_Fade</include>
 						</control>	
 							<!-- Tagline/Watch xx Now -->
