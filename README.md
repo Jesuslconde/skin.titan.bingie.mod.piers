@@ -1,11 +1,13 @@
 # Skin Titan BINGIE MOD
 
-Titan BINGIE MOD for Kodi Omega.
+Titan BINGIE MOD for Kodi Piers (Kodi 22). Current skin version: 2.3.0.
 
 #IMPORTANT NOTE FOR USERS# 
 Install the skin through the official titan bingie mod repository for updates and the supported addons required!
 The content here is for developing purposes!
 https://github.com/AchillesPunks/repository.titan.bingie.mod
+
+Piers (Kodi 22) repository fork: https://github.com/Jesuslconde/repository.titan.bingie.mod
 
 Join the official thread for updates: https://forum.kodi.tv/showthread.php?tid=355993
 
