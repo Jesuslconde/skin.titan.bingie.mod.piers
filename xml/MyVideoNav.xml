@@ -13,6 +13,10 @@
     <onunload condition="!String.IsEmpty(Window(Home).Property(ListItem.TVShowID))">ClearProperty(ListItem.TVShowID,Home)</onunload>
     <onunload condition="!String.IsEmpty(Window(Home).Property(KeepTVShowID))">ClearProperty(KeepTVShowID,Home)</onunload>
 	<onload>ClearProperty(FullImage,home)</onload>
+	<onload condition="String.IsEqual(Container.FolderPath,videodb://movies/titles/) + !Skin.HasSetting(DefaultPanelViewMoviesSet)">AlarmClock(defaultpanelviewmovies,Container.SetViewMode(54),00:00:01,silent,false)</onload>
+	<onload condition="String.IsEqual(Container.FolderPath,videodb://movies/titles/) + !Skin.HasSetting(DefaultPanelViewMoviesSet)">Skin.SetBool(DefaultPanelViewMoviesSet)</onload>
+	<onload condition="String.IsEqual(Container.FolderPath,videodb://tvshows/titles/) + !Skin.HasSetting(DefaultPanelViewTVShowsSet)">AlarmClock(defaultpanelviewtvshows,Container.SetViewMode(54),00:00:01,silent,false)</onload>
+	<onload condition="String.IsEqual(Container.FolderPath,videodb://tvshows/titles/) + !Skin.HasSetting(DefaultPanelViewTVShowsSet)">Skin.SetBool(DefaultPanelViewTVShowsSet)</onload>
 
     <controls>
 		<include>Defs_TMDbHelper_Loader</include>
