@@ -273,37 +273,73 @@
 		</item>
 	</include>
 	<include name="skinshortcuts-powermenu">
-		<control type="button" id="5000">
+		<item id="1">
 			<label>$LOCALIZE[5]</label>
-			<onclick>Close</onclick>
+			<icon>common/settings1.png</icon>
+			<onclick condition="Window.IsActive(shutdownmenu)">Close</onclick>
 			<onclick>ActivateWindow(Settings)</onclick>
-		</control>
-		<control type="button" id="5001">
+			<property name="id">$NUMBER[1]</property>
+			<property name="name">settings</property>
+			<property name="menu">powermenu</property>
+			<property name="action">ActivateWindow(Settings)</property>
+			<property name="path">Settings</property>
+		</item>
+		<item id="2">
 			<label>$ADDON[skin.titan.bingie.mod 31714]</label>
-			<onclick>Close</onclick>
+			<icon>common/reload-skin.png</icon>
+			<onclick condition="Window.IsActive(shutdownmenu)">Close</onclick>
 			<onclick>ReloadSkin()</onclick>
-		</control>
-		<control type="button" id="5002">
+			<property name="id">$NUMBER[2]</property>
+			<property name="name">reload</property>
+			<property name="menu">powermenu</property>
+			<property name="action">ReloadSkin()</property>
+			<property name="path">ReloadSkin()</property>
+		</item>
+		<item id="3">
 			<label>$ADDON[skin.titan.bingie.mod 31186]</label>
-			<onclick>Close</onclick>
+			<icon>common/exit1.png</icon>
+			<onclick condition="Window.IsActive(shutdownmenu)">Close</onclick>
 			<onclick>Quit()</onclick>
-		</control>
-		<control type="button" id="5003">
+			<property name="id">$NUMBER[3]</property>
+			<property name="name">quit</property>
+			<property name="menu">powermenu</property>
+			<property name="action">Quit()</property>
+			<property name="path">Quit()</property>
+		</item>
+		<item id="4">
 			<label>$ADDON[skin.titan.bingie.mod 31199]</label>
-			<onclick>Close</onclick>
+			<icon>common/reboot1.png</icon>
+			<onclick condition="Window.IsActive(shutdownmenu)">Close</onclick>
 			<onclick>Reboot</onclick>
-		</control>
-		<control type="button" id="5004">
+			<property name="id">$NUMBER[4]</property>
+			<property name="name">reboot</property>
+			<property name="menu">powermenu</property>
+			<property name="action">Reboot</property>
+			<property name="path">Reboot</property>
+		</item>
+		<item id="5">
 			<label>$ADDON[skin.titan.bingie.mod 31202]</label>
-			<onclick>Close</onclick>
+			<icon>common/shutdown1.png</icon>
+			<onclick condition="Window.IsActive(shutdownmenu)">Close</onclick>
 			<onclick>ShutDown</onclick>
-		</control>
-		<control type="button" id="5005">
+			<property name="id">$NUMBER[5]</property>
+			<property name="name">shutdown</property>
+			<property name="menu">powermenu</property>
+			<property name="action">ShutDown</property>
+			<property name="path">ShutDown</property>
+		</item>
+		<item id="6">
 			<label>$LOCALIZE[20126]</label>
-			<onclick>Close</onclick>
+			<icon>common/lock.png</icon>
+			<onclick condition="Window.IsActive(shutdownmenu)">Close</onclick>
 			<onclick>System.LogOff</onclick>
 			<visible>System.HasLoginScreen</visible>
-		</control>
+			<property name="id">$NUMBER[6]</property>
+			<property name="name">logoff</property>
+			<property name="menu">powermenu</property>
+			<property name="action">System.LogOff</property>
+			<property name="path">System.LogOff</property>
+		</item>
 	</include>
 	<include name="skinshortcuts-tvshows">
 		<item id="1">

@@ -60,7 +60,7 @@
     <!-- ============================== POWER MENU ============================= -->
     <menu name="powermenu">
         <defaults>
-            <action when="before">Close</action>
+            <action when="before" condition="Window.IsActive(shutdownmenu)">Close</action>
         </defaults>
 
         <item name="settings">
