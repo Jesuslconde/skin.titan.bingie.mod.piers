@@ -1,6 +1,6 @@
 # Skin Titan BINGIE MOD
 
-Titan BINGIE MOD for Kodi Piers (Kodi 22). Current skin version: 2.3.0.
+Titan BINGIE MOD for Kodi Piers (Kodi 22). Current skin version: 2.3.1.
 
 #IMPORTANT NOTE FOR USERS# 
 Install the skin through the official titan bingie mod repository for updates and the supported addons required!
